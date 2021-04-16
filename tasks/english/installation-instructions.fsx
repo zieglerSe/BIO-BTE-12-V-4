@@ -1,5 +1,5 @@
 (**
-// can't yet format YamlFrontmatter (["title: Installation instructions"; "category: Tasks(english)"; "categoryindex: 4"; "index: 1"], Some { StartLine = 2 StartColumn = 0 EndLine = 6 EndColumn = 8 }) to pynb markdown
+// can't yet format YamlFrontmatter (["title: Installation instructions"; "category: Tasks(english)"; "categoryindex: 3"; "index: 1"], Some { StartLine = 2 StartColumn = 0 EndLine = 6 EndColumn = 8 }) to pynb markdown
 
 # Installation
 
