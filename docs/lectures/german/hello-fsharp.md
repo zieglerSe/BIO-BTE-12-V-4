@@ -1,11 +1,11 @@
 ---
-title: 1 HELLO F#
+title: 01 Hello F#
 category: Vorlesungsmaterial(deutsch)
 categoryindex: 1
 index: 1
 ---
 
-# 1 HELLO F#
+# Hello F#
 
 Eine Einführung in die wissenschaftliche Programmierung mithilfe der Programmiersprache F#
 

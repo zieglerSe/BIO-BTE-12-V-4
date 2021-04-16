@@ -1,11 +1,11 @@
 ---
-title: 1 HELLO F#
+title: 01 Hello F#
 category: Lecture material(english)
 categoryindex: 3
 index: 1
 ---
 
-# 1 HELLO F#
+# Hello F#
 
 An introduction to scientific programming using the F# programming language
 
