@@ -2,7 +2,7 @@
 ---
 title: Installation instructions
 category: Tasks(english)
-categoryindex: 4
+categoryindex: 3
 index: 1
 ---
 
