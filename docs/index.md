@@ -10,7 +10,7 @@ KIS: [BIO-BTE-12-V-4](https://www.kis.uni-kl.de/campus/all/event.asp?gguid=0xD70
 
 Um zu den jeweiligen Vorlesungen auf deutsch zu gelangen, wählen sie eine Vorlesung aus der folgenden Liste oder links unter der Rubrik `Vorlesungsmaterial (deutsch)`
 
-- [1 Hello F#](./deutsch/test.html)
+- [1 Hello F#](./lectures/german/hello-fsharp.html)
 
 # SCIENTIFIC PROGRAMMING FOR BIOLOGISTS (LECTURE & EXERCISE)
 
@@ -24,5 +24,5 @@ KIS: [BIO-BTE-12-V-4](https://www.kis.uni-kl.de/campus/all/event.asp?gguid=0xD70
 
 To get to the lecture material in english, choose a lecture from the list below or from the lefthand navigation bar under `Lecture material (english)`
 
-- [1 Hello F#](./deutsch/test.html)
+- [1 Hello F#](./lectures/english/hello-fsharp.html)
 
