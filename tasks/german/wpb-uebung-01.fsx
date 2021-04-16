@@ -3,9 +3,9 @@
 
 # Übung 1
 
-[![Binder](/img/badge-binder.svg)](https://mybinder.org/v2/gh/csbiology/BIO-BTE-12-V-4/gh-pages?filepath=tasks/german/wpb-uebung-01.ipynb)&emsp;
-[![Script](/img/badge-script.svg)](/BIO-BTE-12-V-4/tasks/german/wpb-uebung-01.fsx)&emsp;
-[![Notebook](/img/badge-notebook.svg)](/BIO-BTE-12-V-4/tasks/german/wpb-uebung-01.ipynb)
+[![Binder](/BIO-BTE-12-V-4/img/badge-binder.svg)](https://mybinder.org/v2/gh/csbiology/BIO-BTE-12-V-4/gh-pages?filepath=tasks/german/wpb-uebung-01.ipynb)&emsp;
+[![Script](/BIO-BTE-12-V-4/img/badge-script.svg)](/BIO-BTE-12-V-4/tasks/german/wpb-uebung-01.fsx)&emsp;
+[![Notebook](/BIO-BTE-12-V-4/img/badge-notebook.svg)](/BIO-BTE-12-V-4/tasks/german/wpb-uebung-01.ipynb)
 
 *)
 //************************************************************************************
