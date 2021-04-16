@@ -81,4 +81,3 @@ There are three different possibilities to work on the exercises:
 
 
 *)
-

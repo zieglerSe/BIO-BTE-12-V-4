@@ -80,4 +80,3 @@ Es gibt drei verschiedene Möglichkeiten zum bearbeiten der Übungen:
     ![](/BIO-BTE-12-V-4/img/BinderExecuteAll.png)
 
 *)
-

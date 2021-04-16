@@ -35,13 +35,14 @@ Zielsetzung dieser Vorlesung mit anschließenden Übungen ist die Vermittlung vo
 
 Die Vorlesungen werden sowohl als Videoaufzeichnung als auch als PDF zur verfügung gestellt.
 
-Um zu den jeweiligen Vorlesungen auf deutsch zu gelangen, wählen sie eine Vorlesung aus der sidebar links unter der Rubrik `Lecture material` oder wählen sie die entsprechende Vorlesung aus dem [Zeitlpan](#Zeitplan)
+Um zu den jeweiligen Vorlesungen auf deutsch zu gelangen, wählen sie eine Vorlesung aus der sidebar links unter der Rubrik `Lecture material` oder wählen sie die entsprechende Vorlesung aus dem [Zeitplan](#Zeitplan)
 
 ### Übungen
 
 - Die Übungen der jeweiligen Vorlesung sind bis zur nächsten Übungsbesprechung in der darauf folgenden Woche zu bearbeiten und abzugeben.
-- Für das erfolgreiche Abschließen der Vorlesung und das erhalten der CP müssen 50% der _Gesamtpunkte aller Übungen_ erreicht werden
-- Bitte reichen sie ihre bearbeiteten Übungen als Email mit dem titel `task_XXX_RHRK-KÜRZEL` und folgenden Dateianhang: `task_XXX_RHRK-KÜRZEL.DATEIENDUNG` ein. Die Email adresse zur Einreichung erhalten sie gesondert.
+- Für das erfolgreiche Abschließen der Vorlesung und das Erhalten der CP müssen 50% der _Gesamtpunkte aller Übungen_ erreicht werden
+- Falls nicht anders angegeben gibt jede Aufgabe/Task 1 Punkt.
+- Bitte reichen sie ihre bearbeiteten Übungen als Email mit dem titel `task_XXX_RHRK-KÜRZEL` und folgenden Dateianhang: `task_XXX_RHRK-KÜRZEL.DATEIENDUNG` ein. Die Email Adresse zur Einreichung erhalten sie gesondert.
 
     **Ein Beispiel:** 
 
@@ -94,6 +95,7 @@ To access lecture material, either head to the sidebar to the left to the respec
 
 - The tasks for the respective lectures must be done and submitted until the task session of the subsequent week.
 - To successfully finish this course you must at least score 50% of the _overall possible points of all tasks combined_
+- If not indicated otherwise, each task is worth 1 point.
 - Please submit your tasks as an email with the title `task_XXX_RHRK-HANDLE` and the task as attachement with the filename `task_XXX_RHRK-HANDLE.EXTENSION`. The email address for submissions will be communicated seperately.
 
     **Example:** 
@@ -130,4 +132,3 @@ To access lecture material, either head to the sidebar to the left to the respec
 | 20.07.2021 | Buffer(possibly debriefing) | - |
 
 *)
-

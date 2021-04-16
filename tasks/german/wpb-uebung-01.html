@@ -94,148 +94,102 @@
             <div class="section pt-4">
                 <div class="container" id="fsdocs-content">
                     
-<h1><a name="Übung-1" class="anchor" href="#Übung-1">Übung 1</a></h1>
 <p><a href="https://mybinder.org/v2/gh/csbiology/BIO-BTE-12-V-4/gh-pages?filepath=tasks/german/wpb-uebung-01.ipynb"><img src="/BIO-BTE-12-V-4/img/badge-binder.svg" alt="Binder" /></a>&emsp;
 <a href="/BIO-BTE-12-V-4/tasks/german/wpb-uebung-01.fsx"><img src="/BIO-BTE-12-V-4/img/badge-script.svg" alt="Script" /></a>&emsp;
 <a href="/BIO-BTE-12-V-4/tasks/german/wpb-uebung-01.ipynb"><img src="/BIO-BTE-12-V-4/img/badge-notebook.svg" alt="Notebook" /></a></p>
-<pre class="fssnip highlighted"><code lang="fsharp"><span class="c">//************************************************************************************</span>
-<span class="c">//*                                                                                  *</span>
-<span class="c">//*                           uebung 1 - Hello F#                                     *</span>
-<span class="c">//*                                                                                  *</span>
-<span class="c">//************************************************************************************</span>
-
-<span class="c">//Erst einmal die absoluten Basics:</span>
-
-<span class="n">10</span>
-
-<span class="c">//Markiert die &#39;10&#39; und drueckt Alt+Enter, dann sollte sich die interaktive Konsole oeffnen und euer Output sollte &#39;val it : int = 10&#39; sein.</span>
-<span class="c">//(Bei einzeiligem Code koennt ihr auch einfach die Zeile auswaehlen und Alt+Enter druecken ohne das alles markiert ist.)</span>
-<span class="c">//Auf diese Weise koennte ihr Code den ihr geschrieben habt, direkt testen und euch den Output ansehen.</span>
-
-<span class="c">//Versucht das mal mit der folgenden Zeile und ihr werdet sehen, dass das Ergebnis direkt ausgerechnet wird und &#39;int = 30&#39; ist.</span>
-
-<span class="n">10</span> <span class="o">+</span> <span class="n">20</span>
-
-
-<span class="c">// Alles was ihr hinter &quot;//&quot; schreibt ist ein Kommentar und wird nicht als Code ausgefuehrt.</span>
-<span class="c">// Ihr koennt auch Teile einer Zeile auskommentieren mit der Tastenkombination (Strg + K -&gt; Strg + C)</span>
-
-<span class="n">10</span> <span class="c">(*+ 40 *)</span> <span class="o">+</span> <span class="n">30</span>
-
-<span class="c">//////////////////////////////////////////////////////////////////////////////////////////////////////////////////</span>
-<span class="c">//////////////////      TASKS for Excercise 1       //////////////////////////////////////////////////////////////</span>
-<span class="c">//////////////////////////////////////////////////////////////////////////////////////////////////////////////////</span>
-
-<span class="c">// Solltet ihr bei einer uebung nicht auf die Loesung kommen, lasst auf jeden Fall euren Loesungsansatz stehen!</span>
-
-<span class="c">//+++++++++++++++++++++++</span>
-<span class="c">// Das &#39;let&#39;-Binding</span>
-<span class="c">//+++++++++++++++++++++++</span>
-
-<span class="c">//      Task 1</span>
-
-<span class="c">// Task 1.1:  ---------------------------------------------------------------------------------------------------</span>
-<span class="c">// Binde den Wert 10 an den Namen &#39;x&#39;. Binde den Wert 20 an den Namen &#39;kaesebrot&#39;.</span>
-
-
-
-<span class="c">// Task 1.2:  ---------------------------------------------------------------------------------------------------</span>
-<span class="c">// Binde das Ergebnis der Addition von &#39;x&#39; mit dem Wert 10 an &#39;y&#39;.</span>
-
-
-
-<span class="c">// Task 1.3:  ---------------------------------------------------------------------------------------------------</span>
-<span class="c">// Binde einen Vornamen als string an &#39;vorname&#39;.</span>
-
-
-
-<span class="c">// Task 1.4:  ---------------------------------------------------------------------------------------------------</span>
-<span class="c">// Berechne den Rest aus 432858049/41 und binde das Ergebnis an &#39;modulo&#39;</span>
-
-
-
-<span class="c">// Task 1.5:  ---------------------------------------------------------------------------------------------------</span>
-<span class="c">// Binde das Ergebnis der Summen aus x + 10 und y + 20 mit x,y - Werten deiner Wahl an den Namen &#39;summeXY&#39;. </span>
-<span class="c">// Die Zwischenergebnisse sollten   nicht im globalen Sichtbarkeitsbereich (Scope) liegen.</span>
-
-
-
-<span class="c">//++++++++++++++++++++++++++++</span>
-<span class="c">// Die &quot;printfn&quot; - Funktion</span>
-<span class="c">//++++++++++++++++++++++++++++</span>
-
-<span class="c">//      Task 2</span>
-
-<span class="c">//Tipp: https://fsharpforfunandprofit.com/posts/printf/</span>
-
-<span class="c">// Task 2.1:  ---------------------------------------------------------------------------------------------------</span>
-<span class="c">// Benutze die printfn - Funktion um &quot;Hallo F#&quot; in die Konsole auszugeben.</span>
-
-
-
-<span class="c">// Task 2.2:  ---------------------------------------------------------------------------------------------------</span>
-<span class="c">// Benutze die printfn - Funktion um den Wert von &#39;vorname&#39; in die Konsole auszugeben.</span>
-
-
-
-<span class="c">// Task 2.3:  ---------------------------------------------------------------------------------------------------</span>
-<span class="c">// Benutzt printfn um &#39;y&#39; in die Konsole auszugeben.</span>
-
-
-<span class="c">//++++++++++++++++++++++++++++++++++++++</span>
-<span class="c">// Primitive Datentypen und Funktionen</span>
-<span class="c">//++++++++++++++++++++++++++++++++++++++</span>
-
-<span class="c">//      Task 3</span>
-
-<span class="c">// Task 3.1:  ---------------------------------------------------------------------------------------------------</span>
-<span class="c">// Binde einen beliebigen Wert vom Typ Integer an den Namen intI.</span>
-
-
-
-<span class="c">// Task 3.2:  ---------------------------------------------------------------------------------------------------</span>
-<span class="c">// Binde einen beliebigen Wert vom Typ Float an den Namen floatI.</span>
-
-
-<span class="c">// Task 3.3:  ---------------------------------------------------------------------------------------------------</span>
-<span class="c">// Wandelt entweder intI oder floatI in den Datentyp des anderen um und addiert beide.</span>
-
-
-
-<span class="c">// Task 3.4:  ---------------------------------------------------------------------------------------------------</span>
-<span class="c">// Berechne den Quotienten aus &#39;27&#39; und &#39;13&#39;. Dann berechne den Quotienten von beiden Integern als Float.</span>
-
-
-
-<span class="c">// Task 3.5:  ---------------------------------------------------------------------------------------------------</span>
-<span class="c">// Konkateniere einen beliebigen Wert vom Typ String mit einem einzelnem Buchstaben (Typ Char)</span>
-
-
-
-<span class="c">// Task 3.6:  ---------------------------------------------------------------------------------------------------</span>
-<span class="c">// Deklariere eine Funktion &#39;mulitplyBy2&#39; die einen float verdoppelt. </span>
-
-
-
-<span class="c">// Task 3.7:  ---------------------------------------------------------------------------------------------------</span>
-<span class="c">// Deklariere eine Funktion &#39;calculateCylinderVolume&#39; die aus Radius und Laenge das Volumen eines Zylinders </span>
-<span class="c">// zurueckgibt UND zusaetzlich &quot;Das Volumen des Zylinders ist: XX&quot; in die Konsole printed. Wobei XX natuerlich </span>
-<span class="c">// das korrekte Volumen des Zylinders ist. (Der Output einer printfn Funktion ist Unit.)</span>
-<span class="c">// Warum kann es Sinn machen, Ergebnisse zu printen?</span>
-
-
-
-<span class="c">// Task 3.8:  ---------------------------------------------------------------------------------------------------</span>
-<span class="c">// Deklariere eine Funktion die einen Parameter vom Typ Integer als Input nimmt und die &#39;multiplyBy2&#39; </span>
-<span class="c">// Funtkion darauf anwendet</span>
-
-
-
-<span class="c">// Task 3.9:  ---------------------------------------------------------------------------------------------------</span>
-<span class="c">// Deklariere eine Funktion die als Input zwei Parameter vom Typ Floats, einen Vergleichsoperator z.B. </span>
-<span class="c">// (&lt;, &gt;, = ), und einen Parameter vom Typ Boolean akzeptiert. Das Ergebnis aus der Anwendung des angegebenen </span>
-<span class="c">// Operators auf die numerischen Parameter soll mit dem Parameter vom Typ Boolean auf Gleichheit ueberprueft werden.</span>
+<h1><a name="Task01-Hello-F" class="anchor" href="#Task01-Hello-F">Task01 - Hello F#</a></h1>
+<hr />
+<p>Erst einmal die absoluten Basics:</p>
+<ul>
+<li>
+<p><strong>In einem .fsx script:</strong></p>
+<p>Markiert die '10', und drueckt Alt+Enter, dann sollte sich die interaktive Konsole oeffnen und euer
+Output sollte 'val it: int = 10' sein.
+(Bei einzeiligem Code koennt ihr auch einfach die Zeile auswaehlen und Alt+Enter druecken ohne das alles markiert ist.)</p>
+</li>
+<li>
+<p><strong>In einem Notebook:</strong></p>
+<p>Links von dem Feld unten das die '10' beinhaltet befindet sich ein 'play' Knopf.
+Dieser Knopf führt beim drücken den jeweiligen Code-block aus und gibt das Ergebnis (hier: 10) darunter aus.</p>
+</li>
+</ul>
+<pre class="fssnip highlighted"><code lang="fsharp"><span class="n">10</span>
 </code></pre>
+<p>Auf diese Weise koennt ihr Code den ihr geschrieben habt, direkt testen und euch den Output ansehen.
+Versucht das mal mit der folgenden Zeile und ihr werdet sehen, dass das Ergebnis direkt ausgerechnet wird und 30 ist.</p>
+<pre class="fssnip highlighted"><code lang="fsharp"><span class="n">10</span> <span class="o">+</span> <span class="n">20</span>
+</code></pre>
+<p>Alles was ihr hinter "//" oder innerhalb von (<em> ... </em>) schreibt ist ein Kommentar und wird nicht als Code ausgefuehrt.
+Ihr koennt auch Teile einer Zeile auskommentieren mit der Tastenkombination (Strg + K -&gt; Strg + C)</p>
+<pre class="fssnip highlighted"><code lang="fsharp"><span class="n">10</span> <span class="c">(*+ 40 *)</span> <span class="o">+</span> <span class="n">30</span>
+</code></pre>
+<p>Solltet ihr bei einer Uebung nicht auf die Loesung kommen, lasst auf jeden Fall euren Loesungsansatz stehen!</p>
+<h2><a name="Das-let-Binding" class="anchor" href="#Das-let-Binding">Das 'let'-Binding</a></h2>
+<h2><a name="Task-1" class="anchor" href="#Task-1">Task 1</a></h2>
+<h3><a name="Task-1-1" class="anchor" href="#Task-1-1">Task 1.1</a></h3>
+<p>Binde den Wert 10 an den Namen 'x'. Binde den Wert 20 an den Namen 'kaesebrot'.</p>
+<pre class="fssnip highlighted"><code lang="fsharp"></code></pre>
+<h3><a name="Task-1-2" class="anchor" href="#Task-1-2">Task 1.2</a></h3>
+<p>Binde das Ergebnis der Addition von 'x' mit dem Wert 10 an 'y'.</p>
+<pre class="fssnip highlighted"><code lang="fsharp"></code></pre>
+<h3><a name="Task-1-3" class="anchor" href="#Task-1-3">Task 1.3</a></h3>
+<p>Binde einen Vornamen als string an 'vorname'.</p>
+<pre class="fssnip highlighted"><code lang="fsharp"></code></pre>
+<h3><a name="Task-1-4" class="anchor" href="#Task-1-4">Task 1.4</a></h3>
+<p>Berechne den Rest aus 432858049/41 und binde das Ergebnis an 'modulo'</p>
+<pre class="fssnip highlighted"><code lang="fsharp"></code></pre>
+<h3><a name="Task-1-5" class="anchor" href="#Task-1-5">Task 1.5</a></h3>
+<p>Binde die Summe der jeweiligen Summen aus x + 10 und y + 20 an den Namen 'summeXY'.
+Die Zwischenergebnisse sollten nicht im globalen Sichtbarkeitsbereich (Scope) liegen.</p>
+<pre class="fssnip highlighted"><code lang="fsharp"></code></pre>
+<h2><a name="Die-printfn-Funktion" class="anchor" href="#Die-printfn-Funktion">Die "printfn" - Funktion</a></h2>
+<h3><a name="Task-2" class="anchor" href="#Task-2">Task 2</a></h3>
+<p><em>Tipp: <a href="https://docs.microsoft.com/de-de/dotnet/fsharp/language-reference/plaintext-formatting">https://docs.microsoft.com/de-de/dotnet/fsharp/language-reference/plaintext-formatting</a></em></p>
+<h3><a name="Task-2-1" class="anchor" href="#Task-2-1">Task 2.1:</a></h3>
+<p>Benutze die printfn - Funktion um "Hallo F#" in die Konsole auszugeben.</p>
+<pre class="fssnip highlighted"><code lang="fsharp"></code></pre>
+<h3><a name="Task-2-2" class="anchor" href="#Task-2-2">Task 2.2:</a></h3>
+<p>Benutze die printfn - Funktion um den Wert von 'vorname' in die Konsole auszugeben.</p>
+<pre class="fssnip highlighted"><code lang="fsharp"></code></pre>
+<h3><a name="Task-2-3" class="anchor" href="#Task-2-3">Task 2.3:</a></h3>
+<p>Benutzt printfn um 'y' in die Konsole auszugeben.</p>
+<pre class="fssnip highlighted"><code lang="fsharp"></code></pre>
+<h2><a name="Primitive-Datentypen-und-Funktionen" class="anchor" href="#Primitive-Datentypen-und-Funktionen">Primitive Datentypen und Funktionen</a></h2>
+<h3><a name="Task-3" class="anchor" href="#Task-3">Task 3</a></h3>
+<h3><a name="Task-3-1" class="anchor" href="#Task-3-1">Task 3.1</a></h3>
+<p>Binde einen beliebigen Wert vom Typ Integer an den Namen intI.</p>
+<pre class="fssnip highlighted"><code lang="fsharp"></code></pre>
+<h3><a name="Task-3-2" class="anchor" href="#Task-3-2">Task 3.2</a></h3>
+<p>Binde einen beliebigen Wert vom Typ Float an den Namen floatI.</p>
+<pre class="fssnip highlighted"><code lang="fsharp"></code></pre>
+<h3><a name="Task-3-3" class="anchor" href="#Task-3-3">Task 3.3</a></h3>
+<p>Wandelt entweder intI oder floatI in den Datentyp des anderen um und addiert beide.</p>
+<pre class="fssnip highlighted"><code lang="fsharp"></code></pre>
+<h3><a name="Task-3-4" class="anchor" href="#Task-3-4">Task 3.4</a></h3>
+<p>Berechne den Quotienten aus '27' und '13'. Dann berechne den Quotienten von beiden Integern als Float.</p>
+<pre class="fssnip highlighted"><code lang="fsharp"></code></pre>
+<h3><a name="Task-3-5" class="anchor" href="#Task-3-5">Task 3.5:</a></h3>
+<p>Konkateniere einen beliebigen Wert vom Typ String mit einem einzelnem Buchstaben (Typ Char)</p>
+<pre class="fssnip highlighted"><code lang="fsharp"></code></pre>
+<h3><a name="Task-3-6" class="anchor" href="#Task-3-6">Task 3.6:</a></h3>
+<p>Deklariere eine Funktion 'mulitplyBy2' die einen float verdoppelt.</p>
+<pre class="fssnip highlighted"><code lang="fsharp"></code></pre>
+<h3><a name="Task-3-7" class="anchor" href="#Task-3-7">Task 3.7:</a></h3>
+<p>Deklariere eine Funktion 'calculateCylinderVolume' die aus Radius und Laenge das Volumen eines Zylinders
+zurueckgibt UND zusaetzlich "Das Volumen des Zylinders ist: XX" in die Konsole printed. Wobei XX natuerlich
+das korrekte Volumen des Zylinders ist. (Der Output einer printfn Funktion ist Unit.)
+Warum kann es Sinn machen, Ergebnisse zu printen?</p>
+<pre class="fssnip highlighted"><code lang="fsharp"></code></pre>
+<h3><a name="Task-3-8" class="anchor" href="#Task-3-8">Task 3.8:</a></h3>
+<p>Deklariere eine Funktion die einen Parameter vom Typ Integer als Input nimmt und die 'multiplyBy2'
+Funtkion darauf anwendet</p>
+<pre class="fssnip highlighted"><code lang="fsharp"></code></pre>
+<h3><a name="Task-3-9" class="anchor" href="#Task-3-9">Task 3.9:</a></h3>
+<p>Deklariere eine Funktion die als Input zwei Parameter vom Typ Floats, einen Vergleichsoperator z.B.
+(<, >, = ), und einen Parameter vom Typ Boolean akzeptiert. Das Ergebnis aus der Anwendung des angegebenen
+Operators auf die numerischen Parameter soll mit dem Parameter vom Typ Boolean auf Gleichheit ueberprueft werden.</p>
+<p>(<em>2 Punkte</em>)</p>
+<pre class="fssnip highlighted"><code lang="fsharp"></code></pre>
 
                 </div>
             </div>
