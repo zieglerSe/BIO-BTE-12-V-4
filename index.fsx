@@ -16,8 +16,8 @@ KIS: [BIO-BTE-12-V-4](https://www.kis.uni-kl.de/campus/all/event.asp?gguid=0xD70
 
 - [Kursbeschreibung(deutsch)](#Kursbeschreibung-deutsch)
     - [Ablauf](#Ablauf)
-        - [Vorlesungen](#Vorlesung)
-        - [Übungen](#Übung)
+        - [Vorlesungen](#Vorlesungen)
+        - [Übungen](#Übungen)
     - [Zeitplan](#Zeitplan)
 - [Course description(english)](#Course-description-english)
     - [Procedure](#Procedure)
@@ -27,11 +27,11 @@ KIS: [BIO-BTE-12-V-4](https://www.kis.uni-kl.de/campus/all/event.asp?gguid=0xD70
 
 ## Kursbeschreibung(deutsch)
 
-Zielsetzung dieser Vorlesung mit anschließenden Übungen ist die Vermittlung von Kenntnissen über Grundlagen der funktionalen und objektorientierte Programmierung sowie die Behandlung grundlegender Datenstrukturen und Algorithmen. Vermittelt werden begriffliche Grundlagen, Konzepte, Methoden und Techniken zur Darstellung und Strukturierung von Daten und zur Entwicklung von Algorithmen. Werkzeuge des wissenschaftlichen Rechnens und der Datenverabeitung, insbesondere für die Visualisierung und Bearbeitung von Messdaten werden vorgestellt. Die Referenzsprache ist F# (FSharp), die in Kombination mit modernen Softwarebibliotheken und der Softwareumgebung R zur Problemlösung eingesetzt wird. Abschließend besteht die Möglichkeit in individuellen Projektarbeiten typische Einsatzfelder der Bioinformatik zu bearbeiten und Problemstellungen eigenständig zu lösen.
+Zielsetzung dieser Vorlesung mit anschließenden Übungen ist die Vermittlung von Kenntnissen über Grundlagen der funktionalen und objektorientierten Programmierung sowie die Behandlung grundlegender Datenstrukturen und Algorithmen. Vermittelt werden begriffliche Grundlagen, Konzepte, Methoden und Techniken zur Darstellung und Strukturierung von Daten und zur Entwicklung von Algorithmen. Werkzeuge des wissenschaftlichen Rechnens und der Datenverabeitung, insbesondere für die Visualisierung und Bearbeitung von Messdaten werden vorgestellt. Die Referenzsprache ist F# (FSharp), die in Kombination mit modernen Softwarebibliotheken und der Softwareumgebung R zur Problemlösung eingesetzt wird. Abschließend besteht die Möglichkeit in individuellen Projektarbeiten typische Einsatzfelder der Bioinformatik zu bearbeiten und Problemstellungen eigenständig zu lösen.
 
 ## Ablauf 
 
-### Vorlesung
+### Vorlesungen
 
 Die Vorlesungen werden sowohl als Videoaufzeichnung als auch als PDF zur verfügung gestellt.
 
@@ -41,7 +41,7 @@ Um zu den jeweiligen Vorlesungen auf deutsch zu gelangen, wählen sie eine Vorle
 
 - Die Übungen der jeweiligen Vorlesung sind bis zur nächsten Übungsbesprechung in der darauf folgenden Woche zu bearbeiten und abzugeben.
 - Für das erfolgreiche Abschließen der Vorlesung und das erhalten der CP müssen 50% der _Gesamtpunkte aller Übungen_ erreicht werden
-- Bitte reichen sie ihre bearbeiteten Übungen als Email mit dem titel `task_XXX_RHRK-KÜRZEL` und folgenden Dateianhang: `task_XXX_RHRK-KÜRZEL.DATEIENDUNG` ein. Die Email adresse zur einreichung erhalten sie gesondert.
+- Bitte reichen sie ihre bearbeiteten Übungen als Email mit dem titel `task_XXX_RHRK-KÜRZEL` und folgenden Dateianhang: `task_XXX_RHRK-KÜRZEL.DATEIENDUNG` ein. Die Email adresse zur Einreichung erhalten sie gesondert.
 
     **Ein Beispiel:** 
 
@@ -61,7 +61,7 @@ Um zu den jeweiligen Vorlesungen auf deutsch zu gelangen, wählen sie eine Vorle
 
 | Datum | Vorlesung (Thema bis zur Besprechung in der folgenden Woche) | Übungsbesprechung (13:00 - 15:00) |
 |---|---|---|
-| 20.04.2021 | [WPB I: Hello F#](/lectures/hello-fsharp.html) | Keine, stattdessen Hilfe bei der [Einrichtung der Programmierumgebung](/tasks/german/installationsanweisungen.html) |
+| 20.04.2021 | [WPB I: Hello F#](/BIO-BTE-12-V-4/lectures/hello-fsharp.html) | Keine, stattdessen Hilfe bei der [Einrichtung der Programmierumgebung](/BIO-BTE-12-V-4/tasks/german/installationsanweisungen.html) |
 | 27.04.2021 | WPB II: Funktionen und Datentypen | Übung01 |
 | 04.05.2021 | WPB III: Kontrollfluss| Übung02 |
 | 11.05.2021 | WPB IV: Programmieren mit Funktionen | Übung03 |
@@ -114,7 +114,7 @@ To access lecture material, either head to the sidebar to the left to the respec
 
 | Date | Lecture (Topic until next task session) | Task session (13:00 - 15:00) |
 |---|---|---|
-| 20.04.2021 | [WPB I: Hello F#](/lectures/hello-fsharp.html) | None, instead we help you with [setting up your programming environment](/tasks/english/installation-instructions.html) |
+| 20.04.2021 | [WPB I: Hello F#](/BIO-BTE-12-V-4/lectures/hello-fsharp.html) | None, instead we help you with [setting up your programming environment](/BIO-BTE-12-V-4/tasks/english/installation-instructions.html) |
 | 27.04.2021 | WPB II: Functions and datatypes | Task01 |
 | 04.05.2021 | WPB III: Control flow| Task02 |
 | 11.05.2021 | WPB IV: Programming with functions | Task03 |
