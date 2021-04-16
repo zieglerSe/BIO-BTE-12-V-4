@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>1 HELLO F#</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="">
+    <link rel="shortcut icon" type="image/x-icon" href="/BIO-BTE-12-V-4//img/favicon.ico">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script> -->
+
+    <link type="text/css" rel="stylesheet" href="/BIO-BTE-12-V-4/content/fsdocs-default.css" />
+    <link type="text/css" rel="stylesheet" href="/BIO-BTE-12-V-4/content/fsdocs-custom.css" />
+    <script type="text/javascript" src="/BIO-BTE-12-V-4/content/fsdocs-tips.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@creativebulma/bulma-collapsible@1.0.4/dist/js/bulma-collapsible.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@creativebulma/bulma-collapsible@1.0.4/dist/css/bulma-collapsible.min.css">
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!-- BEGIN SEARCH BOX: this adds support for the search box -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/JavaScript-autoComplete/1.0.4/auto-complete.css" />
+    <!-- END SEARCH BOX: this adds support for the search box -->
+    
+</head> 
+
+<body>
+    <div class="columns is-fullheight m-0">
+        <div id="fsdocs-menu" class="column is-2 is-paddingless">
+            <aside class="menu">
+                <div class="container is-paddingless is-marginless has-background-dark">
+                    <a href="/BIO-BTE-12-V-4/">
+                        <figure class="image is-128x128 container">
+                            <img src="img/logo.svg">
+                        </figure>
+                    </a>
+                    <h2 class="title has-text-centered has-text-white pb-4">BIO-BTE-12-V-4</h2>
+                </div>
+                <div class="content">
+                    <!-- BEGIN SEARCH BOX: this adds support for the search box -->
+                    <div id="header">
+                        <div class="field">
+                            <div class="control has-icons-left has-icons-right searchbox" id="fsdocs-searchbox">
+                                <input data-search-input="" id="search-by" type="search" placeholder="Search..." class="input"/>
+                                <span class="icon is-small is-left">
+                                    <i class="fas fa-search"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END SEARCH BOX: this adds support for the search box -->
+                    <ul class="navbar-nav">
+                        <li class="nav-header">Links</li>
+                        <li class="nav-item" id="fsdocs-license-link"><a class="nav-link" href="{{fsdocs-license-link}}">License (MIT)</a></li>
+                        <li class="nav-item" id="fsdocs-release-notes-link"><a class="nav-link" href="{{fsdocs-release-notes-link}}">Release Notes</a></li>
+                        <li class="nav-item" id="fsdocs-repository-link"><a class="nav-link" href="{{fsdocs-repository-link}}">Source Repository</a></li>
+                        <li class="nav-header">
+  Vorlesungsmaterial(deutsch)
+</li>             
+<li class="nav-item">
+  <a class="nav-link" href="/BIO-BTE-12-V-4/lectures/german/hello-fsharp.html">
+    1 HELLO F#
+  </a>
+</li>             
+<li class="nav-header">
+  Übungen(deutsch)
+</li>             
+<li class="nav-item">
+  <a class="nav-link" href="/BIO-BTE-12-V-4/tasks/german/wpb-uebung-01.html">
+    &#220;bung 01
+  </a>
+</li>             
+<li class="nav-header">
+  Lecture material(english)
+</li>             
+<li class="nav-item">
+  <a class="nav-link" href="/BIO-BTE-12-V-4/lectures/english/hello-fsharp.html">
+    1 HELLO F#
+  </a>
+</li>             
+<li class="nav-header">
+  Tasks(english)
+</li>             
+<li class="nav-item">
+  <a class="nav-link" href="/BIO-BTE-12-V-4/tasks/english/wpb-task-01.html">
+    Task 01
+  </a>
+</li>             
+<li class="nav-header">
+  Other
+</li>             
+<li class="nav-item">
+  <a class="nav-link" href="/BIO-BTE-12-V-4/InstallationInstructions-German.html">
+    InstallationInstructions-German
+  </a>
+</li>             
+<li class="nav-item">
+  <a class="nav-link" href="/BIO-BTE-12-V-4/InstallationInstructions-English.html">
+    InstallationInstructions-English
+  </a>
+</li>
+                    </ul>
+                </div>
+            </aside>
+        </div>
+        <div class="column is-10 is-paddingless">
+            <div class="section pt-4">
+                <div class="container" id="fsdocs-content">
+                    
+<h1><a name="1-HELLO-F" class="anchor" href="#1-HELLO-F">1 HELLO F#</a></h1>
+<p>Eine Einführung in die wissenschaftliche Programmierung mithilfe der Programmiersprache F#</p>
+<h2><a name="Vorlesungsvideos-zum-ansehen-klicken" class="anchor" href="#Vorlesungsvideos-zum-ansehen-klicken">Vorlesungsvideos (zum ansehen klicken)</a></h2>
+<ul>
+<li>
+<a href="#vimeo-1" data-action="collapse">WPB I.01 </a></p>
+<div id="vimeo-1" class="is-collapsible">
+<iframe title="vimeo-player" src="https://player.vimeo.com/video/407241742" width="640" height="360" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+</div>
+</li>
+<li>
+<a href="#vimeo-2" data-action="collapse">WPB I.02 </a></p>
+<div id="vimeo-2" class="is-collapsible">
+<iframe title="vimeo-player" src="https://player.vimeo.com/video/407247350" width="640" height="360" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+</div>
+</li>
+<li>
+<a href="#vimeo-3" data-action="collapse">WPB I.03 </a></p>
+<div id="vimeo-3" class="is-collapsible">
+<iframe title="vimeo-player" src="https://player.vimeo.com/video/407545667" width="640" height="360" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+</div>
+</li>
+<li>
+<a href="#vimeo-4" data-action="collapse">WPB I.04 </a></p>
+<div id="vimeo-4" class="is-collapsible">
+<iframe title="vimeo-player" src="https://player.vimeo.com/video/407723990" width="640" height="360" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+</div>
+</li>
+</ul>
+<h2><a name="Vorlesungsfolien" class="anchor" href="#Vorlesungsfolien">Vorlesungsfolien</a></h2>
+<ul>
+<li><a href="https://csb.bio.uni-kl.de/teaching/WPB_Podcast/I01_Einf%C3%BChrung_und_Motivation.pdf">Folien: WPB I.01 Einführung und Motivation</a></li>
+<li><a href="https://csb.bio.uni-kl.de/teaching/WPB_Podcast/I02_Funktionen_und_Wertebindung.pdf">Folien: WPB I.02 Funktionen und Wertebindung</a></li>
+<li><a href="https://csb.bio.uni-kl.de/teaching/WPB_Podcast/I03_Scope.pdf">Folien: WPB I.03 Scope (Sichtbarkeitsbereich)</a></li>
+<li><a href="https://csb.bio.uni-kl.de/teaching/WPB_Podcast/I04_Primitive_Datentypen.pdf">Folien: WPB I.04 PrimitiveDatentypen</a></li>
+</ul>
+<h2><a name="Übungsmaterial" class="anchor" href="#Übungsmaterial">Übungsmaterial</a></h2>
+
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <!-- BEGIN SEARCH BOX: this adds support for the search box -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/JavaScript-autoComplete/1.0.4/auto-complete.css" />
+    <script type="text/javascript">var fsdocs_search_baseurl = '/BIO-BTE-12-V-4/'</script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.8/lunr.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/JavaScript-autoComplete/1.0.4/auto-complete.min.js"></script>
+    <script type="text/javascript" src="/BIO-BTE-12-V-4/content/fsdocs-search.js"></script>
+    <!-- END SEARCH BOX: this adds support for the search box -->
+</body>
+<footer>
+    <script>
+        bulmaCollapsible.attach('.is-collapsible');
+    </script>
+</footer>
+</html>
