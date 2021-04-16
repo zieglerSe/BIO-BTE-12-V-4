@@ -1,6 +1,12 @@
 (**
 // can't yet format YamlFrontmatter (["title: Task 01 "; "category: Tasks(english)"; "categoryindex: 4"; "index: 2"], Some { StartLine = 2 StartColumn = 0 EndLine = 6 EndColumn = 8 }) to pynb markdown
 
+# Task 1
+
+[![Binder](/BIO-BTE-12-V-4/img/badge-binder.svg)](https://mybinder.org/v2/gh/csbiology/BIO-BTE-12-V-4/gh-pages?filepath=tasks/english/wpb-task-01.ipynb)&emsp;
+[![Script](/BIO-BTE-12-V-4/img/badge-script.svg)](/BIO-BTE-12-V-4/tasks/english/wpb-task-01.fsx)&emsp;
+[![Notebook](/BIO-BTE-12-V-4/img/badge-notebook.svg)](/BIO-BTE-12-V-4/tasks/english/wpb-task-01.ipynb)
+
 *)
 //************************************************************************************
 //*                                                                                  *

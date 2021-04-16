@@ -1,7 +1,7 @@
 (**
-// can't yet format YamlFrontmatter (["title: 1 HELLO F#"; "category: Lecture material(english)"; "categoryindex: 3"; "index: 1"], Some { StartLine = 1 StartColumn = 0 EndLine = 5 EndColumn = 8 }) to pynb markdown
+// can't yet format YamlFrontmatter (["title: 01 Hello F#"; "category: Lecture material(english)"; "categoryindex: 3"; "index: 1"], Some { StartLine = 1 StartColumn = 0 EndLine = 5 EndColumn = 8 }) to pynb markdown
 
-# 1 HELLO F#
+# Hello F#
 
 An introduction to scientific programming using the F# programming language
 
