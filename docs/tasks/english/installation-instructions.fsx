@@ -80,7 +80,7 @@ There are three different possibilities to work on the exercises:
         Once you are finished you can press `Ctrl + Return`.
     * Working with Codeblocks:
         You can start editing any Codeblock by clicking in it. In there you can start writing your own code or edit existing code. Once you are done you can execute the Codeblock by pressing `Ctrl + Return`.
-        If you want to execute all codeblocks at once, you can press on the two arrows in the upper right corner of the notebook:
+        If you want to execute all codeblocks at once, you can klick on the two arrows at the top of the notebook:
 
     ![]({{root}}img/BinderExecuteAll.png)
 
