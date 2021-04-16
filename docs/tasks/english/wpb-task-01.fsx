@@ -8,144 +8,206 @@ index: 2
 *)
 
 (**
-# Task 1
 
 [![Binder]({{root}}img/badge-binder.svg)](https://mybinder.org/v2/gh/csbiology/BIO-BTE-12-V-4/gh-pages?filepath={{fsdocs-source-basename}}.ipynb)&emsp;
 [![Script]({{root}}img/badge-script.svg)]({{root}}{{fsdocs-source-basename}}.fsx)&emsp;
 [![Notebook]({{root}}img/badge-notebook.svg)]({{root}}{{fsdocs-source-basename}}.ipynb)
+
+# Task01 - Hello F#
+
+-------------------------------
+
+
+Let's start with the basics:
+
+- **In a .fsx script:** 
+
+    Highlight the '10' and press Alt+Enter, which will open a console and give the output 'val it: int = 10'.
+    (If the code to execute has only one line, you can just click into the line and press Alt+Enter without highlighting.)
+
+- **In a notebook:**
+
+    There is a 'play' button in the left upper corner of the field below. Press it to execute the respective code block, 
+    which in this case will simply give '10' as output.
+
 *)
-
-//************************************************************************************
-//*                                                                                  *
-//*                           task 1 - Hello F#                                      *
-//*                                                                                  *
-//************************************************************************************
-
-//Let's start with the basics:
 
 10
 
-//highlight the '10' and presst Alt+Enter, which will open the F# interactive console and execute the highlighted code. 
-//The output should be 'val it : int = 10' sein.
-//(Bei einzeiligem Code koennt ihr auch einfach die Zeile auswaehlen und Alt+Enter druecken ohne das alles markiert ist.)
-//Auf diese Weise koennte ihr Code den ihr geschrieben habt, direkt testen und euch den Output ansehen.
-
-//Versucht das mal mit der folgenden Zeile und ihr werdet sehen, dass das Ergebnis direkt ausgerechnet wird und 'int = 30' ist.
+(**
+Working in this interactive way has the advantage that you can always directly test your code and look at the output.
+Try it with the line below and appreciate that the result of the calculation is 30.
+*)
 
 10 + 20
 
+(**
+Everything after a "//" or inside of (* ... *) is treated as a comment and will not get executed as code.
+You can use (* ... *) to comment parts of a single line. 
+The standard keybinding for commenting a selection is (Strg + K -> Strg + C)
 
-// Alles was ihr hinter "//" schreibt ist ein Kommentar und wird nicht als Code ausgefuehrt.
-// Ihr koennt auch Teile einer Zeile auskommentieren mit der Tastenkombination (Strg + K -> Strg + C)
+*)
 
 10 (*+ 40 *) + 30
 
-// Solltet ihr bei einer uebung nicht auf die Loesung kommen, lasst auf jeden Fall euren Loesungsansatz stehen!
+(**
+If you not quite get a task right, please submit partial solutions or trails of thought as comments to get partial points!
 
-//+++++++++++++++++++++++
-// Das 'let'-Binding
-//+++++++++++++++++++++++
+## Das 'let'-Binding
 
-//      Task 1
+## Task 1
 
-// Task 1.1:  ---------------------------------------------------------------------------------------------------
-// Binde den Wert 10 an den Namen 'x'. Binde den Wert 20 an den Namen 'kaesebrot'.
+### Task 1.1
 
+Bind the value 10 to the name 'x'. Bind the value 20 to the name 'kaesebrot'.
+*)
 
+(******)
 
-// Task 1.2:  ---------------------------------------------------------------------------------------------------
-// Binde das Ergebnis der Addition von 'x' mit dem Wert 10 an 'y'.
+(**
+### Task 1.2
 
+Bind the result of the Addition of 'x' and 10 to the name 'y'.
+*)
 
+(******)
 
-// Task 1.3:  ---------------------------------------------------------------------------------------------------
-// Binde einen Vornamen als string an 'vorname'.
+(**
+### Task 1.3
 
+Bind any first name as string to 'vorname'.
+*)
 
+(******)
 
-// Task 1.4:  ---------------------------------------------------------------------------------------------------
-// Berechne den Rest aus 432858049/41 und binde das Ergebnis an 'modulo'
+(**
+### Task 1.4
 
+Calculate the remainder of 432858049/41 and bind the result to 'modulo'
+*)
 
+(******)
 
-// Task 1.5:  ---------------------------------------------------------------------------------------------------
-// Binde das Ergebnis der Summen aus x + 10 und y + 20 mit x,y - Werten deiner Wahl an den Namen 'summeXY'. 
-// Die Zwischenergebnisse sollten   nicht im globalen Sichtbarkeitsbereich (Scope) liegen.
+(**
+### Task 1.5
 
+Binde the sum of both sums (x + 10) and (y + 20) to the Name 'sumXY'. 
+Die Zwischenergebnisse sollten nicht im globalen Sichtbarkeitsbereich (Scope) liegen.
+*)
 
+(******)
 
-//++++++++++++++++++++++++++++
-// Die "printfn" - Funktion
-//++++++++++++++++++++++++++++
+(**
+## Die "printfn" - Funktion
 
-//      Task 2
+### Task 2
 
-//Tipp: https://fsharpforfunandprofit.com/posts/printf/
+_Tipp: https://docs.microsoft.com/de-de/dotnet/fsharp/language-reference/plaintext-formatting_
 
-// Task 2.1:  ---------------------------------------------------------------------------------------------------
-// Benutze die printfn - Funktion um "Hallo F#" in die Konsole auszugeben.
+### Task 2.1:  
 
+Use the printfn function to print "Hello F#" to the console.
+*)
 
+(******)
 
-// Task 2.2:  ---------------------------------------------------------------------------------------------------
-// Benutze die printfn - Funktion um den Wert von 'vorname' in die Konsole auszugeben.
+(**
+### Task 2.2:  
 
+Use the printfn function to print the value of 'vorname' to the console.
+*)
 
+(******)
 
-// Task 2.3:  ---------------------------------------------------------------------------------------------------
-// Benutzt printfn um 'y' in die Konsole auszugeben.
+(**
+### Task 2.3:  
 
+Benutzt printfn um 'y' in die Konsole auszugeben.
+*)
 
-//++++++++++++++++++++++++++++++++++++++
-// Primitive Datentypen und Funktionen
-//++++++++++++++++++++++++++++++++++++++
+(******)
 
-//      Task 3
+(**
+## Primitive Datentypen und Funktionen
 
-// Task 3.1:  ---------------------------------------------------------------------------------------------------
-// Binde einen beliebigen Wert vom Typ Integer an den Namen intI.
+### Task 3
 
+### Task 3.1
 
+Binde einen beliebigen Wert vom Typ Integer an den Namen intI.
+*)
 
-// Task 3.2:  ---------------------------------------------------------------------------------------------------
-// Binde einen beliebigen Wert vom Typ Float an den Namen floatI.
+(******)
 
+(**
+### Task 3.2
 
-// Task 3.3:  ---------------------------------------------------------------------------------------------------
-// Wandelt entweder intI oder floatI in den Datentyp des anderen um und addiert beide.
+Binde einen beliebigen Wert vom Typ Float an den Namen floatI.
+*)
 
+(******)
 
+(**
+### Task 3.3
 
-// Task 3.4:  ---------------------------------------------------------------------------------------------------
-// Berechne den Quotienten aus '27' und '13'. Dann berechne den Quotienten von beiden Integern als Float.
+Wandelt entweder intI oder floatI in den Datentyp des anderen um und addiert beide.
+*)
 
+(******)
 
+(**
+### Task 3.4
 
-// Task 3.5:  ---------------------------------------------------------------------------------------------------
-// Konkateniere einen beliebigen Wert vom Typ String mit einem einzelnem Buchstaben (Typ Char)
+Berechne den Quotienten aus '27' und '13'. Dann berechne den Quotienten von beiden Integern als Float.
+*)
 
+(******)
 
+(**
+### Task 3.5:
 
-// Task 3.6:  ---------------------------------------------------------------------------------------------------
-// Deklariere eine Funktion 'mulitplyBy2' die einen float verdoppelt. 
+Konkateniere einen beliebigen Wert vom Typ String mit einem einzelnem Buchstaben (Typ Char)
+*)
 
+(******)
 
+(**
+### Task 3.6:
 
-// Task 3.7:  ---------------------------------------------------------------------------------------------------
-// Deklariere eine Funktion 'calculateCylinderVolume' die aus Radius und Laenge das Volumen eines Zylinders 
-// zurueckgibt UND zusaetzlich "Das Volumen des Zylinders ist: XX" in die Konsole printed. Wobei XX natuerlich 
-// das korrekte Volumen des Zylinders ist. (Der Output einer printfn Funktion ist Unit.)
-// Warum kann es Sinn machen, Ergebnisse zu printen?
+Deklariere eine Funktion 'mulitplyBy2' die einen float verdoppelt. 
+*)
 
+(******)
 
+(**
+### Task 3.7:  
 
-// Task 3.8:  ---------------------------------------------------------------------------------------------------
-// Deklariere eine Funktion die einen Parameter vom Typ Integer als Input nimmt und die 'multiplyBy2' 
-// Funtkion darauf anwendet
+Deklariere eine Funktion 'calculateCylinderVolume' die aus Radius und Laenge das Volumen eines Zylinders 
+zurueckgibt UND zusaetzlich "Das Volumen des Zylinders ist: XX" in die Konsole printed. Wobei XX natuerlich 
+das korrekte Volumen des Zylinders ist. (Der Output einer printfn Funktion ist Unit.)
+Warum kann es Sinn machen, Ergebnisse zu printen? 
+*)
 
+(******)
 
+(**
+### Task 3.8:  
 
-// Task 3.9:  ---------------------------------------------------------------------------------------------------
-// Deklariere eine Funktion die als Input zwei Parameter vom Typ Floats, einen Vergleichsoperator z.B. 
-// (<, >, = ), und einen Parameter vom Typ Boolean akzeptiert. Das Ergebnis aus der Anwendung des angegebenen 
-// Operators auf die numerischen Parameter soll mit dem Parameter vom Typ Boolean auf Gleichheit ueberprueft werden.
+Deklariere eine Funktion die einen Parameter vom Typ Integer als Input nimmt und die 'multiplyBy2' 
+Funtkion darauf anwendet
+*)
+
+(******)
+
+(**
+### Task 3.9:  
+
+Deklariere eine Funktion die als Input zwei Parameter vom Typ Floats, einen Vergleichsoperator z.B. 
+(<, >, = ), und einen Parameter vom Typ Boolean akzeptiert. Das Ergebnis aus der Anwendung des angegebenen 
+Operators auf die numerischen Parameter soll mit dem Parameter vom Typ Boolean auf Gleichheit ueberprueft werden.
+
+(_2 Punkte_)
+
+*)
+
+(******)
