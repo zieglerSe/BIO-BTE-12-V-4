@@ -6,6 +6,7 @@
     <Summary>Scientific programming for biologists (BIO-BTE-12-V-4)</Summary>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageIconUrl>https://csbiology.github.io/BIO-BTE-12-V-4/img/logo.png</PackageIconUrl>
+    <fsdocs-logo-src>https://csbiology.github.io/BIO-BTE-12-V-4/img/logo.png</fsdocs-logo-src>
   </PropertyGroup>
 
 </Project>
