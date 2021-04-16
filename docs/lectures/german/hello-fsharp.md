@@ -1,3 +1,10 @@
+---
+title: 1 HELLO F#
+category: Vorlesungsmaterial(deutsch)
+categoryindex: 1
+index: 1
+---
+
 # 1 HELLO F#
 
 Eine Einführung in die wissenschaftliche Programmierung mithilfe der Programmiersprache F#
@@ -22,6 +29,11 @@ Eine Einführung in die wissenschaftliche Programmierung mithilfe der Programmie
 </div>
 
 ## Vorlesungsfolien
+
+- [Folien: WPB I.01 Einführung und Motivation](https://csb.bio.uni-kl.de/teaching/WPB_Podcast/I01_Einf%C3%BChrung_und_Motivation.pdf)
+- [Folien: WPB I.02 Funktionen und Wertebindung](https://csb.bio.uni-kl.de/teaching/WPB_Podcast/I02_Funktionen_und_Wertebindung.pdf)
+- [Folien: WPB I.03 Scope (Sichtbarkeitsbereich)](https://csb.bio.uni-kl.de/teaching/WPB_Podcast/I03_Scope.pdf)
+- [Folien: WPB I.04 PrimitiveDatentypen](https://csb.bio.uni-kl.de/teaching/WPB_Podcast/I04_Primitive_Datentypen.pdf)
 
 ## Übungsmaterial
 
