@@ -1,4 +1,11 @@
 (**
+---
+title: Installationsanweisungen
+category: Übungen(deutsch)
+categoryindex: 2
+index: 1
+---
+
 # Installation
 
 * Lade die neuste stabile Version von [Visual Studio Code](https://code.visualstudio.com/) herunter und installiere sie.

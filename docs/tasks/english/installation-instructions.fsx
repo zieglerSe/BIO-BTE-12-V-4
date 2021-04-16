@@ -1,4 +1,11 @@
 (**
+---
+title: Installation instructions
+category: Tasks(english)
+categoryindex: 4
+index: 1
+---
+
 # Installation
 
 * Download the latest stable build for [Visual Studio Code](https://code.visualstudio.com/) and install it.
