@@ -20,7 +20,9 @@ Let's start with the basics:
 - **In a notebook:**
 
     There is a 'play' button in the left upper corner of the field below. Press it to execute the respective code block, 
-    which in this case will simply give '10' as output.
+    which in this case will simply give '10' as output. 
+
+    **Note that you always have to end codeblocks in notebooks with the value you want to put out**
 
 
 *)
@@ -32,8 +34,8 @@ Try it with the line below and appreciate that the result of the calculation is 
 *)
 10 + 20
 (**
-Everything after a "//" or inside of (* ... *) is treated as a comment and will not get executed as code.
-You can use (* ... *) to comment parts of a single line. 
+Everything after a `//` or inside of `(* ... *)` is treated as a comment and will not get executed as code.
+You can use `(* ... *)` to comment parts of a single line. 
 The standard keybinding for commenting a selection is (Strg + K -> Strg + C)
 
 
@@ -161,7 +163,7 @@ Declare a function named 'mulitplyBy2' that doubles a single input float.
 Declare a function named 'calculateCylinderVolume' that takes radius and length of a cylinder as inputs and 
 returns the cylinders volume AND additionally prints the message "The volume of the cylinder is XXX" (where XXX is the volume)
 
-Why can it make sense to print calues inside a function before returning a value?
+Why can it make sense to print values inside a function before returning a value?
 
 *)
 

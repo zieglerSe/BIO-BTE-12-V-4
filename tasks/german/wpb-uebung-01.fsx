@@ -23,6 +23,8 @@ Erst einmal die absoluten Basics:
     Links von dem Feld unten das die '10' beinhaltet befindet sich ein 'play' Knopf. 
     Dieser Knopf führt beim drücken den jeweiligen Code-block aus und gibt das Ergebnis (hier: 10) darunter aus.
 
+    **Codeblöcke in notebooks müssen immer mit dem Wert enden, der ausgegben werden soll.**
+
 
 *)
 10
@@ -33,8 +35,10 @@ Versucht das mal mit der folgenden Zeile und ihr werdet sehen, dass das Ergebnis
 *)
 10 + 20
 (**
-Alles was ihr hinter "//" oder innerhalb von (* ... *) schreibt ist ein Kommentar und wird nicht als Code ausgefuehrt.
-Ihr koennt auch Teile einer Zeile auskommentieren mit der Tastenkombination (Strg + K -> Strg + C)
+Alles was ihr hinter `//` oder innerhalb von `(* ... *)` schreibt ist ein Kommentar und wird nicht als Code ausgefuehrt.
+Ihr koennt auch Teile einer Zeile mit `(* ... *)` auskommentieren. 
+
+Die Standardtastenkombination zum auskommentieren ist (Strg + K -> Strg + C)
 
 *)
 10 (*+ 40 *) + 30

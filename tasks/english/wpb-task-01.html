@@ -110,6 +110,7 @@
 <p><strong>In a notebook:</strong></p>
 <p>There is a 'play' button in the left upper corner of the field below. Press it to execute the respective code block,
 which in this case will simply give '10' as output.</p>
+<p><strong>Note that you always have to end codeblocks in notebooks with the value you want to put out</strong></p>
 </li>
 </ul>
 <pre class="fssnip highlighted"><code lang="fsharp"><span class="n">10</span>
@@ -118,8 +119,8 @@ which in this case will simply give '10' as output.</p>
 Try it with the line below and appreciate that the result of the calculation is 30.</p>
 <pre class="fssnip highlighted"><code lang="fsharp"><span class="n">10</span> <span class="o">+</span> <span class="n">20</span>
 </code></pre>
-<p>Everything after a "//" or inside of (<em> ... </em>) is treated as a comment and will not get executed as code.
-You can use (<em> ... </em>) to comment parts of a single line.
+<p>Everything after a <code>//</code> or inside of <code>(* ... *)</code> is treated as a comment and will not get executed as code.
+You can use <code>(* ... *)</code> to comment parts of a single line.
 The standard keybinding for commenting a selection is (Strg + K -&gt; Strg + C)</p>
 <pre class="fssnip highlighted"><code lang="fsharp"><span class="n">10</span> <span class="c">(*+ 40 *)</span> <span class="o">+</span> <span class="n">30</span>
 </code></pre>
@@ -177,7 +178,7 @@ Die Zwischenergebnisse sollten nicht im globalen Sichtbarkeitsbereich (Scope) li
 <h3><a name="Task-3-7" class="anchor" href="#Task-3-7">Task 3.7:</a></h3>
 <p>Declare a function named 'calculateCylinderVolume' that takes radius and length of a cylinder as inputs and
 returns the cylinders volume AND additionally prints the message "The volume of the cylinder is XXX" (where XXX is the volume)</p>
-<p>Why can it make sense to print calues inside a function before returning a value?</p>
+<p>Why can it make sense to print values inside a function before returning a value?</p>
 <pre class="fssnip highlighted"><code lang="fsharp"></code></pre>
 <h3><a name="Task-3-8" class="anchor" href="#Task-3-8">Task 3.8:</a></h3>
 <p>Declare a function that takes an integer as input, converts it, and applies the previously defined 'multiplyBy2' function on it.</p>
