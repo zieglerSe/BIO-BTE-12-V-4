@@ -104,7 +104,7 @@ Use the printfn function to print the value of 'vorname' to the console.
 (**
 ### Task 2.3:  
 
-Benutzt printfn um 'y' in die Konsole auszugeben.
+Use the printfn function to print the value of 'y' to the console.
 
 *)
 
@@ -115,71 +115,77 @@ Benutzt printfn um 'y' in die Konsole auszugeben.
 
 ### Task 3.1
 
-Binde einen beliebigen Wert vom Typ Integer an den Namen intI.
+Bind an arbitrary integer value to the name intI.
 
 *)
 
 (**
 ### Task 3.2
 
-Binde einen beliebigen Wert vom Typ Float an den Namen floatI.
+Bind an arbitrary float value to the name floatI.
 
 *)
 
 (**
 ### Task 3.3
 
-Wandelt entweder intI oder floatI in den Datentyp des anderen um und addiert beide.
+Convert one of intI or floatI to the data type of the other and sum both up.
 
 *)
 
 (**
 ### Task 3.4
 
-Berechne den Quotienten aus '27' und '13'. Dann berechne den Quotienten von beiden Integern als Float.
+Calculate the integer division of '27' und '13'. Then perform the same operation but on '27' and '13' as float values.
 
 *)
 
 (**
 ### Task 3.5:
 
-Konkateniere einen beliebigen Wert vom Typ String mit einem einzelnem Buchstaben (Typ Char)
+Concatenate an arbitrary string value with an arbitrary char (character)
 
 *)
 
 (**
 ### Task 3.6:
 
-Deklariere eine Funktion 'mulitplyBy2' die einen float verdoppelt. 
+Declare a function named 'mulitplyBy2' that doubles a single input float.
+
 
 *)
 
 (**
 ### Task 3.7:  
 
-Deklariere eine Funktion 'calculateCylinderVolume' die aus Radius und Laenge das Volumen eines Zylinders 
-zurueckgibt UND zusaetzlich "Das Volumen des Zylinders ist: XX" in die Konsole printed. Wobei XX natuerlich 
-das korrekte Volumen des Zylinders ist. (Der Output einer printfn Funktion ist Unit.)
-Warum kann es Sinn machen, Ergebnisse zu printen? 
+Declare a function named 'calculateCylinderVolume' that takes radius and length of a cylinder as inputs and 
+returns the cylinders volume AND additionally prints the message "The volume of the cylinder is XXX" (where XXX is the volume)
+
+Why can it make sense to print calues inside a function before returning a value?
 
 *)
 
 (**
 ### Task 3.8:  
 
-Deklariere eine Funktion die einen Parameter vom Typ Integer als Input nimmt und die 'multiplyBy2' 
-Funtkion darauf anwendet
+Declare a function that takes an integer as input, converts it, and applies the previously defined 'multiplyBy2' function on it.
+
 
 *)
 
 (**
 ### Task 3.9:  
 
-Deklariere eine Funktion die als Input zwei Parameter vom Typ Floats, einen Vergleichsoperator z.B. 
-(<, >, = ), und einen Parameter vom Typ Boolean akzeptiert. Das Ergebnis aus der Anwendung des angegebenen 
-Operators auf die numerischen Parameter soll mit dem Parameter vom Typ Boolean auf Gleichheit ueberprueft werden.
+Declare a function that takes the feollowing inputs:
 
-(_2 Punkte_)
+- two floats
+- a comparison operator (<, >, = )
+- a boolean
+
+The function should then compare the result of applying the operator to the two 
+float inputs with the boolean input and return the result.
+
+(_2 Points_)
 
 
 *)
