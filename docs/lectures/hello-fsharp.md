@@ -10,9 +10,9 @@ index: 1
 An introduction to scientific programming using the F# programming language:
 
 - WPB I.01 : Einführung und Motivation / Introduction and motivation
-- WPB I.02 : Funktionen_und_Wertebindung / Functions and value bindings
+- WPB I.02 : Funktionen und Wertebindung / Functions and value bindings
 - WPB I.03 : Sichtbarkeitsbereich / Scope
-- WPB I.04 : Primitive_Datentypen / Primitive data types
+- WPB I.04 : Primitive Datentypen / Primitive data types
  
 
 ## Lecture videos (click to expand and watch)
