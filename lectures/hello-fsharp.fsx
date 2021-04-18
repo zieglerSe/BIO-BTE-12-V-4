@@ -1,9 +1,15 @@
 (**
 // can't yet format YamlFrontmatter (["title: 01 Hello F#"; "category: Lecture material"; "categoryindex: 1"; "index: 1"], Some { StartLine = 1 StartColumn = 0 EndLine = 5 EndColumn = 8 }) to pynb markdown
 
-# Hello F#
+# WPB I - Hello F#
 
-An introduction to scientific programming using the F# programming language
+An introduction to scientific programming using the F# programming language:
+
+- WPB I.01 : Einführung und Motivation / Introduction and motivation
+- WPB I.02 : Funktionen_und_Wertebindung / Functions and value bindings
+- WPB I.03 : Sichtbarkeitsbereich / Scope
+- WPB I.04 : Primitive_Datentypen / Primitive data types
+ 
 
 ## Lecture videos (click to expand and watch)
 
@@ -26,9 +32,9 @@ An introduction to scientific programming using the F# programming language
 
 ## Slides
 
-- WPB I.01 ([deutsch](https://csb.bio.uni-kl.de/teaching/WPB_Podcast/I01_Einf%C3%BChrung_und_Motivation.pdf) / english)
-- WPB I.02 ([deutsch](https://csb.bio.uni-kl.de/teaching/WPB_Podcast/I02_Funktionen_und_Wertebindung.pdf) / english)
-- WPB I.03 ([deutsch](https://csb.bio.uni-kl.de/teaching/WPB_Podcast/I03_Scope.pdf) / english)
--  WPB I.04 ([deutsch](https://csb.bio.uni-kl.de/teaching/WPB_Podcast/I04_Primitive_Datentypen.pdf) / english)
+- WPB I.01 ([deutsch](https://csb.bio.uni-kl.de/teaching/WPB_Podcast/I01_Einf%C3%BChrung_und_Motivation.pdf) / [english](https://csb.bio.uni-kl.de/teaching/WPB_Podcast/eng/I01_Introduction_and_motivation.pdf))
+- WPB I.02 ([deutsch](https://csb.bio.uni-kl.de/teaching/WPB_Podcast/I02_Funktionen_und_Wertebindung.pdf) / [english](https://csb.bio.uni-kl.de/teaching/WPB_Podcast/eng/I02_Functions_and_value_bindings.pdf))
+- WPB I.03 ([deutsch](https://csb.bio.uni-kl.de/teaching/WPB_Podcast/I03_Scope.pdf) / [english](https://csb.bio.uni-kl.de/teaching/WPB_Podcast/eng/I03_Scope.pdf))
+-  WPB I.04 ([deutsch](https://csb.bio.uni-kl.de/teaching/WPB_Podcast/I04_Primitive_Datentypen.pdf) / [english](https://csb.bio.uni-kl.de/teaching/WPB_Podcast/eng/I04_Primitive_data_types.pdf))
 
 *)
