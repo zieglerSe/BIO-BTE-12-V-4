@@ -1,5 +1,5 @@
 (**
-// can't yet format YamlFrontmatter (["title: 01 Hello F#"; "category: Lecture material"; "categoryindex: 1"; "index: 1"], Some { StartLine = 1 StartColumn = 0 EndLine = 5 EndColumn = 8 }) to pynb markdown
+// can't yet format YamlFrontmatter (["title: WPB I - Hello F#"; "category: Lecture material"; "categoryindex: 1"; "index: 1"], Some { StartLine = 1 StartColumn = 0 EndLine = 5 EndColumn = 8 }) to pynb markdown
 
 # WPB I - Hello F#
 
