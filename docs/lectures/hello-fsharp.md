@@ -1,5 +1,5 @@
 ---
-title: 01 Hello F#
+title: WPB I - Hello F#
 category: Lecture material
 categoryindex: 1
 index: 1
