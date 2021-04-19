@@ -6,7 +6,10 @@
 ## Installation instructions
 
 * Download the latest stable build for [Visual Studio Code](https://code.visualstudio.com/) and install it.
-* Download the recommended [.NET SDK](https://dotnet.microsoft.com/download) and install it.
+* Download the recommended [.NET SDK](https://dotnet.microsoft.com/download) for your operating system and install it.
+
+    ![](/BIO-BTE-12-V-4/img/DotnetSDK.png)
+
 * Open Visual Studio Code, navigate to the "Extensions" tab and install
     * .NET Interactive Notebooks
     * Ionide-fsharp
