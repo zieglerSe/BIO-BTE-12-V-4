@@ -63,7 +63,7 @@ Um zu den jeweiligen Vorlesungen auf deutsch zu gelangen, wählen sie eine Vorle
 | Datum | Vorlesung (Thema bis zur Besprechung in der folgenden Woche) | Übungsbesprechung (13:00 - 15:00) |
 |---|---|---|
 | 20.04.2021 | [WPB I: Hello F#](/BIO-BTE-12-V-4/lectures/hello-fsharp.html) | Keine, stattdessen Hilfe bei der [Einrichtung der Programmierumgebung](/BIO-BTE-12-V-4/tasks/german/installationsanweisungen.html) |
-| 27.04.2021 | WPB II: Funktionen und Datentypen | [Übung01](tasks/german/wpb-uebung-01.html) |
+| 27.04.2021 | WPB II: Funktionen und Datentypen | [Übung01](tasks/german/wpb-task-01.html) |
 | 04.05.2021 | WPB III: Kontrollfluss| Übung02 |
 | 11.05.2021 | WPB IV: Programmieren mit Funktionen | Übung03 |
 | 18.05.2021 | WPB V: Programmieren mit Objekten | Übung04 |
@@ -117,7 +117,7 @@ To access lecture material, either head to the sidebar to the left to the respec
 | Date | Lecture (Topic until next task session) | Task session (13:00 - 15:00) |
 |---|---|---|
 | 20.04.2021 | [WPB I: Hello F#](/BIO-BTE-12-V-4/lectures/hello-fsharp.html) | None, instead we help you with [setting up your programming environment](/BIO-BTE-12-V-4/tasks/english/installation-instructions.html) |
-| 27.04.2021 | WPB II: Functions and datatypes | [Task01](/BIO-BTE-12-V-4/tasks/german/wpb-uebung-01.html) |
+| 27.04.2021 | WPB II: Functions and datatypes | [Task01](/BIO-BTE-12-V-4/tasks/english/wpb-task-01.html) |
 | 04.05.2021 | WPB III: Control flow| Task02 |
 | 11.05.2021 | WPB IV: Programming with functions | Task03 |
 | 18.05.2021 | WPB V: Programming with objects | Task04 |
