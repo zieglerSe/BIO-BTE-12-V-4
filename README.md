@@ -1,6 +1,11 @@
 # BIO-BTE-12-V-4
 Notebooks, scripts and guides for the lecture Wissenschaftliche Programmierung für Biologen (BIO-BTE-12-V-4)
 
+Lokal testen:
+
+- dotnet tool restore
+- dotnet fsdocs watch --eval
+
 Überführen der alten Übungen:
 - `(******)` sind notwendig zwischen zwei Kommentarblöcken falls dazwischen ein Codeblock kommen soll.
 - Englische versionen der übungen in `/docs/tasks/english`, deutsche in `/docs/tasks/german`
