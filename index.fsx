@@ -87,7 +87,7 @@ KIS: [BIO-BTE-12-V-4](https://www.kis.uni-kl.de/campus/all/event.asp?gguid=0xD70
 
 ### Lectures
 
-We try our best to provide you with at least english subtitles for our lecture videos. The lecture slides are available in english language.
+The lecture slides are available in english language.
 
 To access lecture material, either head to the sidebar to the left to the respective link in the `Lecture material` section or take a look at the [schedule](#Schedule)
 
