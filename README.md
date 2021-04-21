@@ -7,6 +7,8 @@ Lokal testen:
 - dotnet fsdocs watch --eval
 
 Überführen der alten Übungen:
+- single line kommentare (`//`) ersetzen durch Kommentarblöcke im fsdocs format (`(** *)`)
+- light markdown in den text blöcken verwenden
 - `(******)` sind notwendig zwischen zwei Kommentarblöcken falls dazwischen ein Codeblock kommen soll.
 - Englische versionen der übungen in `/docs/tasks/english`, deutsche in `/docs/tasks/german`
 - Frontmatter muss am anfang der jeweiligen .fsx datei stehen: 
