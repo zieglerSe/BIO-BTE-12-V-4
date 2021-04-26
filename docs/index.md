@@ -37,7 +37,7 @@ Um zu den jeweiligen Vorlesungen auf deutsch zu gelangen, wählen sie eine Vorle
 
 ### Übungen
 
-- Die Übungen der jeweiligen Vorlesung sind bis zur nächsten Übungsbesprechung in der darauf folgenden Woche zu bearbeiten und abzugeben.
+- Die Übungen der jeweiligen Vorlesung sind bis zum **Tag vor der Übungsbesprechung** in der darauf folgenden Woche zu bearbeiten und abzugeben (also 24h bevor die jeweilige Übung besprochen wird).
 - Für das erfolgreiche Abschließen der Vorlesung und das Erhalten der CP müssen 50% der _Gesamtpunkte aller Übungen_ erreicht werden
 - Falls nicht anders angegeben gibt jede Aufgabe/Task 1 Punkt.
 - Bitte reichen sie ihre bearbeiteten Übungen als Email mit dem titel `wpb-task-XXX-RHRK_KÜRZEL` und folgenden Dateianhang: `wpb-task-XXX-RHRK_KÜRZEL.DATEIENDUNG` ein. Die Email Adresse zur Einreichung erhalten sie gesondert.
@@ -58,22 +58,22 @@ Um zu den jeweiligen Vorlesungen auf deutsch zu gelangen, wählen sie eine Vorle
 
 ## Zeitplan
 
-| Datum | Vorlesung (Thema bis zur Besprechung in der folgenden Woche) | Übungsbesprechung (13:00 - 15:00) |
-|---|---|---|
-| 20.04.2021 | [WPB I: Hello F#]({{root}}lectures/hello-fsharp.html) | Keine, stattdessen Hilfe bei der [Einrichtung der Programmierumgebung]({{root}}tasks/german/installationsanweisungen.html) |
-| 27.04.2021 | WPB II: Funktionen und Datentypen | [Übung01](tasks/german/wpb-task-01.html) |
-| 04.05.2021 | WPB III: Kontrollfluss| Übung02 |
-| 11.05.2021 | WPB IV: Programmieren mit Funktionen | Übung03 |
-| 18.05.2021 | WPB V: Programmieren mit Objekten | Übung04 |
-| 25.05.2021 | WPB VI: Typendesign | Übung05 |
-| 01.06.2021 | WPB VII: Datenvisualisierung | Übung06 |
-| 08.06.2021 | WPB VIII: Deskriptive Statistik | Übung07 |
-| 15.06.2021 | WPB IX: Datenzugriff | Übung08 |
-| 22.06.2021 | WPB X: Bioinformatik mit F# | Übung09 |
-| 29.06.2021 | WPB XI: F# <> R| Übung10 |
-| 06.07.2021 | Puffer(evtl. Nachbesprechung) | - |
-| 13.07.2021 | Puffer(evtl. Nachbesprechung) | - |
-| 20.07.2021 | Puffer(evtl. Nachbesprechung) | - |
+| Datum | Vorlesung (Thema bis zur Besprechung in der folgenden Woche) | Übungsbesprechung (13:00 - 15:00) | Spätester Abgabezeitpunkt Der Übung | 
+|---|---|---|---|
+| 20.04.2021 | [WPB I: Hello F#]({{root}}lectures/hello-fsharp.html) | Keine, stattdessen Hilfe bei der [Einrichtung der Programmierumgebung]({{root}}tasks/german/installationsanweisungen.html) | 26.04.2021 13:00 |
+| 27.04.2021 | WPB II: Funktionen und Datentypen | [Übung01]({{root}}tasks/german/wpb-task-01.html) | 03.05.2021 13:00 |
+| 04.05.2021 | WPB III: Kontrollfluss| Übung02 | 10.05.2021 13:00 |
+| 11.05.2021 | WPB IV: Programmieren mit Funktionen | Übung03 | 17.05.2021 13:00 |
+| 18.05.2021 | WPB V: Programmieren mit Objekten | Übung04 | 24.05.2021 13:00 |
+| 25.05.2021 | WPB VI: Typendesign | Übung05 | 31.05.2021 13:00 |
+| 01.06.2021 | WPB VII: Datenvisualisierung | Übung06 | 07.06.2021 13:00 |
+| 08.06.2021 | WPB VIII: Deskriptive Statistik | Übung07 | 14.06.2021 13:00 |
+| 15.06.2021 | WPB IX: Datenzugriff | Übung08 | 21.06.2021 13:00 |
+| 22.06.2021 | WPB X: Bioinformatik mit F# | Übung09 | 28.06.2021 13:00 |
+| 29.06.2021 | WPB XI: F# <> R| Übung10 | - |
+| 06.07.2021 | Puffer(evtl. Nachbesprechung) | - | - |
+| 13.07.2021 | Puffer(evtl. Nachbesprechung) | - | - |
+| 20.07.2021 | Puffer(evtl. Nachbesprechung) | - | - |
 
 ## Course description(english)
 
@@ -91,7 +91,7 @@ To access lecture material, either head to the sidebar to the left to the respec
 
 ### Tasks
 
-- The tasks for the respective lectures must be done and submitted until the task session of the subsequent week.
+- The tasks for the respective lectures must be submitted until the task session of the subsequent week.
 - To successfully finish this course you must at least score 50% of the _overall possible points of all tasks combined_
 - If not indicated otherwise, each task is worth 1 point.
 - Please submit your tasks as an email with the title `wpb-task-XXX-RHRK_HANDLE` and the task as attachement with the filename `wpb-task-XXX-RHRK_HANDLE.EXTENSION`. The email address for submissions will be communicated seperately.
@@ -105,26 +105,24 @@ To access lecture material, either head to the sidebar to the left to the respec
     => the correct name of the task as email attachment is `wpb-task-01-schneike.fsx`
 
     => the correct email title is `wpb-task-01-schneike`
-    
+
 - You only get back corrected versions of your task by special request. The tasks will be completely solved during task sessions together with you. You can talk with us about your solutions during the session. After the session we will send out a sample solution for the task.
 - We will contact you in time should you fall below the 50% point threshold. _That means if we do not contact you, everything is fine ;)_
 - Constructive collaboration during task sessions is not only good for your personal understanding but also your overall points.
 
 ## Schedule
 
-| Date | Lecture (Topic until next task session) | Task session (13:00 - 15:00) |
-|---|---|---|
-| 20.04.2021 | [WPB I: Hello F#]({{root}}lectures/hello-fsharp.html) | None, instead we help you with [setting up your programming environment]({{root}}tasks/english/installation-instructions.html) |
-| 27.04.2021 | WPB II: Functions and datatypes | [Task01]({{root}}tasks/english/wpb-task-01.html) |
-| 04.05.2021 | WPB III: Control flow| Task02 |
-| 11.05.2021 | WPB IV: Programming with functions | Task03 |
-| 18.05.2021 | WPB V: Programming with objects | Task04 |
-| 25.05.2021 | WPB VI: Designing with types | Task05 |
-| 01.06.2021 | WPB VII: Data visualization | Task06 |
-| 08.06.2021 | WPB VIII: Descriptive statistics | Task07 |
-| 15.06.2021 | WPB IX: Data access | Task08 |
-| 22.06.2021 | WPB X: Embracing bioinformatics in F# | Task09 |
-| 29.06.2021 | WPB XI: F# <> R| Task10 |
-| 06.07.2021 | Buffer(possibly debriefing) | - |
-| 13.07.2021 | Buffer(possibly debriefing) | - |
-| 20.07.2021 | Buffer(possibly debriefing) | - |
+| Date | Lecture (Topic until next task session) | Task session (13:00 - 15:00) | Task submission deadline |
+|---|---|---|---|
+| 20.04.2021 | [WPB I: Hello F#]({{root}}lectures/hello-fsharp.html) | None, instead we help you with [setting up your programming environment]({{root}}tasks/english/installation-instructions.html) | 26.04.2021 13:00 |
+| 27.04.2021 | WPB II: Functions and datatypes | [Task01]({{root}}tasks/english/wpb-task-01.html) | 03.05.2021 13:00 |
+| 04.05.2021 | WPB III: Control flow| Task02 | 10.05.2021 13:00 |
+| 11.05.2021 | WPB IV: Programming with functions | Task03 | 17.05.2021 13:00 |
+| 18.05.2021 | WPB V: Programming with objects | Task04 | 24.05.2021 13:00 |
+| 25.05.2021 | WPB VI: Designing with types | Task05 | 31.05.2021 13:00 |
+| 01.06.2021 | WPB VII: Data visualization | Task06 | 07.06.2021 13:00 |
+| 08.06.2021 | WPB VIII: Descriptive statistics | Task07 | 14.06.2021 13:00 |
+| 15.06.2021 | WPB IX: Data access | Task08 | 21.06.2021 13:00 |
+| 22.06.2021 | WPB X: Embracing bioinformatics in F# | Task09 | 28.06.2021 13:00 |
+| 29.06.2021 | WPB XI: F# <> R| Task10 | - |
+| 06.07.2021 | Buffer(possibly debriefing) | - | - |
