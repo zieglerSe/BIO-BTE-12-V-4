@@ -1,12 +1,18 @@
 # BIO-BTE-12-V-4
 Notebooks, scripts and guides for the lecture Wissenschaftliche Programmierung für Biologen (BIO-BTE-12-V-4)
 
-Lokal testen:
+### Website lokal testen:
 
 - dotnet tool restore
 - dotnet fsdocs watch --eval
 
-Überführen der alten Übungen:
+### Überführen der alten Übungen:
+
+- VSCode hat mittlerweile keine probleme mehr mit umlaut encoding. Falls das doch bei euch der fall sein sollte, hier sind die relevanten settings:
+
+![](./docs/img/VSCode-encoding.png)
+
+- VS Community speichert allerdings nicht immer in UTF8 ab, das ist dann zu sehen, wenn die PR gestellt wird, oder das selbe file in VSCode geöffnet wird. Stellt also entweder sicher, dass das file in UTF8 (ohne BOM!) gespeichert wird, oder arbeitet einfach in VSCode.
 - single line kommentare (`//`) ersetzen durch Kommentarblöcke im fsdocs format (`(** *)`)
 - light markdown in den text blöcken verwenden
 - `(******)` sind notwendig zwischen zwei Kommentarblöcken falls dazwischen ein Codeblock kommen soll.
