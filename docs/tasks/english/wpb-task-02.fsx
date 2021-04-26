@@ -102,7 +102,7 @@ Create a value of the type `ExtendedPerson`.
 
 ### Task 3.1
 
-Declare an arbitrary function with the signature `inct -> int`.
+Declare an arbitrary function with the signature `int -> int`.
 *)
 
 (******)
