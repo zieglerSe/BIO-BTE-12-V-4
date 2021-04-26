@@ -33,14 +33,14 @@ Zielsetzung dieser Vorlesung mit anschließenden Übungen ist die Vermittlung vo
 
 Die Vorlesungen werden sowohl als Videoaufzeichnung als auch als PDF zur verfügung gestellt.
 
-Um zu den jeweiligen Vorlesungen auf deutsch zu gelangen, wählen sie eine Vorlesung aus der sidebar links unter der Rubrik `Lecture material` oder wählen sie die entsprechende Vorlesung aus dem [Zeitplan](#Zeitplan)
+Um zu den jeweiligen Vorlesungen auf deutsch zu gelangen, wählen sie eine Vorlesung aus der Sidebar links unter der Rubrik `Lecture material` oder wählen sie die entsprechende Vorlesung aus dem [Zeitplan](#Zeitplan)
 
 ### Übungen
 
 - Die Übungen der jeweiligen Vorlesung sind bis zum **Tag vor der Übungsbesprechung** in der darauf folgenden Woche zu bearbeiten und abzugeben (also 24h bevor die jeweilige Übung besprochen wird).
-- Für das erfolgreiche Abschließen der Vorlesung und das Erhalten der CP müssen 50% der _Gesamtpunkte aller Übungen_ erreicht werden
+- Für das erfolgreiche Abschließen der Vorlesung und das Erhalten der CP müssen 50% der _Gesamtpunkte aller Übungen_ erreicht werden.
 - Falls nicht anders angegeben gibt jede Aufgabe/Task 1 Punkt.
-- Bitte reichen sie ihre bearbeiteten Übungen als Email mit dem titel `wpb-task-XXX-RHRK_KÜRZEL` und folgenden Dateianhang: `wpb-task-XXX-RHRK_KÜRZEL.DATEIENDUNG` ein. Die Email Adresse zur Einreichung erhalten sie gesondert.
+- Bitte reichen sie Ihre bearbeiteten Übungen als Email mit dem titel `wpb-task-XXX-RHRK_KÜRZEL` und folgenden Dateianhang: `wpb-task-XXX-RHRK_KÜRZEL.DATEIENDUNG` ein. Die Email-Adresse zur Einreichung erhalten sie gesondert.
 
     **Ein Beispiel:** 
 
@@ -50,10 +50,10 @@ Um zu den jeweiligen Vorlesungen auf deutsch zu gelangen, wählen sie eine Vorle
 
     => der korrekte Name der Datei und damit des Emailanhangs lautet `wpb-task-01-schneike.fsx`
 
-    => der korrekte Titel der email lautet `wpb-task-01-schneike`
+    => der korrekte Titel der Email lautet `wpb-task-01-schneike`
     
-- Sie erhalten ihre Übungen nur auf Anfrage kontrolliert zurück. Die Übungen werden während der Besprechung komplett besprochen und durchgearbeitet, sie können ihre Lösung also dort mit uns besprechen. Anschließend geben wir eine Musterlösung aus. 
-- Wir halten rechtzeitig Rücksprache mit ihnen, falls ihre Punktzahl droht unter 50% zu fallen. _Wenn wir uns nicht bei ihnen diesbezüglich melden ist also alles okay ;)_
+- Sie erhalten Ihre Übungen nur auf Anfrage kontrolliert zurück. Die Übungen werden während der Besprechung komplett besprochen und durchgearbeitet, Sie können Ihre Lösung also dort mit uns besprechen. Anschließend geben wir eine Musterlösung aus. 
+- Wir halten rechtzeitig Rücksprache mit Ihnen, falls Ihre Punktzahl droht unter 50% zu fallen. _Wenn wir uns nicht bei Ihnen diesbezüglich melden, ist also alles okay ;)_
 - Konstruktive Mitarbeit in den Übungsbesprechungen wirkt sich nicht nur positiv auf ihren Lernerfolg sondern auch auf ihre Punktzahl aus.
 
 ## Zeitplan
@@ -92,7 +92,7 @@ To access lecture material, either head to the sidebar to the left to the respec
 ### Tasks
 
 - The tasks for the respective lectures must be submitted until the task session of the subsequent week.
-- To successfully finish this course you must at least score 50% of the _overall possible points of all tasks combined_
+- To successfully finish this course you must at least score 50% of the _overall possible points of all tasks combined_.
 - If not indicated otherwise, each task is worth 1 point.
 - Please submit your tasks as an email with the title `wpb-task-XXX-RHRK_HANDLE` and the task as attachement with the filename `wpb-task-XXX-RHRK_HANDLE.EXTENSION`. The email address for submissions will be communicated seperately.
 
