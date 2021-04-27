@@ -27,8 +27,8 @@ An introduction to functional and more complex data types and structures:
 
 ## Slides
 
-- WPB II.01 ([deutsch](https://csb.bio.uni-kl.de/teaching/WPB_Podcast/II01_Funktionale_Datentypen.pdf) / english)
-- WPB II.02 ([deutsch](https://csb.bio.uni-kl.de/teaching/WPB_Podcast/II02_Funktionssignaturen.pdf) / english)
-- WPB II.03 ([deutsch](https://csb.bio.uni-kl.de/teaching/WPB_Podcast/II03_Collection_types_(Sammlungstypen).pdf) / english)
+- WPB II.01 ([deutsch](https://csb.bio.uni-kl.de/teaching/WPB_Podcast/II01_Funktionale_Datentypen.pdf) / [english](https://csb.bio.uni-kl.de/teaching/WPB_Podcast/eng/II01_Functional_data_types.pdf))
+- WPB II.02 ([deutsch](https://csb.bio.uni-kl.de/teaching/WPB_Podcast/II02_Funktionssignaturen.pdf) / [english](https://csb.bio.uni-kl.de/teaching/WPB_Podcast/eng/II02_Function_signatures.pdf))
+- WPB II.03 ([deutsch](https://csb.bio.uni-kl.de/teaching/WPB_Podcast/II03_Collection_types_(Sammlungstypen).pdf) / [english](https://csb.bio.uni-kl.de/teaching/WPB_Podcast/eng/II03_Collection_types.pdf))
 
 *)
