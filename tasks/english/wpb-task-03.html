@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Task 03</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="">
+    <link rel="shortcut icon" type="image/x-icon" href="/BIO-BTE-12-V-4//img/favicon.ico">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script> -->
+
+    <link type="text/css" rel="stylesheet" href="/BIO-BTE-12-V-4/content/fsdocs-default.css" />
+    <link type="text/css" rel="stylesheet" href="/BIO-BTE-12-V-4/content/fsdocs-custom.css" />
+    <script type="text/javascript" src="/BIO-BTE-12-V-4/content/fsdocs-tips.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@creativebulma/bulma-collapsible@1.0.4/dist/js/bulma-collapsible.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@creativebulma/bulma-collapsible@1.0.4/dist/css/bulma-collapsible.min.css">
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!-- BEGIN SEARCH BOX: this adds support for the search box -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/JavaScript-autoComplete/1.0.4/auto-complete.css" />
+    <!-- END SEARCH BOX: this adds support for the search box -->
+    
+</head> 
+
+<body>
+    <div class="columns is-fullheight m-0">
+        <div id="fsdocs-menu" class="column is-2 is-paddingless">
+            <aside class="menu">
+                <div class="container is-paddingless is-marginless has-background-dark">
+                    <a href="/BIO-BTE-12-V-4/">
+                        <figure class="image is-128x128 container">
+                            <img src="/BIO-BTE-12-V-4/img/logo.png">
+                        </figure>
+                    </a>
+                    <h2 class="title has-text-centered has-text-white pb-4">BIO-BTE-12-V-4</h2>
+                </div>
+                <div class="content">
+                    <!-- BEGIN SEARCH BOX: this adds support for the search box -->
+                    <div id="header">
+                        <div class="field">
+                            <div class="control has-icons-left has-icons-right searchbox" id="fsdocs-searchbox">
+                                <input data-search-input="" id="search-by" type="search" placeholder="Search..." class="input"/>
+                                <span class="icon is-small is-left">
+                                    <i class="fas fa-search"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END SEARCH BOX: this adds support for the search box -->
+                    <ul class="navbar-nav">
+                        <li class="nav-header">
+  Lecture material
+</li>             
+<li class="nav-item">
+  <a class="nav-link" href="/BIO-BTE-12-V-4/lectures/hello-fsharp.html">
+    WPB I - Hello F#
+  </a>
+</li>             
+<li class="nav-item">
+  <a class="nav-link" href="/BIO-BTE-12-V-4/lectures/functions-and-data-types.html">
+    WPB II - Functions and data types
+  </a>
+</li>             
+<li class="nav-item">
+  <a class="nav-link" href="/BIO-BTE-12-V-4/lectures/control-flow.html">
+    WPB III - Control flow
+  </a>
+</li>             
+<li class="nav-header">
+  Übungen(deutsch)
+</li>             
+<li class="nav-item">
+  <a class="nav-link" href="/BIO-BTE-12-V-4/tasks/german/installationsanweisungen.html">
+    Erste Schritte
+  </a>
+</li>             
+<li class="nav-item">
+  <a class="nav-link" href="/BIO-BTE-12-V-4/tasks/german/wpb-task-01.html">
+    &#220;bung 01
+  </a>
+</li>             
+<li class="nav-item">
+  <a class="nav-link" href="/BIO-BTE-12-V-4/tasks/german/wpb-task-02.html">
+    &#220;bung 02
+  </a>
+</li>             
+<li class="nav-item">
+  <a class="nav-link" href="/BIO-BTE-12-V-4/tasks/german/wpb-task-03.html">
+    &#220;bung 03
+  </a>
+</li>             
+<li class="nav-header">
+  Tasks(english)
+</li>             
+<li class="nav-item">
+  <a class="nav-link" href="/BIO-BTE-12-V-4/tasks/english/installation-instructions.html">
+    Getting Started
+  </a>
+</li>             
+<li class="nav-item">
+  <a class="nav-link" href="/BIO-BTE-12-V-4/tasks/english/wpb-task-01.html">
+    Task 01
+  </a>
+</li>             
+<li class="nav-item">
+  <a class="nav-link" href="/BIO-BTE-12-V-4/tasks/english/wpb-task-02.html">
+    Task 02
+  </a>
+</li>             
+<li class="nav-item">
+  <a class="nav-link" href="/BIO-BTE-12-V-4/tasks/english/wpb-task-03.html">
+    Task 03
+  </a>
+</li>
+                    </ul>
+                </div>
+            </aside>
+        </div>
+        <div class="column is-10 is-paddingless">
+            <div class="section pt-4">
+                <div class="container" id="fsdocs-content">
+                    
+<p><a href="https://mybinder.org/v2/gh/csbiology/BIO-BTE-12-V-4/gh-pages?filepath=tasks/english/wpb-task-03.ipynb"><img src="/BIO-BTE-12-V-4/img/badge-binder.svg" alt="Binder" /></a>&emsp;
+<a href="/BIO-BTE-12-V-4/tasks/english/wpb-task-03.fsx"><img src="/BIO-BTE-12-V-4/img/badge-script.svg" alt="Script" /></a>&emsp;
+<a href="/BIO-BTE-12-V-4/tasks/english/wpb-task-03.ipynb"><img src="/BIO-BTE-12-V-4/img/badge-notebook.svg" alt="Notebook" /></a></p>
+<h1><a name="Task03-Control-Flow" class="anchor" href="#Task03-Control-Flow">Task03 - Control Flow</a></h1>
+<h2><a name="If-then-else" class="anchor" href="#If-then-else">If-then-else</a></h2>
+<h3><a name="Task-1-1" class="anchor" href="#Task-1-1">Task 1.1:</a></h3>
+<p>Declare a function that takes a parameter <code>x</code> of type <code>float</code>. It shall return the value if <code>x</code> is greater than zero. If that is not the case, it shall return the value with the
+sign inversed.<br />
+Hint: Multiplication</p>
+<pre class="fssnip highlighted"><code lang="fsharp"></code></pre>
+<h3><a name="Task-1-2" class="anchor" href="#Task-1-2">Task 1.2:</a></h3>
+<p>Declare a function that gets three numbers as parameters. The biggest of the three numbers shall be returned as the result.<br />
+Hint: <code>elif</code>!</p>
+<pre class="fssnip highlighted"><code lang="fsharp"></code></pre>
+<h3><a name="Task-1-3" class="anchor" href="#Task-1-3">Task 1.3:</a></h3>
+<p>Declare a function that gets a year as parameter. If it is a leapyear, the result shall be <code>true</code> else <code>false</code>.
+Hints:<br />
+- If the year can be divided by four but not by 100, it is a leapyear. The year 2008 falls under this rule.<br />
+- If the year can be divided by 100 but not by 400, it is no leapyear. 2100 will be no leapyear.<br />
+- If the year can be divided by 400, it always is a leapyear. Because of this, the year 2000 was a leapyear.</p>
+<pre class="fssnip highlighted"><code lang="fsharp"></code></pre>
+<h2><a name="Pattern-matching" class="anchor" href="#Pattern-matching">Pattern matching</a></h2>
+<h3><a name="Task-2-1" class="anchor" href="#Task-2-1">Task 2.1:</a></h3>
+<p>Delcare a function with the same attributes as described in Task 1.1. Spare i-then-else expressions and use pattern matching.<br />
+Hint: Guarding Rules &amp; Wildcard</p>
+<pre class="fssnip highlighted"><code lang="fsharp"></code></pre>
+<h3><a name="Task-2-2" class="anchor" href="#Task-2-2">Task 2.2:</a></h3>
+<p>UnionCase definition <code>Month</code> is given:</p>
+<pre class="fssnip highlighted"><code lang="fsharp"><span class="k">type</span> <span onmouseout="hideTip(event, 'fs1', 1)" onmouseover="showTip(event, 'fs1', 1)" class="rt">Month</span> <span class="o">=</span>
+    <span class="pn">|</span> <span onmouseout="hideTip(event, 'fs2', 2)" onmouseover="showTip(event, 'fs2', 2)" class="uc">January</span>
+    <span class="pn">|</span> <span onmouseout="hideTip(event, 'fs3', 3)" onmouseover="showTip(event, 'fs3', 3)" class="uc">February</span>
+    <span class="pn">|</span> <span onmouseout="hideTip(event, 'fs4', 4)" onmouseover="showTip(event, 'fs4', 4)" class="uc">March</span>
+    <span class="pn">|</span> <span onmouseout="hideTip(event, 'fs5', 5)" onmouseover="showTip(event, 'fs5', 5)" class="uc">April</span>
+    <span class="pn">|</span> <span onmouseout="hideTip(event, 'fs6', 6)" onmouseover="showTip(event, 'fs6', 6)" class="uc">May</span>
+    <span class="pn">|</span> <span onmouseout="hideTip(event, 'fs7', 7)" onmouseover="showTip(event, 'fs7', 7)" class="uc">June</span>
+    <span class="pn">|</span> <span onmouseout="hideTip(event, 'fs8', 8)" onmouseover="showTip(event, 'fs8', 8)" class="uc">July</span>
+    <span class="pn">|</span> <span onmouseout="hideTip(event, 'fs9', 9)" onmouseover="showTip(event, 'fs9', 9)" class="uc">August</span>
+    <span class="pn">|</span> <span onmouseout="hideTip(event, 'fs10', 10)" onmouseover="showTip(event, 'fs10', 10)" class="uc">September</span>
+    <span class="pn">|</span> <span onmouseout="hideTip(event, 'fs11', 11)" onmouseover="showTip(event, 'fs11', 11)" class="uc">Oktober</span>
+    <span class="pn">|</span> <span onmouseout="hideTip(event, 'fs12', 12)" onmouseover="showTip(event, 'fs12', 12)" class="uc">November</span>
+    <span class="pn">|</span> <span onmouseout="hideTip(event, 'fs13', 13)" onmouseover="showTip(event, 'fs13', 13)" class="uc">December</span>
+</code></pre>
+<p>as well as UnionCase definition <code>Season</code>:</p>
+<pre class="fssnip highlighted"><code lang="fsharp"><span class="k">type</span> <span onmouseout="hideTip(event, 'fs14', 14)" onmouseover="showTip(event, 'fs14', 14)" class="rt">Season</span> <span class="o">=</span>
+    <span class="pn">|</span> <span onmouseout="hideTip(event, 'fs15', 15)" onmouseover="showTip(event, 'fs15', 15)" class="uc">Spring</span>
+    <span class="pn">|</span> <span onmouseout="hideTip(event, 'fs16', 16)" onmouseover="showTip(event, 'fs16', 16)" class="uc">Summer</span>
+    <span class="pn">|</span> <span onmouseout="hideTip(event, 'fs17', 17)" onmouseover="showTip(event, 'fs17', 17)" class="uc">Autumn</span>
+    <span class="pn">|</span> <span onmouseout="hideTip(event, 'fs18', 18)" onmouseover="showTip(event, 'fs18', 18)" class="uc">Winter</span>
+</code></pre>
+<p>Declare a function with parameter <code>m</code> of type <code>Month</code>. Use pattern matching to assign every month to a season.</p>
+<pre class="fssnip highlighted"><code lang="fsharp"></code></pre>
+<h3><a name="Task-2-3" class="anchor" href="#Task-2-3">Task 2.3:</a></h3>
+<p>Pattern matching is very useful for deconstructing data structures. Declare a function that gets Record type <code>Person</code> (as seen in Task 2) and returns <code>true</code> if the
+surname is <code>Mueller</code>.
+Hint: <a href="https://docs.microsoft.com/en-us/dotnet/fsharp/language-reference/records#pattern-matching-with-records">https://docs.microsoft.com/en-us/dotnet/fsharp/language-reference/records#pattern-matching-with-records</a></p>
+<pre class="fssnip highlighted"><code lang="fsharp"></code></pre>
+<h2><a name="Loops" class="anchor" href="#Loops">Loops</a></h2>
+<h3><a name="Task-3-1" class="anchor" href="#Task-3-1">Task 3.1:</a></h3>
+<p>Declare a function that gets parameter <code>n</code> of type <code>int</code>.<br />
+The function shall print all numbers from 1 to n into the console (Hint: <code>printfn</code>). Use a for loop.</p>
+<pre class="fssnip highlighted"><code lang="fsharp"></code></pre>
+<h3><a name="Task-3-2" class="anchor" href="#Task-3-2">Task 3.2:</a></h3>
+<p>Declare a function that gets parameter <code>n</code> of type <code>int</code>.<br />
+The function shall save all numbers from 1 to n in a list.<br />
+Hints: Sequence expressions, comprehesions<br />
+Extra point: Only write all even numbers in a list; Hints: if-then-else, modulo.</p>
+<pre class="fssnip highlighted"><code lang="fsharp"></code></pre>
+<h3><a name="Task-3-3" class="anchor" href="#Task-3-3">Task 3.3:</a></h3>
+<p>Declare a function that gets a parameter <code>n</code> of type <code>int</code> and a parameter <code>f</code> with signature <code>(int -&gt; int)</code>.<br />
+The function shall apply <code>f</code> onto all numbers from 1 to n and save them in a list.<br />
+Hints: Sequence expressions, comprehensions</p>
+<pre class="fssnip highlighted"><code lang="fsharp"></code></pre>
+<h2><a name="Rekursion" class="anchor" href="#Rekursion">Rekursion</a></h2>
+<h3><a name="Task-4-1" class="anchor" href="#Task-4-1">Task 4.1:</a></h3>
+<p>Modify the following function (as seen in the lecture), so that it displays in the end how many steps have been overcome.</p>
+<pre class="fssnip highlighted"><code lang="fsharp"><span class="k">let</span> <span class="k">rec</span> <span onmouseout="hideTip(event, 'fs19', 19)" onmouseover="showTip(event, 'fs19', 19)" class="fn">climbStep</span> <span onmouseout="hideTip(event, 'fs20', 20)" onmouseover="showTip(event, 'fs20', 20)" class="fn">nSteps</span> <span onmouseout="hideTip(event, 'fs21', 21)" onmouseover="showTip(event, 'fs21', 21)" class="fn">position</span> <span class="o">=</span>
+    <span class="k">if</span> <span onmouseout="hideTip(event, 'fs21', 22)" onmouseover="showTip(event, 'fs21', 22)" class="fn">position</span> <span class="o">=</span> <span onmouseout="hideTip(event, 'fs20', 23)" onmouseover="showTip(event, 'fs20', 23)" class="fn">nSteps</span> <span class="o">+</span> <span class="n">1</span> <span class="k">then</span>
+        <span onmouseout="hideTip(event, 'fs22', 24)" onmouseover="showTip(event, 'fs22', 24)" class="fn">printfn</span> <span class="s">&quot;Puh, done&quot;</span>
+    <span class="k">else</span>
+        <span onmouseout="hideTip(event, 'fs22', 25)" onmouseover="showTip(event, 'fs22', 25)" class="fn">printfn</span> <span class="s">&quot;I should do more sports&quot;</span>
+        <span onmouseout="hideTip(event, 'fs19', 26)" onmouseover="showTip(event, 'fs19', 26)" class="fn">climbStep</span> <span onmouseout="hideTip(event, 'fs20', 27)" onmouseover="showTip(event, 'fs20', 27)" class="fn">nSteps</span> <span class="pn">(</span><span onmouseout="hideTip(event, 'fs21', 28)" onmouseover="showTip(event, 'fs21', 28)" class="fn">position</span> <span class="o">+</span> <span class="n">1</span><span class="pn">)</span>
+</code></pre>
+<pre class="fssnip highlighted"><code lang="fsharp"></code></pre>
+<h3><a name="Task-4-2" class="anchor" href="#Task-4-2">Task 4.2:</a></h3>
+<p>Modify the following function (as seen in the lecture), so that it returns -1 if it is expected that the result will be greater than 1000.<br />
+Hint: Use the <code>print</code> function to visualize intermediate result and to better understand the function. E.g.: <code>printfn "n:%i, acc':%i" n acc</code>.</p>
+<pre class="fssnip highlighted"><code lang="fsharp"><span class="k">let</span> <span class="k">rec</span> <span onmouseout="hideTip(event, 'fs23', 29)" onmouseover="showTip(event, 'fs23', 29)" class="fn">factorial</span> <span onmouseout="hideTip(event, 'fs24', 30)" onmouseover="showTip(event, 'fs24', 30)" class="fn">acc</span> <span onmouseout="hideTip(event, 'fs25', 31)" onmouseover="showTip(event, 'fs25', 31)" class="fn">n</span>  <span class="o">=</span>
+    <span class="k">if</span> <span onmouseout="hideTip(event, 'fs25', 32)" onmouseover="showTip(event, 'fs25', 32)" class="fn">n</span> <span class="o">=</span> <span class="n">1</span> <span class="k">then</span>
+        <span onmouseout="hideTip(event, 'fs24', 33)" onmouseover="showTip(event, 'fs24', 33)" class="fn">acc</span> 
+    <span class="k">else</span>
+        <span class="k">let</span> <span onmouseout="hideTip(event, 'fs26', 34)" onmouseover="showTip(event, 'fs26', 34)" class="fn">acc&#39;</span> <span class="o">=</span> <span onmouseout="hideTip(event, 'fs25', 35)" onmouseover="showTip(event, 'fs25', 35)" class="fn">n</span> <span class="o">*</span> <span onmouseout="hideTip(event, 'fs24', 36)" onmouseover="showTip(event, 'fs24', 36)" class="fn">acc</span>
+        <span onmouseout="hideTip(event, 'fs23', 37)" onmouseover="showTip(event, 'fs23', 37)" class="fn">factorial</span> <span onmouseout="hideTip(event, 'fs26', 38)" onmouseover="showTip(event, 'fs26', 38)" class="fn">acc&#39;</span> <span class="pn">(</span><span onmouseout="hideTip(event, 'fs25', 39)" onmouseover="showTip(event, 'fs25', 39)" class="fn">n</span><span class="o">-</span><span class="n">1</span><span class="pn">)</span>
+
+<span onmouseout="hideTip(event, 'fs23', 40)" onmouseover="showTip(event, 'fs23', 40)" class="fn">factorial</span> <span class="n">1</span> <span class="n">4</span>
+</code></pre>
+<pre class="fssnip highlighted"><code lang="fsharp"></code></pre>
+
+                </div>
+            </div>
+        </div>
+        <div class="fsdocs-tip" id="fs1">type Month =<br />&#160;&#160;| January<br />&#160;&#160;| February<br />&#160;&#160;| March<br />&#160;&#160;| April<br />&#160;&#160;| May<br />&#160;&#160;| June<br />&#160;&#160;| July<br />&#160;&#160;| August<br />&#160;&#160;| September<br />&#160;&#160;| Oktober<br />&#160;&#160;...</div>
+<div class="fsdocs-tip" id="fs2">union case Month.January: Month</div>
+<div class="fsdocs-tip" id="fs3">union case Month.February: Month</div>
+<div class="fsdocs-tip" id="fs4">union case Month.March: Month</div>
+<div class="fsdocs-tip" id="fs5">union case Month.April: Month</div>
+<div class="fsdocs-tip" id="fs6">union case Month.May: Month</div>
+<div class="fsdocs-tip" id="fs7">union case Month.June: Month</div>
+<div class="fsdocs-tip" id="fs8">union case Month.July: Month</div>
+<div class="fsdocs-tip" id="fs9">union case Month.August: Month</div>
+<div class="fsdocs-tip" id="fs10">union case Month.September: Month</div>
+<div class="fsdocs-tip" id="fs11">union case Month.Oktober: Month</div>
+<div class="fsdocs-tip" id="fs12">union case Month.November: Month</div>
+<div class="fsdocs-tip" id="fs13">union case Month.December: Month</div>
+<div class="fsdocs-tip" id="fs14">type Season =<br />&#160;&#160;| Spring<br />&#160;&#160;| Summer<br />&#160;&#160;| Autumn<br />&#160;&#160;| Winter</div>
+<div class="fsdocs-tip" id="fs15">union case Season.Spring: Season</div>
+<div class="fsdocs-tip" id="fs16">union case Season.Summer: Season</div>
+<div class="fsdocs-tip" id="fs17">union case Season.Autumn: Season</div>
+<div class="fsdocs-tip" id="fs18">union case Season.Winter: Season</div>
+<div class="fsdocs-tip" id="fs19">val climbStep : nSteps:int -&gt; position:int -&gt; unit</div>
+<div class="fsdocs-tip" id="fs20">val nSteps : int</div>
+<div class="fsdocs-tip" id="fs21">val position : int</div>
+<div class="fsdocs-tip" id="fs22">val printfn : format:Printf.TextWriterFormat&lt;&#39;T&gt; -&gt; &#39;T</div>
+<div class="fsdocs-tip" id="fs23">val factorial : acc:int -&gt; n:int -&gt; int</div>
+<div class="fsdocs-tip" id="fs24">val acc : int</div>
+<div class="fsdocs-tip" id="fs25">val n : int</div>
+<div class="fsdocs-tip" id="fs26">val acc&#39; : int</div>
+
+    </div>
+
+    <!-- BEGIN SEARCH BOX: this adds support for the search box -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/JavaScript-autoComplete/1.0.4/auto-complete.css" />
+    <script type="text/javascript">var fsdocs_search_baseurl = '/BIO-BTE-12-V-4/'</script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.8/lunr.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/JavaScript-autoComplete/1.0.4/auto-complete.min.js"></script>
+    <script type="text/javascript" src="/BIO-BTE-12-V-4/content/fsdocs-search.js"></script>
+    <!-- END SEARCH BOX: this adds support for the search box -->
+</body>
+<footer>
+    <script>
+        bulmaCollapsible.attach('.is-collapsible');
+    </script>
+</footer>
+</html>
