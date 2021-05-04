@@ -62,8 +62,8 @@ Um zu den jeweiligen Vorlesungen auf deutsch zu gelangen, wählen sie eine Vorle
 |---|---|---|---|
 | 20.04.2021 | [WPB I: Hello F#]({{root}}lectures/hello-fsharp.html) | Keine, stattdessen Hilfe bei der [Einrichtung der Programmierumgebung]({{root}}tasks/german/installationsanweisungen.html) | 26.04.2021 13:00 |
 | 27.04.2021 | [WPB II: Funktionen und Datentypen]({{root}}lectures/functions-and-data-types.html) | [Übung01]({{root}}tasks/german/wpb-task-01.html) | 03.05.2021 13:00 |
-| 04.05.2021 | WPB III: Kontrollfluss| [Übung02]({{root}}tasks/german/wpb-task-02.html) | 10.05.2021 13:00 |
-| 11.05.2021 | WPB IV: Programmieren mit Funktionen | Übung03 | 17.05.2021 13:00 |
+| 04.05.2021 | [WPB III: Kontrollfluss]({{root}}lectures/control-flow.html) | [Übung02]({{root}}tasks/german/wpb-task-02.html) | 10.05.2021 13:00 |
+| 11.05.2021 | WPB IV: Programmieren mit Funktionen | [Übung03]({{root}}tasks/german/wpb-task-03.html) | 17.05.2021 13:00 |
 | 18.05.2021 | WPB V: Programmieren mit Objekten | Übung04 | 24.05.2021 13:00 |
 | 25.05.2021 | WPB VI: Typendesign | Übung05 | 31.05.2021 13:00 |
 | 01.06.2021 | WPB VII: Datenvisualisierung | Übung06 | 07.06.2021 13:00 |
@@ -116,8 +116,8 @@ To access lecture material, either head to the sidebar to the left to the respec
 |---|---|---|---|
 | 20.04.2021 | [WPB I: Hello F#]({{root}}lectures/hello-fsharp.html) | None, instead we help you with [setting up your programming environment]({{root}}tasks/english/installation-instructions.html) | 26.04.2021 13:00 |
 | 27.04.2021 | [WPB II: Functions and datatypes]({{root}}lectures/functions-and-data-types.html) | [Task01]({{root}}tasks/english/wpb-task-01.html) | 03.05.2021 13:00 |
-| 04.05.2021 | WPB III: Control flow| [Task02]({{root}}tasks/english/wpb-task-02.html) | 10.05.2021 13:00 |
-| 11.05.2021 | WPB IV: Programming with functions | Task03 | 17.05.2021 13:00 |
+| 04.05.2021 | [WPB III: Control flow]({{root}}lectures/control-flow.html) | [Task02]({{root}}tasks/english/wpb-task-02.html) | 10.05.2021 13:00 |
+| 11.05.2021 | WPB IV: Programming with functions | [Task03]({{root}}tasks/english/wpb-task-03.html) | 17.05.2021 13:00 |
 | 18.05.2021 | WPB V: Programming with objects | Task04 | 24.05.2021 13:00 |
 | 25.05.2021 | WPB VI: Designing with types | Task05 | 31.05.2021 13:00 |
 | 01.06.2021 | WPB VII: Data visualization | Task06 | 07.06.2021 13:00 |
