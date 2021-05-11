@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Übung 04</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="">
+    <link rel="shortcut icon" type="image/x-icon" href="/BIO-BTE-12-V-4//img/favicon.ico">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script> -->
+
+    <link type="text/css" rel="stylesheet" href="/BIO-BTE-12-V-4/content/fsdocs-default.css" />
+    <link type="text/css" rel="stylesheet" href="/BIO-BTE-12-V-4/content/fsdocs-custom.css" />
+    <script type="text/javascript" src="/BIO-BTE-12-V-4/content/fsdocs-tips.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@creativebulma/bulma-collapsible@1.0.4/dist/js/bulma-collapsible.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@creativebulma/bulma-collapsible@1.0.4/dist/css/bulma-collapsible.min.css">
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!-- BEGIN SEARCH BOX: this adds support for the search box -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/JavaScript-autoComplete/1.0.4/auto-complete.css" />
+    <!-- END SEARCH BOX: this adds support for the search box -->
+    
+</head> 
+
+<body>
+    <div class="columns is-fullheight m-0">
+        <div id="fsdocs-menu" class="column is-2 is-paddingless">
+            <aside class="menu">
+                <div class="container is-paddingless is-marginless has-background-dark">
+                    <a href="/BIO-BTE-12-V-4/">
+                        <figure class="image is-128x128 container">
+                            <img src="/BIO-BTE-12-V-4/img/logo.png">
+                        </figure>
+                    </a>
+                    <h2 class="title has-text-centered has-text-white pb-4">BIO-BTE-12-V-4</h2>
+                </div>
+                <div class="content">
+                    <!-- BEGIN SEARCH BOX: this adds support for the search box -->
+                    <div id="header">
+                        <div class="field">
+                            <div class="control has-icons-left has-icons-right searchbox" id="fsdocs-searchbox">
+                                <input data-search-input="" id="search-by" type="search" placeholder="Search..." class="input"/>
+                                <span class="icon is-small is-left">
+                                    <i class="fas fa-search"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END SEARCH BOX: this adds support for the search box -->
+                    <ul class="navbar-nav">
+                        <li class="nav-header">
+  Lecture material
+</li>             
+<li class="nav-item">
+  <a class="nav-link" href="/BIO-BTE-12-V-4/lectures/hello-fsharp.html">
+    WPB I - Hello F#
+  </a>
+</li>             
+<li class="nav-item">
+  <a class="nav-link" href="/BIO-BTE-12-V-4/lectures/functions-and-data-types.html">
+    WPB II - Functions and data types
+  </a>
+</li>             
+<li class="nav-item">
+  <a class="nav-link" href="/BIO-BTE-12-V-4/lectures/control-flow.html">
+    WPB III - Control flow
+  </a>
+</li>             
+<li class="nav-item">
+  <a class="nav-link" href="/BIO-BTE-12-V-4/lectures/programming-with-functions.html">
+    WPB IV - Programming with functions
+  </a>
+</li>             
+<li class="nav-header">
+  Übungen(deutsch)
+</li>             
+<li class="nav-item">
+  <a class="nav-link" href="/BIO-BTE-12-V-4/tasks/german/installationsanweisungen.html">
+    Erste Schritte
+  </a>
+</li>             
+<li class="nav-item">
+  <a class="nav-link" href="/BIO-BTE-12-V-4/tasks/german/wpb-task-01.html">
+    &#220;bung 01
+  </a>
+</li>             
+<li class="nav-item">
+  <a class="nav-link" href="/BIO-BTE-12-V-4/tasks/german/wpb-task-02.html">
+    &#220;bung 02
+  </a>
+</li>             
+<li class="nav-item">
+  <a class="nav-link" href="/BIO-BTE-12-V-4/tasks/german/wpb-task-03.html">
+    &#220;bung 03
+  </a>
+</li>             
+<li class="nav-item">
+  <a class="nav-link" href="/BIO-BTE-12-V-4/tasks/german/wpb-task-04.html">
+    &#220;bung 04
+  </a>
+</li>             
+<li class="nav-header">
+  Tasks(english)
+</li>             
+<li class="nav-item">
+  <a class="nav-link" href="/BIO-BTE-12-V-4/tasks/english/installation-instructions.html">
+    Getting Started
+  </a>
+</li>             
+<li class="nav-item">
+  <a class="nav-link" href="/BIO-BTE-12-V-4/tasks/english/wpb-task-01.html">
+    Task 01
+  </a>
+</li>             
+<li class="nav-item">
+  <a class="nav-link" href="/BIO-BTE-12-V-4/tasks/english/wpb-task-02.html">
+    Task 02
+  </a>
+</li>             
+<li class="nav-item">
+  <a class="nav-link" href="/BIO-BTE-12-V-4/tasks/english/wpb-task-03.html">
+    Task 03
+  </a>
+</li>             
+<li class="nav-item">
+  <a class="nav-link" href="/BIO-BTE-12-V-4/tasks/english/wpb-task-04.html">
+    Task 04
+  </a>
+</li>
+                    </ul>
+                </div>
+            </aside>
+        </div>
+        <div class="column is-10 is-paddingless">
+            <div class="section pt-4">
+                <div class="container" id="fsdocs-content">
+                    
+<p><a href="https://mybinder.org/v2/gh/csbiology/BIO-BTE-12-V-4/gh-pages?filepath=tasks/german/wpb-task-04.ipynb"><img src="/BIO-BTE-12-V-4/img/badge-binder.svg" alt="Binder" /></a>&emsp;
+<a href="/BIO-BTE-12-V-4/tasks/german/wpb-task-04.fsx"><img src="/BIO-BTE-12-V-4/img/badge-script.svg" alt="Script" /></a>&emsp;
+<a href="/BIO-BTE-12-V-4/tasks/german/wpb-task-04.ipynb"><img src="/BIO-BTE-12-V-4/img/badge-notebook.svg" alt="Notebook" /></a></p>
+<h1><a name="Task04-Programming-with-functions" class="anchor" href="#Task04-Programming-with-functions">Task04 - Programming with functions</a></h1>
+<h2><a name="Funktionen-höherer-Ordnung" class="anchor" href="#Funktionen-höherer-Ordnung">Funktionen höherer Ordnung</a></h2>
+<h3><a name="Task-1-1" class="anchor" href="#Task-1-1">Task 1.1:</a></h3>
+<p>Schreibe folgende Funktion mit Hilfe des Pipe-Operators <code>|&gt;</code> und den angegebenen Funktionen.</p>
+<p>Tipp:</p>
+<ul>
+<li>Der Pipeoperator setzt den Parameter links vom Operator ans Ende der rechten Seite:</li>
+<li><p><code>a |&gt; add b</code> ist gleichbedeutend mit <code>add b a</code></p></li>
+</ul>
+<pre class="fssnip highlighted"><code lang="fsharp"><span class="k">let</span> <span onmouseout="hideTip(event, 'fs1', 1)" onmouseover="showTip(event, 'fs1', 1)" class="fn">mathNotation</span> <span onmouseout="hideTip(event, 'fs2', 2)" onmouseover="showTip(event, 'fs2', 2)" class="fn">x</span> <span onmouseout="hideTip(event, 'fs3', 3)" onmouseover="showTip(event, 'fs3', 3)" class="fn">y</span> <span class="o">=</span> <span class="pn">(</span><span class="pn">(</span><span class="n">2.</span> <span class="o">+</span> <span class="n">3.</span> <span class="o">*</span> <span class="pn">(</span><span onmouseout="hideTip(event, 'fs2', 4)" onmouseover="showTip(event, 'fs2', 4)" class="fn">x</span> <span class="o">+</span> <span class="n">1.</span><span class="pn">)</span><span class="pn">)</span><span class="o">**</span><span class="n">2.</span><span class="pn">)</span> <span class="o">*</span> <span onmouseout="hideTip(event, 'fs3', 5)" onmouseover="showTip(event, 'fs3', 5)" class="fn">y</span>
+
+<span class="k">let</span> <span onmouseout="hideTip(event, 'fs4', 6)" onmouseover="showTip(event, 'fs4', 6)" class="fn">add</span> <span class="pn">(</span><span onmouseout="hideTip(event, 'fs5', 7)" onmouseover="showTip(event, 'fs5', 7)" class="fn">a</span><span class="pn">:</span><span onmouseout="hideTip(event, 'fs6', 8)" onmouseover="showTip(event, 'fs6', 8)" class="vt">float</span><span class="pn">)</span> <span onmouseout="hideTip(event, 'fs7', 9)" onmouseover="showTip(event, 'fs7', 9)" class="fn">b</span> <span class="o">=</span> <span onmouseout="hideTip(event, 'fs5', 10)" onmouseover="showTip(event, 'fs5', 10)" class="fn">a</span> <span class="o">+</span> <span onmouseout="hideTip(event, 'fs7', 11)" onmouseover="showTip(event, 'fs7', 11)" class="fn">b</span>
+<span class="k">let</span> <span onmouseout="hideTip(event, 'fs8', 12)" onmouseover="showTip(event, 'fs8', 12)" class="fn">square</span> <span class="pn">(</span><span onmouseout="hideTip(event, 'fs2', 13)" onmouseover="showTip(event, 'fs2', 13)" class="fn">x</span> <span class="pn">:</span><span onmouseout="hideTip(event, 'fs6', 14)" onmouseover="showTip(event, 'fs6', 14)" class="vt">float</span><span class="pn">)</span> <span class="o">=</span> <span onmouseout="hideTip(event, 'fs2', 15)" onmouseover="showTip(event, 'fs2', 15)" class="fn">x</span> <span class="o">*</span> <span onmouseout="hideTip(event, 'fs2', 16)" onmouseover="showTip(event, 'fs2', 16)" class="fn">x</span>
+<span class="k">let</span> <span onmouseout="hideTip(event, 'fs9', 17)" onmouseover="showTip(event, 'fs9', 17)" class="fn">multiply</span> <span class="pn">(</span><span onmouseout="hideTip(event, 'fs5', 18)" onmouseover="showTip(event, 'fs5', 18)" class="fn">a</span><span class="pn">:</span><span onmouseout="hideTip(event, 'fs6', 19)" onmouseover="showTip(event, 'fs6', 19)" class="vt">float</span><span class="pn">)</span> <span onmouseout="hideTip(event, 'fs7', 20)" onmouseover="showTip(event, 'fs7', 20)" class="fn">b</span> <span class="o">=</span> <span onmouseout="hideTip(event, 'fs5', 21)" onmouseover="showTip(event, 'fs5', 21)" class="fn">a</span> <span class="o">*</span> <span onmouseout="hideTip(event, 'fs7', 22)" onmouseover="showTip(event, 'fs7', 22)" class="fn">b</span>
+
+<span class="k">let</span> <span onmouseout="hideTip(event, 'fs10', 23)" onmouseover="showTip(event, 'fs10', 23)" class="fn">pipeNotation</span> <span onmouseout="hideTip(event, 'fs11', 24)" onmouseover="showTip(event, 'fs11', 24)" class="fn">x</span> <span onmouseout="hideTip(event, 'fs12', 25)" onmouseover="showTip(event, 'fs12', 25)" class="fn">y</span> <span class="o">=</span>
+    <span class="n">1.</span> <span class="c">//ersetzt mich</span>
+
+<span class="c">// Test ob beide notationen das gleiche Ergebnis erzeugen</span>
+<span onmouseout="hideTip(event, 'fs10', 26)" onmouseover="showTip(event, 'fs10', 26)" class="fn">pipeNotation</span> <span class="n">1.</span> <span class="n">7.</span> <span class="o">=</span> <span onmouseout="hideTip(event, 'fs1', 27)" onmouseover="showTip(event, 'fs1', 27)" class="fn">mathNotation</span> <span class="n">1.</span> <span class="n">7.</span>
+</code></pre>
+<h3><a name="Task-1-2" class="anchor" href="#Task-1-2">Task 1.2</a></h3>
+<p>Deklariere eine beliebige Funktion mit der Signatur <code>int -&gt; int -&gt; int</code>. Achte darauf, dass alle Parameter im Funktionskörper verwendet werden.</p>
+<p>Ist dies eine Funktion erster Ordnung oder eine Funktion höherer Ordnung?</p>
+<pre class="fssnip highlighted"><code lang="fsharp"></code></pre>
+<h3><a name="Task-1-3" class="anchor" href="#Task-1-3">Task 1.3</a></h3>
+<p>Deklariere eine beliebige Funktion mit der Signatur <code>int -&gt; int -&gt; (int -&gt; int -&gt; int) -&gt; float</code>. Achte darauf, dass alle Parameter verwendet werden.</p>
+<p>Ist dies eine Funktion erster Ordnung oder eine Funktion höherer Ordnung?</p>
+<pre class="fssnip highlighted"><code lang="fsharp"></code></pre>
+<h3><a name="Task-1-4" class="anchor" href="#Task-1-4">Task 1.4</a></h3>
+<p>Rufe die in <code>1.3</code> erstellte Funktion auf. Nutze als Parameter zwei beliebige Werte sowie die Funktion aus <code>1.2</code>.</p>
+<pre class="fssnip highlighted"><code lang="fsharp"></code></pre>
+<h2><a name="Programmieren-mit-Funktionen" class="anchor" href="#Programmieren-mit-Funktionen">Programmieren mit Funktionen</a></h2>
+<h3><a name="Task-2-1-1" class="anchor" href="#Task-2-1-1">Task 2.1.1</a></h3>
+<p>Unten siehst du einen record type mit dem Namen <code>Cat</code>.
+Erstelle zwei beliebige Werte des Typs <code>Cat</code> und binde sie an beliebige Namen.
+Schaut euch <code>Übung 02</code> an, falls es hier Schwierigkeiten geben sollte.</p>
+<pre class="fssnip highlighted"><code lang="fsharp"><span class="k">type</span> <span onmouseout="hideTip(event, 'fs13', 28)" onmouseover="showTip(event, 'fs13', 28)" class="rt">Cat</span> <span class="o">=</span> <span class="pn">{</span>
+    <span onmouseout="hideTip(event, 'fs14', 29)" onmouseover="showTip(event, 'fs14', 29)" class="prop">Name</span>    <span class="pn">:</span> <span onmouseout="hideTip(event, 'fs15', 30)" onmouseover="showTip(event, 'fs15', 30)" class="rt">string</span>
+    <span onmouseout="hideTip(event, 'fs16', 31)" onmouseover="showTip(event, 'fs16', 31)" class="prop">Weight</span>  <span class="pn">:</span> <span onmouseout="hideTip(event, 'fs6', 32)" onmouseover="showTip(event, 'fs6', 32)" class="vt">float</span>
+    <span onmouseout="hideTip(event, 'fs17', 33)" onmouseover="showTip(event, 'fs17', 33)" class="prop">Color</span>   <span class="pn">:</span> <span onmouseout="hideTip(event, 'fs15', 34)" onmouseover="showTip(event, 'fs15', 34)" class="rt">string</span>
+    <span onmouseout="hideTip(event, 'fs18', 35)" onmouseover="showTip(event, 'fs18', 35)" class="prop">Age</span>     <span class="pn">:</span> <span onmouseout="hideTip(event, 'fs19', 36)" onmouseover="showTip(event, 'fs19', 36)" class="vt">int</span><span class="pn">}</span>
+</code></pre>
+<h3><a name="Task-2-1-2" class="anchor" href="#Task-2-1-2">Task 2.1.2</a></h3>
+<p>Deklariere eine Funktion mit dem Namen <code>getWeight</code>, die als Parameter eine <code>Cat</code> erhält und deren Gewicht zurück gibt.</p>
+<pre class="fssnip highlighted"><code lang="fsharp"></code></pre>
+<h3><a name="Task-2-1-3" class="anchor" href="#Task-2-1-3">Task 2.1.3</a></h3>
+<p>Du kannst keine mathematischen Standard-Operatoren auf record typen anwenden.
+Deklariere eine Funktion mit dem Namen <code>applyToWeight</code>, die zwei Parameter vom Typ <code>Cat</code> (c1 und c2) und einen Parameter vom Typ <code>(float -&gt; float -&gt; float)</code> (f) erhält.
+Im Funktionskörper soll die Funktion f auf die Gewichte der beiden Katzen c1 und c2 angewendet werden.</p>
+<p>Tipp: Definiere die Typen der Parameter.</p>
+<pre class="fssnip highlighted"><code lang="fsharp"></code></pre>
+<h3><a name="Task-2-1-4" class="anchor" href="#Task-2-1-4">Task 2.1.4</a></h3>
+<p>Wende die Funktion <code>applyToWeight</code> mit den zuvor erstellten <code>Cats</code> und der Funktion <code>averageOfTwo</code> an.</p>
+<pre class="fssnip highlighted"><code lang="fsharp"><span class="k">let</span> <span onmouseout="hideTip(event, 'fs20', 37)" onmouseover="showTip(event, 'fs20', 37)" class="fn">averageOfTwo</span> <span class="pn">(</span><span onmouseout="hideTip(event, 'fs5', 38)" onmouseover="showTip(event, 'fs5', 38)" class="fn">a</span><span class="pn">:</span><span onmouseout="hideTip(event, 'fs6', 39)" onmouseover="showTip(event, 'fs6', 39)" class="vt">float</span><span class="pn">)</span> <span onmouseout="hideTip(event, 'fs7', 40)" onmouseover="showTip(event, 'fs7', 40)" class="fn">b</span> <span class="o">=</span>
+    <span class="pn">(</span><span onmouseout="hideTip(event, 'fs5', 41)" onmouseover="showTip(event, 'fs5', 41)" class="fn">a</span> <span class="o">+</span> <span onmouseout="hideTip(event, 'fs7', 42)" onmouseover="showTip(event, 'fs7', 42)" class="fn">b</span><span class="pn">)</span> <span class="o">/</span> <span class="n">2.</span>
+</code></pre>
+<h3><a name="Task-2-2-optional" class="anchor" href="#Task-2-2-optional">Task 2.2 (optional)</a></h3>
+<p>Diese Aufgabe muss nicht gelöst werden! Sie dient dazu eine <code>Cat list</code> zu erstellen, die an späterer Stelle benötigt wird.
+Wenn du willst, kannst du kommentieren was in den angegebenen Zeilen geschieht (Extrapunkt)</p>
+<pre class="fssnip highlighted"><code lang="fsharp"><span class="c">// Dies ist ein Zufallsgenerator. </span>
+<span class="c">// Mit randomNumberGenerator.NextDouble() kann nun ein zuf&#228;lliger float zwischen 0. und 1. erstellt werden.</span>
+<span class="c">// Mit randomNumberGenerator.Next(x) kann nun ein zuf&#228;lliger int zwischen 0 und x-1 erstellt werden.</span>
+<span class="k">let</span> <span onmouseout="hideTip(event, 'fs21', 43)" onmouseover="showTip(event, 'fs21', 43)" class="id">randomNumberGenerator</span> <span class="o">=</span> <span onmouseout="hideTip(event, 'fs22', 44)" onmouseover="showTip(event, 'fs22', 44)" class="id">System</span><span class="pn">.</span><span onmouseout="hideTip(event, 'fs23', 45)" onmouseover="showTip(event, 'fs23', 45)" class="id">Random</span><span class="pn">(</span><span class="pn">)</span>
+
+<span class="c">// Nachfolgend ist eine Funktion dargestellt, die einen Wert vom Typ Cat erstellt.</span>
+<span class="k">let</span> <span onmouseout="hideTip(event, 'fs24', 46)" onmouseover="showTip(event, 'fs24', 46)" class="fn">createRandomCat</span> <span class="pn">(</span><span onmouseout="hideTip(event, 'fs25', 47)" onmouseover="showTip(event, 'fs25', 47)" class="fn">i</span> <span class="pn">:</span><span onmouseout="hideTip(event, 'fs19', 48)" onmouseover="showTip(event, 'fs19', 48)" class="vt">int</span><span class="pn">)</span> <span class="o">=</span> 
+    <span class="c">// Kommentar: </span>
+    <span class="k">let</span> <span onmouseout="hideTip(event, 'fs26', 49)" onmouseover="showTip(event, 'fs26', 49)" class="fn">name</span>   <span class="o">=</span> <span class="s">&quot;Cat &quot;</span> <span class="o">+</span> <span onmouseout="hideTip(event, 'fs15', 50)" onmouseover="showTip(event, 'fs15', 50)" class="fn">string</span> <span onmouseout="hideTip(event, 'fs25', 51)" onmouseover="showTip(event, 'fs25', 51)" class="fn">i</span> 
+    <span class="c">// Kommentar: </span>
+    <span class="k">let</span> <span onmouseout="hideTip(event, 'fs27', 52)" onmouseover="showTip(event, 'fs27', 52)" class="fn">age</span>    <span class="o">=</span> <span onmouseout="hideTip(event, 'fs21', 53)" onmouseover="showTip(event, 'fs21', 53)" class="id">randomNumberGenerator</span><span class="pn">.</span><span onmouseout="hideTip(event, 'fs28', 54)" onmouseover="showTip(event, 'fs28', 54)" class="id">Next</span><span class="pn">(</span><span class="n">16</span><span class="pn">)</span>
+    <span class="c">// Kommentar: </span>
+    <span class="k">let</span> <span onmouseout="hideTip(event, 'fs29', 55)" onmouseover="showTip(event, 'fs29', 55)" class="fn">weight</span> <span class="o">=</span> <span class="n">3.</span> <span class="o">+</span> <span class="n">5.</span> <span class="o">*</span> <span onmouseout="hideTip(event, 'fs21', 56)" onmouseover="showTip(event, 'fs21', 56)" class="id">randomNumberGenerator</span><span class="pn">.</span><span onmouseout="hideTip(event, 'fs30', 57)" onmouseover="showTip(event, 'fs30', 57)" class="id">NextDouble</span><span class="pn">(</span><span class="pn">)</span>
+    <span class="k">let</span> <span onmouseout="hideTip(event, 'fs31', 58)" onmouseover="showTip(event, 'fs31', 58)" class="fn">color</span>  <span class="o">=</span> 
+        <span class="k">let</span> <span onmouseout="hideTip(event, 'fs32', 59)" onmouseover="showTip(event, 'fs32', 59)" class="fn">colors</span> <span class="o">=</span> <span class="pn">[</span><span class="s">&quot;white&quot;</span><span class="pn">;</span><span class="s">&quot;red&quot;</span><span class="pn">;</span><span class="s">&quot;black&quot;</span><span class="pn">;</span><span class="s">&quot;grey&quot;</span><span class="pn">;</span><span class="s">&quot;mixed&quot;</span><span class="pn">]</span>
+        <span class="c">// Kommentar: </span>
+        <span onmouseout="hideTip(event, 'fs32', 60)" onmouseover="showTip(event, 'fs32', 60)" class="fn">colors</span><span class="pn">.</span><span class="pn">[</span><span onmouseout="hideTip(event, 'fs25', 61)" onmouseover="showTip(event, 'fs25', 61)" class="fn">i</span><span class="o">%</span><span class="n">5</span><span class="pn">]</span>
+    <span class="c">// Kommentar: </span>
+    <span class="pn">{</span>
+    <span class="prop">Name</span>    <span class="o">=</span> <span onmouseout="hideTip(event, 'fs26', 62)" onmouseover="showTip(event, 'fs26', 62)" class="fn">name</span>
+    <span class="prop">Weight</span>  <span class="o">=</span> <span onmouseout="hideTip(event, 'fs29', 63)" onmouseover="showTip(event, 'fs29', 63)" class="fn">weight</span>
+    <span class="prop">Color</span>   <span class="o">=</span> <span onmouseout="hideTip(event, 'fs31', 64)" onmouseover="showTip(event, 'fs31', 64)" class="fn">color</span>   
+    <span class="prop">Age</span>     <span class="o">=</span> <span onmouseout="hideTip(event, 'fs27', 65)" onmouseover="showTip(event, 'fs27', 65)" class="fn">age</span>
+    <span class="pn">}</span>
+
+<span class="c">// Kommentar: </span>
+<span class="k">let</span> <span onmouseout="hideTip(event, 'fs33', 66)" onmouseover="showTip(event, 'fs33', 66)" class="id">catList</span> <span class="o">=</span> <span class="pn">[</span><span class="k">for</span> <span onmouseout="hideTip(event, 'fs25', 67)" onmouseover="showTip(event, 'fs25', 67)" class="fn">i</span><span class="o">=</span><span class="n">1</span> <span class="k">to</span> <span class="n">60</span> <span class="k">do</span> <span class="k">yield</span> <span onmouseout="hideTip(event, 'fs24', 68)" onmouseover="showTip(event, 'fs24', 68)" class="fn">createRandomCat</span> <span onmouseout="hideTip(event, 'fs25', 69)" onmouseover="showTip(event, 'fs25', 69)" class="fn">i</span><span class="pn">]</span>
+</code></pre>
+<h3><a name="Task-2-3" class="anchor" href="#Task-2-3">Task 2.3</a></h3>
+<p>Erstelle eine float List mit den Werten von 0. bis 100. und binde sie an den Namen <code>nList</code>.</p>
+<pre class="fssnip highlighted"><code lang="fsharp"></code></pre>
+<h3><a name="Task-2-4" class="anchor" href="#Task-2-4">Task 2.4</a></h3>
+<p>Mit map-Funktionen kann man eine Funktion, die auf einzelnen Elementen angewendet werden kann auf alle Elemente einer Liste anwenden.
+Parameter der <code>map</code>-Funktion:</p>
+<ol>
+<li><p><code>doSomethingWithX</code>:  Funktion, die auf jedes Listenelement angewendet werden soll</p></li>
+<li><p><code>list</code>:              Liste der Elemente, auf die <code>doSomeThingWithX</code> angewendet werden soll</p></li>
+</ol>
+<p>Die <code>List.map</code> Funktion wird dann folgendermaßen angewendet:</p>
+<ul>
+<li><code>List.map (fun listElement -&gt; doSomethingWithX listElement) list</code></li>
+</ul>
+<p>Wende auf jedes Element von <code>nList</code> die Funktion <code>square</code> (Task 1.1) an. Binde das Ergebnis an den Namen <code>nListSquared</code>.</p>
+<pre class="fssnip highlighted"><code lang="fsharp"></code></pre>
+<h3><a name="Task-2-5" class="anchor" href="#Task-2-5">Task 2.5</a></h3>
+<p>Extrahiere alle Gewichte aus 'catList' und binde sie an den Namen <code>catWeights</code>.</p>
+<p>Tipp: Durchsuche das <code>List</code>-Modul nach einer passenden Funktion.</p>
+<pre class="fssnip highlighted"><code lang="fsharp"></code></pre>
+<h3><a name="Task-2-6" class="anchor" href="#Task-2-6">Task 2.6</a></h3>
+<p>Berechne die Summe der Werte aus <code>nList</code>.</p>
+<pre class="fssnip highlighted"><code lang="fsharp"></code></pre>
+<h3><a name="Task-2-7" class="anchor" href="#Task-2-7">Task 2.7</a></h3>
+<p>Filtere alle Listenelemente, die durch 15 teilbar sind.</p>
+<p>Tipp1: Nutze <code>List.filter</code> und die angegebene Funktion.</p>
+<pre class="fssnip highlighted"><code lang="fsharp"><span class="k">let</span> <span onmouseout="hideTip(event, 'fs34', 70)" onmouseover="showTip(event, 'fs34', 70)" class="fn">isDivisibleWithoutRemainder</span> <span onmouseout="hideTip(event, 'fs35', 71)" onmouseover="showTip(event, 'fs35', 71)" class="fn">denumerator</span> <span onmouseout="hideTip(event, 'fs36', 72)" onmouseover="showTip(event, 'fs36', 72)" class="fn">numerator</span> <span class="o">=</span>
+    <span onmouseout="hideTip(event, 'fs36', 73)" onmouseover="showTip(event, 'fs36', 73)" class="fn">numerator</span> <span class="o">%</span> <span onmouseout="hideTip(event, 'fs35', 74)" onmouseover="showTip(event, 'fs35', 74)" class="fn">denumerator</span> <span class="o">=</span> <span class="n">0.</span>
+</code></pre>
+<h3><a name="Task-2-8" class="anchor" href="#Task-2-8">Task 2.8</a></h3>
+<p>Berechne die Summe der Quadrate der einzelnen Werte aus nList.
+Versuche dieses in einem Schritt mit <code>List.fold</code> zu erreichen.</p>
+<pre class="fssnip highlighted"><code lang="fsharp"></code></pre>
+<h3><a name="Task-2-9" class="anchor" href="#Task-2-9">Task 2.9</a></h3>
+<p>Berechne das Durchschnittsgewicht der Katzen aus <code>catList</code>.</p>
+<p>Tipp: Die Aufgabe kann entweder durch die Nutzung von Funktionen aus dem <code>List</code>-Modul gelöst werden, oder man löst sie durch eine einzige fold Funktion (für Experten).</p>
+<pre class="fssnip highlighted"><code lang="fsharp"></code></pre>
+
+                </div>
+            </div>
+        </div>
+        <div class="fsdocs-tip" id="fs1">val mathNotation : x:float -&gt; y:float -&gt; float</div>
+<div class="fsdocs-tip" id="fs2">val x : float</div>
+<div class="fsdocs-tip" id="fs3">val y : float</div>
+<div class="fsdocs-tip" id="fs4">val add : a:float -&gt; b:float -&gt; float</div>
+<div class="fsdocs-tip" id="fs5">val a : float</div>
+<div class="fsdocs-tip" id="fs6">Multiple items<br />val float : value:&#39;T -&gt; float (requires member op_Explicit)<br /><br />--------------------<br />[&lt;Struct&gt;]<br />type float = System.Double<br /><br />--------------------<br />type float&lt;&#39;Measure&gt; =<br />&#160;&#160;float</div>
+<div class="fsdocs-tip" id="fs7">val b : float</div>
+<div class="fsdocs-tip" id="fs8">val square : x:float -&gt; float</div>
+<div class="fsdocs-tip" id="fs9">val multiply : a:float -&gt; b:float -&gt; float</div>
+<div class="fsdocs-tip" id="fs10">val pipeNotation : x:&#39;a -&gt; y:&#39;b -&gt; float</div>
+<div class="fsdocs-tip" id="fs11">val x : &#39;a</div>
+<div class="fsdocs-tip" id="fs12">val y : &#39;b</div>
+<div class="fsdocs-tip" id="fs13">type Cat =<br />&#160;&#160;{ Name: string<br />&#160;&#160;&#160;&#160;Weight: float<br />&#160;&#160;&#160;&#160;Color: string<br />&#160;&#160;&#160;&#160;Age: int }</div>
+<div class="fsdocs-tip" id="fs14">Cat.Name: string</div>
+<div class="fsdocs-tip" id="fs15">Multiple items<br />val string : value:&#39;T -&gt; string<br /><br />--------------------<br />type string = System.String</div>
+<div class="fsdocs-tip" id="fs16">Cat.Weight: float</div>
+<div class="fsdocs-tip" id="fs17">Cat.Color: string</div>
+<div class="fsdocs-tip" id="fs18">Cat.Age: int</div>
+<div class="fsdocs-tip" id="fs19">Multiple items<br />val int : value:&#39;T -&gt; int (requires member op_Explicit)<br /><br />--------------------<br />[&lt;Struct&gt;]<br />type int = int32<br /><br />--------------------<br />type int&lt;&#39;Measure&gt; =<br />&#160;&#160;int</div>
+<div class="fsdocs-tip" id="fs20">val averageOfTwo : a:float -&gt; b:float -&gt; float</div>
+<div class="fsdocs-tip" id="fs21">val randomNumberGenerator : System.Random</div>
+<div class="fsdocs-tip" id="fs22">namespace System</div>
+<div class="fsdocs-tip" id="fs23">Multiple items<br />type Random =<br />&#160;&#160;new : unit -&gt; unit + 1 overload<br />&#160;&#160;member Next : unit -&gt; int + 2 overloads<br />&#160;&#160;member NextBytes : buffer: byte [] -&gt; unit + 1 overload<br />&#160;&#160;member NextDouble : unit -&gt; float<br />&#160;&#160;member Sample : unit -&gt; float<br /><br />--------------------<br />System.Random() : System.Random<br />System.Random(Seed: int) : System.Random</div>
+<div class="fsdocs-tip" id="fs24">val createRandomCat : i:int -&gt; Cat</div>
+<div class="fsdocs-tip" id="fs25">val i : int</div>
+<div class="fsdocs-tip" id="fs26">val name : string</div>
+<div class="fsdocs-tip" id="fs27">val age : int</div>
+<div class="fsdocs-tip" id="fs28">System.Random.Next() : int<br />System.Random.Next(maxValue: int) : int<br />System.Random.Next(minValue: int, maxValue: int) : int</div>
+<div class="fsdocs-tip" id="fs29">val weight : float</div>
+<div class="fsdocs-tip" id="fs30">System.Random.NextDouble() : float</div>
+<div class="fsdocs-tip" id="fs31">val color : string</div>
+<div class="fsdocs-tip" id="fs32">val colors : string list</div>
+<div class="fsdocs-tip" id="fs33">val catList : Cat list</div>
+<div class="fsdocs-tip" id="fs34">val isDivisibleWithoutRemainder : denumerator:float -&gt; numerator:float -&gt; bool</div>
+<div class="fsdocs-tip" id="fs35">val denumerator : float</div>
+<div class="fsdocs-tip" id="fs36">val numerator : float</div>
+
+    </div>
+
+    <!-- BEGIN SEARCH BOX: this adds support for the search box -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/JavaScript-autoComplete/1.0.4/auto-complete.css" />
+    <script type="text/javascript">var fsdocs_search_baseurl = '/BIO-BTE-12-V-4/'</script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.8/lunr.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/JavaScript-autoComplete/1.0.4/auto-complete.min.js"></script>
+    <script type="text/javascript" src="/BIO-BTE-12-V-4/content/fsdocs-search.js"></script>
+    <!-- END SEARCH BOX: this adds support for the search box -->
+</body>
+<footer>
+    <script>
+        bulmaCollapsible.attach('.is-collapsible');
+    </script>
+</footer>
+</html>
