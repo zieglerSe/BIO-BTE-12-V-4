@@ -4,7 +4,7 @@
 <br>
 <br>
 
-Deutscher titel: **Wissenschaftliche Programmierung für Biologen (Vorlesung/Übung)**
+Deutscher titel: **Wissenschaftliche Programmierung für Biolog*innen (Vorlesung/Übung)**
 
 English title: **Scientific Programming For Biologists (Lecture & Exercise)**
 
@@ -65,8 +65,8 @@ Um zu den jeweiligen Vorlesungen auf deutsch zu gelangen, wählen sie eine Vorle
 | 20.04.2021 | [WPB I: Hello F#](/BIO-BTE-12-V-4/lectures/hello-fsharp.html) | Keine, stattdessen Hilfe bei der [Einrichtung der Programmierumgebung](/BIO-BTE-12-V-4/tasks/german/installationsanweisungen.html) | 26.04.2021 13:00 |
 | 27.04.2021 | [WPB II: Funktionen und Datentypen](/BIO-BTE-12-V-4/lectures/functions-and-data-types.html) | [Übung01](/BIO-BTE-12-V-4/tasks/german/wpb-task-01.html) | 03.05.2021 13:00 |
 | 04.05.2021 | [WPB III: Kontrollfluss](/BIO-BTE-12-V-4/lectures/control-flow.html) | [Übung02](/BIO-BTE-12-V-4/tasks/german/wpb-task-02.html) | 10.05.2021 13:00 |
-| 11.05.2021 | WPB IV: Programmieren mit Funktionen | [Übung03](/BIO-BTE-12-V-4/tasks/german/wpb-task-03.html) | 17.05.2021 13:00 |
-| 18.05.2021 | WPB V: Programmieren mit Objekten | Übung04 | 24.05.2021 13:00 |
+| 11.05.2021 | [WPB IV: Programmieren mit Funktionen](/BIO-BTE-12-V-4/lectures/programming-with-functions.html) | [Übung03](/BIO-BTE-12-V-4/tasks/german/wpb-task-03.html) | 17.05.2021 13:00 |
+| 18.05.2021 | WPB V: Programmieren mit Objekten | [Übung04](/BIO-BTE-12-V-4/tasks/german/wpb-task-04.html) | 24.05.2021 13:00 |
 | 25.05.2021 | WPB VI: Typendesign | Übung05 | 31.05.2021 13:00 |
 | 01.06.2021 | WPB VII: Datenvisualisierung | Übung06 | 07.06.2021 13:00 |
 | 08.06.2021 | WPB VIII: Deskriptive Statistik | Übung07 | 14.06.2021 13:00 |
@@ -119,8 +119,8 @@ To access lecture material, either head to the sidebar to the left to the respec
 | 20.04.2021 | [WPB I: Hello F#](/BIO-BTE-12-V-4/lectures/hello-fsharp.html) | None, instead we help you with [setting up your programming environment](/BIO-BTE-12-V-4/tasks/english/installation-instructions.html) | 26.04.2021 13:00 |
 | 27.04.2021 | [WPB II: Functions and datatypes](/BIO-BTE-12-V-4/lectures/functions-and-data-types.html) | [Task01](/BIO-BTE-12-V-4/tasks/english/wpb-task-01.html) | 03.05.2021 13:00 |
 | 04.05.2021 | [WPB III: Control flow](/BIO-BTE-12-V-4/lectures/control-flow.html) | [Task02](/BIO-BTE-12-V-4/tasks/english/wpb-task-02.html) | 10.05.2021 13:00 |
-| 11.05.2021 | WPB IV: Programming with functions | [Task03](/BIO-BTE-12-V-4/tasks/english/wpb-task-03.html) | 17.05.2021 13:00 |
-| 18.05.2021 | WPB V: Programming with objects | Task04 | 24.05.2021 13:00 |
+| 11.05.2021 | [WPB IV: Programming with functions](/BIO-BTE-12-V-4/lectures/programming-with-functions.html) | [Task03](/BIO-BTE-12-V-4/tasks/english/wpb-task-03.html) | 17.05.2021 13:00 |
+| 18.05.2021 | WPB V: Programming with objects | [Task04](/BIO-BTE-12-V-4/tasks/english/wpb-task-04.html) | 24.05.2021 13:00 |
 | 25.05.2021 | WPB VI: Designing with types | Task05 | 31.05.2021 13:00 |
 | 01.06.2021 | WPB VII: Data visualization | Task06 | 07.06.2021 13:00 |
 | 08.06.2021 | WPB VIII: Descriptive statistics | Task07 | 14.06.2021 13:00 |

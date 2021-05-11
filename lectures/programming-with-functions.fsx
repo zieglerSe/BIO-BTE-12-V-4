@@ -6,7 +6,7 @@
 Towards a deeper understanding of functional programming:
 
 - WPB IV.01 : Currying und Closures / Currying and closures
-- WPB IV.02 : Funktionen h�herer Ordnung / Higher order functions
+- WPB IV.02 : Funktionen höherer Ordnung / Higher order functions
 - WPB IV.03 : Programmieren mit Funktionen / Programming with functions
  
 ## Lecture videos (click to expand and watch)
@@ -26,9 +26,9 @@ Towards a deeper understanding of functional programming:
 
 ## Slides
 
-- WPB IV.01 ([deutsch](https://csb.bio.uni-kl.de/teaching/WPB_Podcast/IV01_Currying_und_Closures.pdf) / english)
-- WPB IV.02 ([deutsch](https://csb.bio.uni-kl.de/teaching/WPB_Podcast/IV02_Funktionen_hoeherer_Ordnung.pdf) / english)
-- WPB IV.03 ([deutsch](https://csb.bio.uni-kl.de/teaching/WPB_Podcast/IV03_Programmieren_mit_Funktionen.pdf) / english)
+- WPB IV.01 ([deutsch](https://csb.bio.uni-kl.de/teaching/WPB_Podcast/IV01_Currying_und_Closures.pdf) / [english](https://csb.bio.uni-kl.de/teaching/WPB_Podcast/eng/IV01_Currying_and_Closures.pdf))
+- WPB IV.02 ([deutsch](https://csb.bio.uni-kl.de/teaching/WPB_Podcast/IV02_Funktionen_hoeherer_Ordnung.pdf) / [english](https://csb.bio.uni-kl.de/teaching/WPB_Podcast/eng/IV02_Higher_order_functions.pdf))
+- WPB IV.03 ([deutsch](https://csb.bio.uni-kl.de/teaching/WPB_Podcast/IV03_Programmieren_mit_Funktionen.pdf) / [english](https://csb.bio.uni-kl.de/teaching/WPB_Podcast/eng/IV03_Programming_with_functions.pdf))
 
 
 
