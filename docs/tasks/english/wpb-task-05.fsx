@@ -66,7 +66,7 @@ Create a `Human`, bind it to a name and let him age by applying the `celebrateBi
 (******)
 
 (**
-### Task 1.2 (Bonusaufgabe) Veränderliche Werte in Funktionen
+### Task 1.2 (Bonus taks) Mutable values in functions
 
 Create your own version of the `Array.max` function. This function should take an array of ints as a parameter and return the highest value of this array.
 Signature: `int [] -> int`
@@ -140,7 +140,7 @@ Instantiate a `Car` and bind it to a name. Use the function defined in subtaks 2
 *)
 
 (**
-### Task 2.3 (Bonus taks) Mutable values in objects
+### Task 2.3 (Bonus task) Mutable values in objects
 
 Define a class `Convertible` which inherits from `Vehicle`. 
 
