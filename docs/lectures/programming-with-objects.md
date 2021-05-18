@@ -5,7 +5,7 @@ categoryindex: 1
 index: 5
 ---
 
-# WPB IV - Programming with functions
+# WPB IV - Programming with objects
 
 An introduction to programming with objects in FSharp
 
