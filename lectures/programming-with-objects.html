@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Übung 02</title>
+    <title>WPB IV - Programming with objects</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="author" content="">
     <link rel="shortcut icon" type="image/x-icon" href="/BIO-BTE-12-V-4//img/favicon.ico">
@@ -154,83 +154,40 @@
             <div class="section pt-4">
                 <div class="container" id="fsdocs-content">
                     
-<p><a href="https://mybinder.org/v2/gh/csbiology/BIO-BTE-12-V-4/gh-pages?filepath=tasks/german/wpb-task-02.ipynb"><img src="/BIO-BTE-12-V-4/img/badge-binder.svg" alt="Binder" /></a>&emsp;
-<a href="/BIO-BTE-12-V-4/tasks/german/wpb-task-02.fsx"><img src="/BIO-BTE-12-V-4/img/badge-script.svg" alt="Script" /></a>&emsp;
-<a href="/BIO-BTE-12-V-4/tasks/german/wpb-task-02.ipynb"><img src="/BIO-BTE-12-V-4/img/badge-notebook.svg" alt="Notebook" /></a></p>
-<h1><a name="Task02-Functions-and-Data-types" class="anchor" href="#Task02-Functions-and-Data-types">Task02 - Functions and Data types</a></h1>
-<h2><a name="Tuples" class="anchor" href="#Tuples">Tuples</a></h2>
-<h3><a name="Task-1-1" class="anchor" href="#Task-1-1">Task 1.1:</a></h3>
-<p>Deklariere einen Tuple aus 2. und "Februar" und binde den Tuple an den Namen <code>tuple1</code>.</p>
-<pre class="fssnip highlighted"><code lang="fsharp"></code></pre>
-<h3><a name="Task-1-2" class="anchor" href="#Task-1-2">Task 1.2:</a></h3>
-<p>Deklariere einen Tuple aus 2., "Februar" und "Fruehling" und bindet ihn an den Namen <code>tuple2</code>.</p>
-<pre class="fssnip highlighted"><code lang="fsharp"></code></pre>
-<h3><a name="Task-1-3" class="anchor" href="#Task-1-3">Task 1.3:</a></h3>
-<p>Greife auf den zweiten Wert des Tuples aus 1.1 zu.</p>
-<pre class="fssnip highlighted"><code lang="fsharp"></code></pre>
-<h3><a name="Task-1-4" class="anchor" href="#Task-1-4">Task 1.4:</a></h3>
-<p>Bindet <code>tuple1</code> aus Task 1.1 an: <code>(output1,output2)</code>
-Warum kann das sinnvoll sein?
-Stichwort: Tuple Deconstruction.</p>
-<pre class="fssnip highlighted"><code lang="fsharp"></code></pre>
-<h2><a name="Record-Types" class="anchor" href="#Record-Types">Record Types</a></h2>
-<h3><a name="Task-2-1" class="anchor" href="#Task-2-1">Task 2.1:</a></h3>
-<p>Definiere einen Record Type mit dem Namen <code>Person</code>. Person soll die Felder <code>Name</code>(string) und <code>Alter</code>(int) haben.
-Bei Record Types wird kein camel case, sondern pascal case verwendet (wie camel case nur ist der erste Buchstabe auch groß).</p>
-<pre class="fssnip highlighted"><code lang="fsharp"></code></pre>
-<h3><a name="Task-2-2" class="anchor" href="#Task-2-2">Task 2.2:</a></h3>
-<p>Erstellt einen Wert des Typs <code>Person</code> mit ausgedachten Feldwerten und bindet ihn an den Namen <code>meinePerson1</code>.
-Greift auf das Feld <code>Alter</code> von <code>meinePerson1</code> zu.</p>
-<pre class="fssnip highlighted"><code lang="fsharp"></code></pre>
-<h3><a name="Task-2-3" class="anchor" href="#Task-2-3">Task 2.3:</a></h3>
-<p>Deklariere eine Funktion die zwei Inputparameter erhaelt und als Rueckgabewert eine <code>Person</code> gibt.
-Binde ein Ergebnis dieser Funktion an den Namen <code>meinePerson2</code>.</p>
-<pre class="fssnip highlighted"><code lang="fsharp"></code></pre>
-<h3><a name="Task-2-4" class="anchor" href="#Task-2-4">Task 2.4:</a></h3>
-<p>Definiere einen weiteren Record Type mit dem Namen <code>ErweitertePerson</code>. ErweitertePerson soll die gleichen Felder wie <code>Person</code>
-haben, bekommt aber noch das zusaetzliche Feld <code>Hobby</code>. Da man alles zu seinem Hobby machen kann, soll
-'Hobby' vom Typ generic type sein.
-Tipp: Zwischen dem Namen des Record types und <code>=</code> muss der generic type durch <code>&lt;'a&gt;</code> angegeben werden</p>
-<pre class="fssnip highlighted"><code lang="fsharp"></code></pre>
-<h3><a name="Task-2-5" class="anchor" href="#Task-2-5">Task 2.5</a></h3>
-<p>Erstellt einen Wert des Typs <code>ErweitertePerson</code>.</p>
-<pre class="fssnip highlighted"><code lang="fsharp"></code></pre>
-<h2><a name="Signatures" class="anchor" href="#Signatures">Signatures</a></h2>
-<h3><a name="Task-3-1" class="anchor" href="#Task-3-1">Task 3.1</a></h3>
-<p>Deklariere eine beliebige Funktion mit der Signatur <code>int -&gt; int</code>.</p>
-<pre class="fssnip highlighted"><code lang="fsharp"></code></pre>
-<h3><a name="Task-3-2" class="anchor" href="#Task-3-2">Task 3.2</a></h3>
-<p>Deklariere eine beliebige Funktion mit der Signatur <code>int -&gt; (int -&gt; int) -&gt; float</code>.</p>
-<pre class="fssnip highlighted"><code lang="fsharp"></code></pre>
-<h3><a name="Task-3-3" class="anchor" href="#Task-3-3">Task 3.3</a></h3>
-<p>Beschreibe den Rueckgabewert einer Funktion mit folgender Signatur <code>char -&gt; (string -&gt; char -&gt; float)</code>.</p>
-<pre class="fssnip highlighted"><code lang="fsharp"></code></pre>
-<h2><a name="Collection-types" class="anchor" href="#Collection-types">Collection types</a></h2>
-<h3><a name="Task-4-1" class="anchor" href="#Task-4-1">Task 4.1</a></h3>
-<p>Erstelle eine int Liste mit den Zahlen 1 bis 100 und binde sie an einen Namen.</p>
-<pre class="fssnip highlighted"><code lang="fsharp"></code></pre>
-<h3><a name="Task-4-2" class="anchor" href="#Task-4-2">Task 4.2</a></h3>
-<p>Binde das erste und das letzte Element der Liste an je einen Namen.</p>
-<pre class="fssnip highlighted"><code lang="fsharp"></code></pre>
-<h3><a name="Task-4-3" class="anchor" href="#Task-4-3">Task 4.3</a></h3>
-<p>Erstelle ein float Array mit den Zahlen von 1. bis 100. und binde es an einen Namen.</p>
-<pre class="fssnip highlighted"><code lang="fsharp"></code></pre>
-<h3><a name="Task-4-4" class="anchor" href="#Task-4-4">Task 4.4</a></h3>
-<p>Binde das 15. Element des Arrays aus 4.3 an einen Namen.</p>
-<pre class="fssnip highlighted"><code lang="fsharp"></code></pre>
-<h3><a name="Task-4-5" class="anchor" href="#Task-4-5">Task 4.5</a></h3>
-<p>Erstelle eine Map, die alle Monate enthaelt. Verwende dafuer die Zahl des Monats (integer) als Key und den Namen (string) als Value.</p>
-<pre class="fssnip highlighted"><code lang="fsharp"></code></pre>
-<h3><a name="Task-4-6" class="anchor" href="#Task-4-6">Task 4.6</a></h3>
-<p>Ueberpruefe anhand eines geeigneten Keys, ob der Monat Maerz in der Map vorhanden ist.</p>
-<pre class="fssnip highlighted"><code lang="fsharp"></code></pre>
-<h3><a name="Task-4-7" class="anchor" href="#Task-4-7">Task 4.7</a></h3>
-<p>Erstelle zwei Sets. Eins mit Zahlen von 1 bis 10 und eins mit Zahlen von 3 bis 7 und binde sie an je einen Namen.</p>
-<pre class="fssnip highlighted"><code lang="fsharp"></code></pre>
-<h3><a name="Task-4-8" class="anchor" href="#Task-4-8">Task 4.8</a></h3>
-<p>Vergleicht die zuvor erstellten Sets. Bildet die Schnittmenge (intersect) und die Vereinigungsmenge (union) aus beiden Sets und bindet sie an je einen Namen.
-Tipp: Nutzt das Set Modul um durch 'reindotten' geeignete Funktionen zu erhalten.</p>
-<pre class="fssnip highlighted"><code lang="fsharp"></code></pre>
+<h1><a name="WPB-IV-Programming-with-functions" class="anchor" href="#WPB-IV-Programming-with-functions">WPB IV - Programming with functions</a></h1>
+<p>An introduction to programming with objects in FSharp</p>
+<ul>
+<li>WPB V.01 : Veränderliche Werte / Mutable values</li>
+<li>WPB V.02 : Vererbung / Inheritance</li>
+<li>WPB V.03 : Polymorphismus / Polymorphism</li>
+</ul>
+<h2><a name="Lecture-videos-click-to-expand-and-watch" class="anchor" href="#Lecture-videos-click-to-expand-and-watch">Lecture videos (click to expand and watch)</a></h2>
+<ul>
+<li>
+<a href="#vimeo-1" data-action="collapse">WPB V.01 </a></p>
+<div id="vimeo-1" class="is-collapsible">
+<iframe title="vimeo-player" src="https://player.vimeo.com/video/420275523" width="640" height="360" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+</div>
+</li>
+<li>
+<a href="#vimeo-2" data-action="collapse">WPB V.02 </a></p>
+<div id="vimeo-2" class="is-collapsible">
+<iframe title="vimeo-player" src="https://player.vimeo.com/video/420419644" width="640" height="360" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+</div>
+</li>
+<li>
+<a href="#vimeo-3" data-action="collapse">WPB V.03 </a></p>
+<div id="vimeo-3" class="is-collapsible">
+<iframe title="vimeo-player" src="https://player.vimeo.com/video/420639045" width="640" height="360" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+</div>
+</li>
+</ul>
+<h2><a name="Slides" class="anchor" href="#Slides">Slides</a></h2>
+<ul>
+<li>WPB V.01 (<a href="https://csb.bio.uni-kl.de/teaching/WPB_Podcast/V01_Veraenderliche_Werte.pdf">deutsch</a> / <a href="https://csb.bio.uni-kl.de/teaching/WPB_Podcast/eng/V01_Mutable_Values.pdf">english</a>)</li>
+<li>WPB V.02 (<a href="https://csb.bio.uni-kl.de/teaching/WPB_Podcast/V02_Vererbung.pdf">deutsch</a> / <a href="https://csb.bio.uni-kl.de/teaching/WPB_Podcast/eng/V02_Inheritance.pdf">english</a>)</li>
+<li>WPB V.03 (<a href="https://csb.bio.uni-kl.de/teaching/WPB_Podcast/V03_Polymorphismus.pdf">deutsch</a> / <a href="https://csb.bio.uni-kl.de/teaching/WPB_Podcast/eng/V03_Polymorphism.pdf">english</a>)</li>
+</ul>
 
                 </div>
             </div>
