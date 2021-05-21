@@ -1,11 +1,11 @@
 ---
-title: WPB IV - Programming with objects
+title: WPB V - Programming with objects
 category: Lecture material
 categoryindex: 1
 index: 5
 ---
 
-# WPB IV - Programming with objects
+# WPB V - Programming with objects
 
 An introduction to programming with objects in FSharp
 
