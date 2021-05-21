@@ -35,3 +35,11 @@ Notebooks, scripts and guides for the lecture Wissenschaftliche Programmierung f
 [![Script]({{root}}img/badge-script.svg)]({{root}}{{fsdocs-source-basename}}.fsx)&emsp;
 [![Notebook]({{root}}img/badge-notebook.svg)]({{root}}{{fsdocs-source-basename}}.ipynb)
 ```
+
+### Hinzufügen der lecture slides/videos
+
+Die lecture artikel haben alle dasselbe format, es kann also der von der vorherigen kopiert werden, und folgende sachen angepasst werden:
+
+- Name und Index(!) der Vorlesung
+- Links zu den vimeo videos (auf https://csb.bio.uni-kl.de/teaching/index.html#/lecture/sc1 -> rechtsklick auf das video of interest -> inspect -> iframe src attribut)
+    ![image](https://user-images.githubusercontent.com/21338071/119108986-1097c100-ba21-11eb-9501-b24b35146d18.png)
