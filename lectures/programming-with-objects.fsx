@@ -1,7 +1,7 @@
 (**
-// can't yet format YamlFrontmatter (["title: WPB IV - Programming with objects"; "category: Lecture material"; "categoryindex: 1"; "index: 5"], Some { StartLine = 1 StartColumn = 0 EndLine = 5 EndColumn = 8 }) to pynb markdown
+// can't yet format YamlFrontmatter (["title: WPB V - Programming with objects"; "category: Lecture material"; "categoryindex: 1"; "index: 5"], Some { StartLine = 1 StartColumn = 0 EndLine = 5 EndColumn = 8 }) to pynb markdown
 
-# WPB IV - Programming with objects
+# WPB V - Programming with objects
 
 An introduction to programming with objects in FSharp
 
