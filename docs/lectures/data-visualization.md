@@ -12,7 +12,24 @@ Data visualization: An introduction to concepts and techniques for data visualiz
 - WPB VII.01 : Einführung in die Datenvisualisierung / Introduction to data visualization
 - WPB VII.02 : Plotly.NET
 - WPB VII.03 : Grundlegende Charts mit Plotly.NET / Basic charts using Plotly.NET
- 
+
+
+## Updates zu den Vorlesungsvideos
+
+Die Visualisierungsbibliothek, die im Rahmen dieser Vorlesung (und aller folgenden) benutzt wird, hieß früher FSharp.Plotly. Der Name hat sich mittlerweile geändert zu **Plotly.NET**. 
+
+Plotly.NET (früher FSharp.Plotly) ist eine F# Implementation der sehr populären plotly.js Bibliothek. Sie wird hauptsächlich von unserer Arbeitsgruppe entwickelt und gepflegt, ist aber mittlerweile offiziell Teil von Plotly – daher der Nameswechsel.
+
+Die grundlegende Funktionalität hat sich dadurch allerdings nciht geändert. Obwohl viele convenience features und neue Charts im letzten hinzugekommen sind, funktionieren alle Codebeispiele aus den Vorlesungsvideos nach wie vor, der einzige unterschied ist der Name der Bibliothek. Außerdem ist die Dokumentation (zu finden unter https://plotly.net) deutlich besser. 
+
+## Updates regarding the lecture videos
+
+The visualization library used in this and all following lectures was recently renamed from FSharp.Plotly to **Plotly.NET**.
+
+Plotly.NET (formerly FSharp.Plotly) is a F# implementation of the popular plotly.js library. While it is mostly maintained and developed by us, it is also now official part of the plotly organization - hence the name change.
+
+However, this does not change the basic functionality. While many features have been added in the recent year, all code examples from the videos work just fine, the only difference is the name of the library. The documentation (https://plotly.net) is also much better.
+
 ## Lecture videos (click to expand and watch)
 
 - <a href="#vimeo-1" data-action="collapse">WPB VII.01</a></p>
