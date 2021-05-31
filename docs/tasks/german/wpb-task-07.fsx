@@ -21,12 +21,14 @@ index: 8
 
 ## 0 Vorwort
 
+Die Plotly.NET Dokumentation finden sie hier: https://plotly.net
+
 ### Referenzieren von Plotly.NET
 
 Diese Zeilen müssen immer mindestens 1 mal ausgeführt werden, sonst kann das Plotly.NET Softwarepaket nicht verwendet werden:
 *)
-#r "nuget: Plotly.NET, 2.0.0-beta10"
-#r "nuget: Plotly.NET.Interactive, 2.0.0-beta10"
+#r "nuget: Plotly.NET, 2.0.0-preview.1"
+#r "nuget: Plotly.NET.Interactive, 2.0.0-preview.1"
 open Plotly.NET
 
 (**

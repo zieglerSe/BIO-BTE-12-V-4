@@ -21,12 +21,14 @@ index: 8
 
 ## 0 Preface
 
+The Plotly.NET library documentation can be found at https://plotly.net
+
 ### Referencing Plotly.NET
 
 These lines alsways have to be executted once, otherwise you can not use the Plotly.NET library:
 *)
-#r "nuget: Plotly.NET, 2.0.0-beta10"
-#r "nuget: Plotly.NET.Interactive, 2.0.0-beta10"
+#r "nuget: Plotly.NET, 2.0.0-preview.1"
+#r "nuget: Plotly.NET.Interactive, 2.0.0-preview.1"
 open Plotly.NET
 
 (**
