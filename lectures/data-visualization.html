@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>WPB III - Control flow</title>
+    <title>WPB VII - Data visualization</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="author" content="">
     <link rel="shortcut icon" type="image/x-icon" href="/BIO-BTE-12-V-4//img/favicon.ico">
@@ -184,47 +184,47 @@
             <div class="section pt-4">
                 <div class="container" id="fsdocs-content">
                     
-<h1><a name="WPB-II-Functions-and-data-types" class="anchor" href="#WPB-II-Functions-and-data-types">WPB II - Functions and data types</a></h1>
-<p>An introduction on how to to control the program flow:</p>
+<h1><a name="WPB-VII-Data-visualization" class="anchor" href="#WPB-VII-Data-visualization">WPB VII - Data visualization</a></h1>
+<p>Data visualization: An introduction to concepts and techniques for data visualization using Plotly</p>
 <ul>
-<li>WPB III.01 : Ausdrücke und Statements / Expressions and statements</li>
-<li>WPB III.02 : Kontrollfluss: Bedingte Anweisung und Verzweigung / Control flow: Conditional and branching</li>
-<li>WPB III.03 : Kontrollfluss: Schleifen / Control flow: Loops</li>
-<li>WPB III.04 : Rekursion / Recursion</li>
+<li>WPB VII.01 : Einführung in die Datenvisualisierung / Introduction to data visualization</li>
+<li>WPB VII.02 : Plotly.NET</li>
+<li>WPB VII.03 : Grundlegende Charts mit Plotly.NET / Basic charts using Plotly.NET</li>
 </ul>
+<h2><a name="Updates-zu-den-Vorlesungsvideos" class="anchor" href="#Updates-zu-den-Vorlesungsvideos">Updates zu den Vorlesungsvideos</a></h2>
+<p>Die Visualisierungsbibliothek, die im Rahmen dieser Vorlesung (und aller folgenden) benutzt wird, hieß früher FSharp.Plotly. Der Name hat sich mittlerweile geändert zu <strong>Plotly.NET</strong>.</p>
+<p>Plotly.NET (früher FSharp.Plotly) ist eine F# Implementation der sehr populären plotly.js Bibliothek. Sie wird hauptsächlich von unserer Arbeitsgruppe entwickelt und gepflegt, ist aber mittlerweile offiziell Teil von Plotly – daher der Nameswechsel.</p>
+<p>Die grundlegende Funktionalität hat sich dadurch allerdings nciht geändert. Obwohl viele convenience features und neue Charts im letzten hinzugekommen sind, funktionieren alle Codebeispiele aus den Vorlesungsvideos nach wie vor, der einzige unterschied ist der Name der Bibliothek. Außerdem ist die Dokumentation (zu finden unter <a href="https://plotly.net)">https://plotly.net)</a> deutlich besser.</p>
+<h2><a name="Updates-regarding-the-lecture-videos" class="anchor" href="#Updates-regarding-the-lecture-videos">Updates regarding the lecture videos</a></h2>
+<p>The visualization library used in this and all following lectures was recently renamed from FSharp.Plotly to <strong>Plotly.NET</strong>.</p>
+<p>Plotly.NET (formerly FSharp.Plotly) is a F# implementation of the popular plotly.js library. While it is mostly maintained and developed by us, it is also now official part of the plotly organization - hence the name change.</p>
+<p>However, this does not change the basic functionality. While many features have been added in the recent year, all code examples from the videos work just fine, the only difference is the name of the library. The documentation (<a href="https://plotly.net)">https://plotly.net)</a> is also much better.</p>
 <h2><a name="Lecture-videos-click-to-expand-and-watch" class="anchor" href="#Lecture-videos-click-to-expand-and-watch">Lecture videos (click to expand and watch)</a></h2>
 <ul>
 <li>
-<a href="#vimeo-1" data-action="collapse">WPB III.01 </a></p>
+<a href="#vimeo-1" data-action="collapse">WPB VII.01</a></p>
 <div id="vimeo-1" class="is-collapsible">
-<iframe title="vimeo-player" src="https://player.vimeo.com/video/414529767" width="640" height="360" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+<iframe title="vimeo-player" src="https://player.vimeo.com/video/425266880" width="640" height="360" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 </div>
 </li>
 <li>
-<a href="#vimeo-2" data-action="collapse">WPB III.02 </a></p>
+<a href="#vimeo-2" data-action="collapse">WPB VII.01</a></p>
 <div id="vimeo-2" class="is-collapsible">
-<iframe title="vimeo-player" src="https://player.vimeo.com/video/414893455" width="640" height="360" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+<iframe title="vimeo-player" src="https://player.vimeo.com/video/425452532" width="640" height="360" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 </div>
 </li>
 <li>
-<a href="#vimeo-3" data-action="collapse">WPB III.03 </a></p>
+<a href="#vimeo-3" data-action="collapse">WPB VII.01</a></p>
 <div id="vimeo-3" class="is-collapsible">
-<iframe title="vimeo-player" src="https://player.vimeo.com/video/415065232" width="640" height="360" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
-</div>
-</li>
-<li>
-<a href="#vimeo-4" data-action="collapse">WPB III.04 </a></p>
-<div id="vimeo-4" class="is-collapsible">
-<iframe title="vimeo-player" src="https://player.vimeo.com/video/415276162" width="640" height="360" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+<iframe title="vimeo-player" src="https://player.vimeo.com/video/425841584" width="640" height="360" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 </div>
 </li>
 </ul>
 <h2><a name="Slides" class="anchor" href="#Slides">Slides</a></h2>
 <ul>
-<li>WPB III.01 (<a href="https://csb.bio.uni-kl.de/teaching/WPB_Podcast/III01_Ausdruecke_und_Statements.pdf">deutsch</a> / <a href="https://csb.bio.uni-kl.de/teaching/WPB_Podcast/III01_Expressions_and_Statements.pdf">english</a>)</li>
-<li>WPB III.02 (<a href="https://csb.bio.uni-kl.de/teaching/WPB_Podcast/III02_Kontrollfluss_Verzweigung.pdf">deutsch</a> / <a href="https://csb.bio.uni-kl.de/teaching/WPB_Podcast/III02_Control_flow_Conditional.pdf">english</a>)</li>
-<li>WPB III.03 (<a href="https://csb.bio.uni-kl.de/teaching/WPB_Podcast/III03_Kontrollfluss_Schleifen.pdf">deutsch</a> / <a href="https://csb.bio.uni-kl.de/teaching/WPB_Podcast/III03_Control_flow_loops.pdf">english</a>)</li>
-<li>WPB III.04 (<a href="https://csb.bio.uni-kl.de/teaching/WPB_Podcast/III04_Rekursion.pdf">deutsch</a> / <a href="https://csb.bio.uni-kl.de/teaching/WPB_Podcast/III04_Recursion.pdf">english</a>)</li>
+<li>WPB VII.01 (<a href="https://csb.bio.uni-kl.de/teaching/WPB_Podcast/VII01_Einfuehrung_in_die_Datenvisualisierung.pdf">deutsch</a> / <a href="https://csb.bio.uni-kl.de/teaching/WPB_Podcast/eng/VII01_Introduction_to_data_visualization.pdf">english</a>)</li>
+<li>WPB VII.02 (<a href="https://csb.bio.uni-kl.de/teaching/WPB_Podcast/VII02_Plotly.NET.pdf">deutsch</a> / <a href="https://csb.bio.uni-kl.de/teaching/WPB_Podcast/eng/VII02_Plotly.NET.pdf">english</a>)</li>
+<li>WPB VII.03 (<a href="https://csb.bio.uni-kl.de/teaching/WPB_Podcast/VII03_Grundlegende_Charts_mit_Plotly.NET.pdf">deutsch</a> / <a href="https://csb.bio.uni-kl.de/teaching/WPB_Podcast/eng/VII03_Basic_charts_using _Plotly.NET.pdf">english</a>)</li>
 </ul>
 
                 </div>
