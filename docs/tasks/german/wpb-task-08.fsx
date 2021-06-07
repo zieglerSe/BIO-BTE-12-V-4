@@ -186,8 +186,8 @@ Sehen Sie sich das Verhalten des p Values an. Wie viele p Values sind jeweils si
 (******)
 
 let plotPValue mean1 mean2 stabw1 stabw2 equal n =
-    let pValues = Array.init 1000000 (fun i -> 
-        if i%100000=0 then printfn "%i" i
+    let pValues = Array.init 100000 (fun i -> 
+        if i%10000=0 then printfn "progress %i/100000" i
         getPValueOfTTest mean1 mean2 stabw1 stabw2 equal n)
     let pVals =
         Chart.Histogram(pValues,Xbins=Bins.init(0.,1.,0.05),HistNorm=HistNorm.Probability)
