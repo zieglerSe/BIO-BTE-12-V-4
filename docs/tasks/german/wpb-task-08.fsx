@@ -29,8 +29,8 @@ Diese Zeilen müssen immer mindestens einmal ausgeführt werden, sonst kann Plot
 *)
 (******)
 #r "nuget: FSharp.Stats, 0.4.1"
-#r "nuget: Plotly.NET, 2.0.0-beta8"
-#r "nuget: Plotly.NET.Interactive, 2.0.0-beta8"
+#r "nuget: Plotly.NET, 2.0.0-preview.1"
+#r "nuget: Plotly.NET.Interactive, 2.0.0-preview.1"
 
 //Hier werden Plotly.NET und FSharp.Stats geöffnet.
 open Plotly.NET
