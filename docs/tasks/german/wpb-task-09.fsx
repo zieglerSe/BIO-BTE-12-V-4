@@ -23,7 +23,7 @@ Folgende Dokumentationen können für die Bearbeitung der Aufgaben hilfreich sei
 * Deedle: https://fslab.org/Deedle
 * FSharp.Stats: https://fslab.org/FSharp.Stats
 
-### Referenzieren von Plotly.NET
+### Referenzieren von Plotly.NET, Deedle und FSharp.Stats
 
 Diese Zeilen müssen immer mindestens einmal ausgeführt werden, sonst können die Softwarepakete nicht verwendet werden:
 *)
@@ -101,7 +101,7 @@ let group           = Series.ofValues ["CSB";"CSB";"CSB";"MBS"]
 Erstellen Sie auf Basis der 4 gegebenen Series einen Frame mit dem Namen "persons". 
 *)
 
-(***)
+(******)
 
 (**
 ### Task 1.3
@@ -111,7 +111,7 @@ Fügen Sie eine Column mit dem Namen "sodasPerWeek" zu dem Frame hinzu. Binden S
 Tipp: Erst eine `Series<int,int>` erstellen. Nutzen Sie `Frame.addCol`
 *)
 
-(***)
+(******)
 
 (**
 ### Task 1.4
@@ -123,7 +123,7 @@ Tipp 1: Diese Task kann auf mehrere Arten und Weisen gelöst werden.
 Tipp 2: Via `Series.values` können Sie auf die Werte der einzelnen Series zugreifen. Dann könnten Sie mit `Seq.map2` über beide Collections iterieren. 
 *)
 
-(***)
+(******)
 
 (**
 ### Task 1.5
@@ -131,7 +131,7 @@ Tipp 2: Via `Series.values` können Sie auf die Werte der einzelnen Series zugre
 Bestimmen Sie die Summe von "allPurchases".
 *)
 
-(***)
+(******)
 
 (**
 ## 2 Frame Operationen
@@ -143,7 +143,7 @@ Gruppieren Sie die Zeilen des Frames aus Task 1.2 nach den Elementen der Spalte 
 Tipp: Explizite Typenanmerkung (siehe: [Arbeiten mit Deedle](#Arbeiten-mit-Deedle)) 
 *)
 
-(***)
+(******)
 
 (**
 ### Task 2.2
@@ -153,7 +153,7 @@ Es bietet sich daher oft an einen Frame zu erstellen, der weniger Spalten enthä
 Basis des Frames aus Task 1.2 einen Frame zu erstellen, der lediglich die Spalten "lastNames" und "coffeesPerWeek" enthält. 
 *)
 
-(***)
+(******)
 
 (**
 ### Task 2.3
@@ -163,7 +163,7 @@ Oft möchte man auf Basis von Gruppierungen aggregieren. Berechnen Sie die Summe
 Tipp: Extrahieren Sie die Spalte "coffeePerWeek" aus dem Ergebnis von Aufgabe 2.1. Verfahren Sie wie in der Vorlesung demonstriert. 
 *)
 
-(***)
+(******)
 
 (**
 ### Task 2.4
@@ -171,7 +171,7 @@ Tipp: Extrahieren Sie die Spalte "coffeePerWeek" aus dem Ergebnis von Aufgabe 2.
 Oft möchte man Zwischenergebnisse abspeichern. Speichern Sie den Frame aus Aufgabe 1.2 als CSV Datei. Verwenden Sie ';' als Trennzeichen. 
 *)
 
-(***)
+(******)
 
 (**
 ### Task 2.5
@@ -179,4 +179,4 @@ Oft möchte man Zwischenergebnisse abspeichern. Speichern Sie den Frame aus Aufg
 Verwenden Sie die Funktion `Frame.ReadCsv` um die Datei erneut einzulesen. 
 *)
 
-(***)
+(******)
