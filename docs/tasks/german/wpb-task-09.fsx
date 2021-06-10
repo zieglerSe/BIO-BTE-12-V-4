@@ -17,47 +17,17 @@ index: 10
 
 ## 0 Vorwort
 
-Folgende Dokumentationen können für die Bearbeitung der Aufgaben hilfreich sein:
+Folgende Dokumentation könnte für die Bearbeitung der Aufgaben hilfreich sein:
 
-* Plotly.NET: https://plotly.net
 * Deedle: https://fslab.org/Deedle
-* FSharp.Stats: https://fslab.org/FSharp.Stats
 
 ### Referenzieren von Plotly.NET, Deedle und FSharp.Stats
 
 Diese Zeilen müssen immer mindestens einmal ausgeführt werden, sonst können die Softwarepakete nicht verwendet werden:
 *)
-#r "nuget: Plotly.NET, 2.0.0-preview.1"
-#r "nuget: Plotly.NET.Interactive, 2.0.0-preview.1"
+
 #r "nuget: Deedle, 2.3.0"
-#r "nuget: FSharp.Stats, 0.4.1"
-open Plotly.NET
 open Deedle
-open FSharp.Stats
-
-(**
-Bei dieser Übung unterscheiden sich die Arbeitsweisen bezüglich des Anzeigens der erstellten Diagramme in Notebooks und .fsx Skripten grundlegend:
-
-### Anzeigen von Charts in .fsx Skripten
-
-In .fsx Skripten sollte die `Chart.Show` Funktion verwendet werden, welche ein Browserfenster öffnet um Diagramme anzuzeigen:
-*)
-
-(***do-not-eval***)
-Chart.Point([(1,1); (2,2)])
-|> Chart.withTitle "hello from .fsx"
-|> Chart.Show
-
-(**
-### Anzeigen von Charts in Notebooks
-
-In Notebooks kann zwar auch die Chart.Show Funktion verwendet werden, dank der oben referenzierten `Plotly.NET.Interactive` 
-Erweiterung kann allerdings auch einfach der jeweilige Codeblock mit dem value des Charts beendet werden (so wie auch bei anderen Werten gewohnt), 
-um den Chart direkt in der Ausgabezelle anzuzeigen:
-*)
-
-Chart.Point([(1,1); (2,2)])
-|> Chart.withTitle "hello inside the notebook"
 
 (**
 ### Arbeiten mit Deedle

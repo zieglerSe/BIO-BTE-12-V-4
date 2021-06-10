@@ -19,45 +19,15 @@ index: 10
 
 The following documentation may be helpful in completing the tasks:
 
-* Plotly.NET: https://plotly.net
 * Deedle: https://fslab.org/Deedle
-* FSharp.Stats: https://fslab.org/FSharp.Stats
 
 ### Referencing Plotly.NET, Deedle and FSharp.Stats
 
-These lines alsways have to be executed once, otherwise you can not use the libraries:
+These lines always have to be executed once, otherwise you can not use the library:
 *)
-#r "nuget: Plotly.NET, 2.0.0-preview.1"
-#r "nuget: Plotly.NET.Interactive, 2.0.0-preview.1"
+
 #r "nuget: Deedle, 2.3.0"
-#r "nuget: FSharp.Stats, 0.4.1"
-open Plotly.NET
 open Deedle
-open FSharp.Stats
-
-(**
-There are two different approaches for displaying charts, depending on if you are working in a Notebook or .fsx scripting environment:
-
-### Displaying Charts in .fsx scripts
-
-Use the `Chart.Show` function in .fsx scripts to display charts in a browser window:
-*)
-
-(***do-not-eval***)
-Chart.Point([(1,1); (2,2)])
-|> Chart.withTitle "hello from .fsx"
-|> Chart.Show
-
-(**
-### Displaying charts in notebooks
-
-While you can also use `Chart.Show` in a notebook environment, you can directly display charts in the respective output 
-cell as long as you end the input cell with the chart value (just as known from all other types) thanks to the .`Plotly.NET.Interactive` extension:
-
-*)
-
-Chart.Point([(1,1); (2,2)])
-|> Chart.withTitle "hello inside the notebook"
 
 (**
 ### Working with Deedle
