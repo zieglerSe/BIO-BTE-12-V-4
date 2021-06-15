@@ -7,68 +7,108 @@ index: 10
 ---
 *)
 
-(**
-
+(*
 [![Binder]({{root}}img/badge-binder.svg)](https://mybinder.org/v2/gh/csbiology/BIO-BTE-12-V-4/gh-pages?filepath={{fsdocs-source-basename}}.ipynb)&emsp;
 [![Script]({{root}}img/badge-script.svg)]({{root}}{{fsdocs-source-basename}}.fsx)&emsp;
 [![Notebook]({{root}}img/badge-notebook.svg)]({{root}}{{fsdocs-source-basename}}.ipynb)
 
-# Task09 - Datenzugriff
+# Task09 - Bioinformatik mit F#
 
-## 0 Vorwort
+## Vorwort
 
-Folgende Dokumentation könnte für die Bearbeitung der Aufgaben hilfreich sein:
+Die Plotly.NET Dokumentation finden sie hier: https://plotly.net
 
-* Deedle: https://fslab.org/Deedle
+Die BioFSharp Dokumentation finden sie hier: https://csbiology.github.io/BioFSharp/
 
-### Referenzieren von Plotly.NET, Deedle und FSharp.Stats
+## Referenzieren von Plotly.NET und BioFSharp
 
-Diese Zeilen müssen immer mindestens einmal ausgeführt werden, sonst können die Softwarepakete nicht verwendet werden:
+Diese Zeilen müssen immer mindestens einmal ausgeführt werden, sonst können Plotly.NET und BioFSharp nicht verwendet werden:
 *)
+#r "nuget: Plotly.NET, 2.0.0-preview.1"
+#r "nuget: Plotly.NET.Interactive, 2.0.0-preview.1"
+#r "nuget: BioFSharp, 1.2.0"
+#r "nuget: BioFSharp.IO, 1.2.0"
 
-#r "nuget: Deedle, 2.3.0"
-open Deedle
+// Hier werden Plotly.NET und BioFSharp geoeffnet.
+open Plotly.NET
+open BioFSharp
+open BioFSharp.IO
+// Zur Vereinfachung der Signaturen werden hier außerdem weitere Namespaces/Module geoeffnet.
+open BioArray
+open BioSeq
+open AminoAcids
+open Nucleotides
 
 (**
-### Arbeiten mit Deedle
+## Kopieren von Pfaden
 
-Sollten Sie diese Fehlermeldung sehen:
-```
-9_Data_exploration_using_FSharp.fsx(113,5): error FS0030: Value restriction. The value 'cpw'' has been inferred to have generic type val cpw' : Series<(string * int),'_a>      
-Either define 'cpw'' as a simple data term, make it a function with explicit arguments or, if you do not intend for it to be generic, add a type annotation.
-```
-Dann sollten Sie auf eine explizite Typenanmerkung zurückgreifen.
-Statt:
-```
-let cpw' = persons |> Frame.getCol "cpw"
-```
-Verwenden Sie:
-```
-let cpw' :Series<int,float> = persons |> Frame.getCol "cpw"
-```
-Zum anzeigen von Deedle-Objekten in diesem Notebook können Sie den `.Print()` Member verwenden:
+Das Einlesen von Daten wird in einer späteren Uebung genauer behandelt. In dieser Uebung muss eine Datei ueber einen Pfad referenziert und eingelesen werden.
+Wie man an den absoluten Pfad einer Datei gelangt wird hier gezeigt.
+
+### Windows
+
+* Navigieren Sie zu der heruntergeladenen Datei
+
+* Drücken Sie mit `Shift` + `Rechtsklick` auf die Datei
+
+* Wählen sie "Als Pfad kopieren" in dem Kontextmenü aus:
+
+    ![]({{root}}img/PfadWindows.png)
+
+* Mit `Strg` + `V` können sie den so kopierten Pfad an einer beliebigen stelle einfügen
+
+### Mac
+
+* Navigieren Sie zu der heruntergeladenen Datei
+
+* Drücken Sie mit `ctrl-Klick` oder `Rechtsklick` auf die Datei
+
+* Halten sie bei geöffnetem Kontextmenü zusätzlich `Alt` gedrückt
+
+* Wählen Sie "X als Pfadname kopieren" in dem Kontextmenü aus:
+
+    ![]({{root}}img/PfadMac.png)
+
+* Mit `Befehlstaste` + `V` können sie den so kopierten Pfad an einer beliebigen stelle einfügen
+*)
+(**
+## Task 1
+
+### Task 1.0
+
+`nucleotideString` ist eine Sequenz aus Nucleotiden. Diese soll in die entsprechende Aminosaeure-
+Sequenz translatiert werden.
+
+* A Wandeln Sie 'nucleotideString' in ein BioArray um
+* B Transkribieren Sie das Ergebnis aus A (die angegebene Sequenz ist der template strand)
+* C Translatieren Sie das Ergebnis aus B mit einem offset von 0
+* D Erstellen Sie eine Funktion, die einen string bekommt, die vorherigen Schritte ausfuehrt und somit
+ein `BioArray<AminoAcids>` zurueck gibt.
 *)
 
-let firstNames' = Series.ofValues ["Kevin";"Lukas";"Benedikt";"Michael"]
-firstNames'.Print()
+let nucleotideString = "TACCATGCAGCTACCTAAGGATCACCGACT"
 
 (**
-## 1 Basics
-
 ### Task 1.1
 
-Gegeben sind 4 Series gleicher Länge. Nutzen Sie die Funktion `Series.mapValues` um die Werte von "coffeesPerWeek" zu verdoppeln. 
+Laden sie die Nucleotid-Fasta von Hefe (S. cerevisiae) herunter: https://github.com/CSBiology/BIO-BTE-12-V-4/releases/download/YeastFasta/orf_genomic_filtered.fasta. <br>
+Source: http://sgd-archive.yeastgenome.org/sequence/S288C_reference/orf_dna/ <br>
+Kopieren sie den Pfad der heruntergeladenen Datei und binden ihn an den Namen `filepath`
+
+Lesen Sie die Fasta ein und binden Sie das Ergebnis an `yeastFasta`. Nutzen Sie dafuer die Funktion 
+`FastA.fromFile` und nutzen Sie `BioArray.ofNucleotideString` als Converter-Funktion.
+Wandeln Sie die entstehende Sequenz in ein Array um. 
 *)
 
-let firstNames      = Series.ofValues ["Kevin";"Lukas";"Benedikt";"Michael"] 
-let coffeesPerWeek  = Series.ofValues [15;12;10;11] 
-let lastNames       = Series.ofValues ["Schneider";"Weil";"Venn";"Schroda"]  
-let group           = Series.ofValues ["CSB";"CSB";"CSB";"MBS"]
+let filepath = "Ihr/Pfad/hier"
 
 (**
 ### Task 1.2
 
-Erstellen Sie auf Basis der 4 gegebenen Series einen Frame mit dem Namen "persons". 
+Generieren Sie aus der erstellten Sequenz (yeastFasta) jeweils ein einzelnes Array aus Headern und 
+Sequenzen und binden Sie diese Arrays an die Namen `header` und `dna`. 
+Tipp: `yeastFasta` besteht aus FastaItems, die wiederum Record Types aus `Header` und `Sequence` sind. 
+Da die gesamte Uebung auf diesen Arrays beruht, melden Sie sich bitte wenn es nicht funktionieren sollte.
 *)
 
 (******)
@@ -76,9 +116,11 @@ Erstellen Sie auf Basis der 4 gegebenen Series einen Frame mit dem Namen "person
 (**
 ### Task 1.3
 
-Fügen Sie eine Column mit dem Namen "sodasPerWeek" zu dem Frame hinzu. Binden Sie den resultierenden Frame an einen Namen.
+Transkribieren Sie alle Nukleotid-Sequenzen aus `dna` und binden Sie das resultierende Array an den Namen 
+`rna`.
 
-Tipp: Erst eine `Series<int,int>` erstellen. Nutzen Sie `Frame.addCol`
+* Tipp:  Die DNA-Sequenzen stellen jeweils den coding strand dar.
+* Tipp2: Nutzen Sie `Array.map` um ueber die Sequenzen zu iterieren (Gilt auch fuer die folgenden Aufgaben).
 *)
 
 (******)
@@ -86,11 +128,8 @@ Tipp: Erst eine `Series<int,int>` erstellen. Nutzen Sie `Frame.addCol`
 (**
 ### Task 1.4
 
-Addieren Sie die Columns "sodasPerWeek" und "coffeesPerWeek". Fügen Sie die resultierende Series als Spalte mit dem Titel "allPurchases" zu dem zuvor erstellten Frame hinzu.
-
-Tipp 1: Diese Task kann auf mehrere Arten und Weisen gelöst werden.
-
-Tipp 2: Via `Series.values` können Sie auf die Werte der einzelnen Series zugreifen. Dann könnten Sie mit `Seq.map2` über beide Collections iterieren. 
+Im Folgenden sollen die RNA-Sequenzen in Proteine, also Aminosaeure-Sequenzen translatiert werden.   
+Binden Sie das Ergebnis an den Namen `proteins`.
 *)
 
 (******)
@@ -98,29 +137,52 @@ Tipp 2: Via `Series.values` können Sie auf die Werte der einzelnen Series zugre
 (**
 ### Task 1.5
 
-Bestimmen Sie die Summe von "allPurchases".
+Nun sollen die Proteine tryptisch zu Peptiden verdaut werden (Trypsin ist eine Protease, die Proteine 
+jeweils nach Lysin (Einbuchstabencode K) und Arginin (Einbuchstabencode R) schneidet.
+Die Funktion `Digestion.BioArray.digest` erwartet eine proteinID. Hier kann ein beliebiger Integer 
+eingesetzt werden. Idealerweise soll hier der Index der jeweiligen Aminosaeure-Sequenz eingetragen werden.
+Binden Sie das Ergebnis an 'digestedProteins'.
 *)
 
-(******)
+let trypsin = Digestion.Table.Trypsin
 
 (**
-## 2 Frame Operationen
+### Task 1.6
 
+Keine Aufgabe<br>
+Der untenstehende Abschnitt erstellt aus den einzelnen Peptiden FastA-Items und schreibt diese in ein 
+FastA-File.
+*)
+
+let convertDigPepToFasta (digPep: Digestion.DigestedPeptide<'a>[])=
+    digPep
+    |> Array.mapi (fun index peptide ->
+        FastA.createFastaItem (sprintf "Protein %i Fragment %i" peptide.ProteinID index) peptide.PepSequence 
+        )
+
+// __SOURCE_DIRECTORY__ definiert hier den Pfad zum Ordner, in dem dieses Skript liegt.        
+digestedProteins
+|> Array.map convertDigPepToFasta
+|> Array.concat
+|> FastA.write BioItem.symbol (__SOURCE_DIRECTORY__ + "/digestedProteins.fasta")
+
+(**
 ### Task 2.1
 
-Gruppieren Sie die Zeilen des Frames aus Task 1.2 nach den Elementen der Spalte "group".
-
-Tipp: Explizite Typenanmerkung (siehe: [Arbeiten mit Deedle](#Arbeiten-mit-Deedle)) 
+Unten sehen Sie den Dateipfad zu der erstellten Peptid-Fasta.
+Lesen Sie die Fasta ein und binden Sie das Ergebnis an 'peptides'. Nutzen Sie eine geeignete 
+Converter-Funktion
 *)
 
-(******)
+let pathToPeptides = __SOURCE_DIRECTORY__ + "/digestedProteins.fasta"
 
 (**
-### Task 2.2
+### Task 2.2 (optional)
 
-Oft enthalten Ergebnistabellen mehr als 40 Spalten. Für einzelne Analysen sind jedoch nur einige wenige interessant. 
-Es bietet sich daher oft an einen Frame zu erstellen, der weniger Spalten enthält. Nutzen Sie die Funktion `Frame.sliceCols` um auf 
-Basis des Frames aus Task 1.2 einen Frame zu erstellen, der lediglich die Spalten "lastNames" und "coffeesPerWeek" enthält. 
+Visualisieren Sie die Haeufigkeiten der Aminosaeuren in einem geeineten Diagramm.
+zB. Histogramm, Saeulendiagramm, Kreisdiagramm o.ae.
+Um `AminoAcids.AminoAcid` in chars (also Einbuchstabencodes) umzuwandeln koennen Sie `AminoAcids.symbol` 
+nutzen.
 *)
 
 (******)
@@ -128,25 +190,59 @@ Basis des Frames aus Task 1.2 einen Frame zu erstellen, der lediglich die Spalte
 (**
 ### Task 2.3
 
-Oft möchte man auf Basis von Gruppierungen aggregieren. Berechnen Sie die Summe der Spalte "coffeePerWeek" für jede Gruppe.
-
-Tipp: Extrahieren Sie die Spalte "coffeePerWeek" aus dem Ergebnis von Aufgabe 2.1. Verfahren Sie wie in der Vorlesung demonstriert. 
+Erstellen Sie ein Histogramm ueber die Molekulargewichte aller Proteine in `proteins`.
+Untersuchen Sie das `BioArray` Modul nach einer geeigneten Funktion. 
+Beschriften Sie die Achsen.  
 *)
 
 (******)
 
 (**
-### Task 2.4
+### Task 2.4 (optional)
 
-Oft möchte man Zwischenergebnisse abspeichern. Speichern Sie den Frame aus Aufgabe 1.2 als CSV Datei. Verwenden Sie ';' als Trennzeichen. 
+In der Nukleotid-Fasta (Task 1.2) befinden sich auch mitochondriale ORFs. 
+Teilen sie `yeastFasta` in zwei Arrays auf. Im einen sollen alle Nucleotid Sequenzen von 'Chr I'  bis 
+Chr 'XVI' sein, im anderen alle von 'Chr Mito'. Transkribieren Sie die Sequenzen und visualisieren Sie 
+die Codon-Usage mit der unten definierten Funktion. (evtl. Chart.Stack 1?)
+
+* Hoechste Prozentzahl Mitochondrion:           
+    * zugehoeriges Codon:
+    * zugehoerige Aminosaeure:
+* Hoechste Prozentzahl Nucleus:
+    * zugehoeriges Codon:
+    * zugehoerige Aminosaeure:
 *)
 
-(******)
+open Plotly.NET.Axis
+open Plotly.NET.StyleParam
 
-(**
-### Task 2.5
-
-Verwenden Sie die Funktion `Frame.ReadCsv` um die Datei erneut einzulesen. 
-*)
-
-(******)
+let myAxis title = LinearAxis.init(Title=title,Mirror=Mirror.All,Ticks=TickOptions.Inside,Showgrid=false,Showline=true,Zeroline=false)
+let styleChart x y chart = chart |> Chart.withX_Axis (myAxis x) |> Chart.withY_Axis (myAxis y)
+let plotCodonFrequency (rnaInput:BioArray.BioArray<Nucleotides.Nucleotide>[]) =
+    let allTripletts =
+        rnaInput
+        |> Array.map (fun singleRna -> Seq.chunkBySize 3 singleRna)
+        |> Seq.concat
+        |> Array.ofSeq
+    allTripletts
+    |> Seq.groupBy id
+    |> Seq.mapi (fun i (codon,items) -> 
+        printfn "step %i, Codon %A" i codon
+        let aminoAcid = Nucleotides.CodonMap.[codon.[0],codon.[1],codon.[2]]
+        let codonString = sprintf "%A%A%A" codon.[0] codon.[1] codon.[2]
+        aminoAcid,codonString,float (Seq.length items) / float (Seq.length allTripletts))
+    |> Seq.sortBy (fun (_,co,_) -> co)
+    |> Seq.groupBy (fun (aa,_,_) -> aa)
+    |> Seq.map (fun (aa,codons) -> 
+        codons
+        |> Seq.sortByDescending (fun (aa,codon,count) -> count)
+        |> Seq.map (fun (aa,codon,count) -> codon,count)
+        |> Chart.Column
+        |> Chart.withTraceName (sprintf "%A" aa)
+        )
+    |> Chart.Combine
+    |> styleChart "" "rel. count (%)"
+    |> Chart.withSize (900.,600.)
+    |> fun x -> 
+        Chart.Show x
+        x
