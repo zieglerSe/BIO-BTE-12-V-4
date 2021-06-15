@@ -91,7 +91,7 @@ let nucleotideString = "TACCATGCAGCTACCTAAGGATCACCGACT"
 (**
 ### Task 1.1
 
-Laden sie die Nucleotid-Fasta von Hefe (S. cerevisiae) herunter: https://github.com/CSBiology/BIO-BTE-12-V-4/releases/download/YeastFasta/orf_genomic_filtered.fasta. <br>
+Laden sie die Nucleotid-Fasta von Hefe (S. cerevisiae) [hier](https://github.com/CSBiology/BIO-BTE-12-V-4/releases/download/YeastFasta/orf_genomic_filtered.fasta) herunter. <br>
 Source: http://sgd-archive.yeastgenome.org/sequence/S288C_reference/orf_dna/ <br>
 Kopieren sie den Pfad der heruntergeladenen Datei und binden ihn an den Namen `filepath`
 

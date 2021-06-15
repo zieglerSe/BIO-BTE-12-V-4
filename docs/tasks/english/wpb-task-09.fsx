@@ -90,7 +90,7 @@ let nucleotideString = "TACCATGCAGCTACCTAAGGATCACCGACT"
 (**
 ### Task 1.1
 
-Download the nucleotide fasta of yeast (S. cerevisiae): https://github.com/CSBiology/BIO-BTE-12-V-4/releases/download/YeastFasta/orf_genomic_filtered.fasta. <br>
+Download the nucleotide fasta of yeast (S. cerevisiae) [here](https://github.com/CSBiology/BIO-BTE-12-V-4/releases/download/YeastFasta/orf_genomic_filtered.fasta). <br>
 Source: http://sgd-archive.yeastgenome.org/sequence/S288C_reference/orf_dna/ <br>
 Copy the path of the downloaded file and bind it to the name `filepath`.
 
