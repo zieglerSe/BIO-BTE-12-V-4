@@ -5,7 +5,7 @@ categoryindex: 1
 index: 3
 ---
 
-# WPB II - Functions and data types
+# WPB III - Control flow
 
 An introduction on how to to control the program flow:
 
