@@ -1,7 +1,7 @@
 (**
 // can't yet format YamlFrontmatter (["title: WPB III - Control flow"; "category: Lecture material"; "categoryindex: 1"; "index: 3"], Some { StartLine = 1 StartColumn = 0 EndLine = 5 EndColumn = 8 }) to pynb markdown
 
-# WPB II - Functions and data types
+# WPB III - Control flow
 
 An introduction on how to to control the program flow:
 

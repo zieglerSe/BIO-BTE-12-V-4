@@ -67,14 +67,14 @@ Um zu den jeweiligen Vorlesungen auf deutsch zu gelangen, wählen sie eine Vorle
 | 04.05.2021 | [WPB III: Kontrollfluss](/BIO-BTE-12-V-4/lectures/control-flow.html) | [Übung02](/BIO-BTE-12-V-4/tasks/german/wpb-task-02.html) | 10.05.2021 13:00 |
 | 11.05.2021 | [WPB IV: Programmieren mit Funktionen](/BIO-BTE-12-V-4/lectures/programming-with-functions.html) | [Übung03](/BIO-BTE-12-V-4/tasks/german/wpb-task-03.html) | 17.05.2021 13:00 |
 | 18.05.2021 | [WPB V: Programmieren mit Objekten](/BIO-BTE-12-V-4/lectures/programming-with-objects.html) | [Übung04](/BIO-BTE-12-V-4/tasks/german/wpb-task-04.html) | 24.05.2021 13:00 |
-| 25.05.2021 | WPB VI: Typendesign | [Übung05](/BIO-BTE-12-V-4/tasks/german/wpb-task-05.html) | 31.05.2021 13:00 |
-| 01.06.2021 | WPB VII: Datenvisualisierung | Übung06 | 07.06.2021 13:00 |
-| 08.06.2021 | WPB VIII: Deskriptive Statistik | Übung07 | 14.06.2021 13:00 |
-| 15.06.2021 | WPB IX: Datenzugriff | Übung08 | 21.06.2021 13:00 |
-| 22.06.2021 | WPB X: Bioinformatik mit F# | Übung09 | 28.06.2021 13:00 |
-| 29.06.2021 | WPB XI: F# <> R| Übung10 | - |
-| 06.07.2021 | Puffer(evtl. Nachbesprechung) | - | - |
-| 13.07.2021 | Puffer(evtl. Nachbesprechung) | - | - |
+| 25.05.2021 | [WPB VI: Typendesign](/BIO-BTE-12-V-4/lectures/designing-with-types.html) | [Übung05](/BIO-BTE-12-V-4/tasks/german/wpb-task-05.html) | 31.05.2021 13:00 |
+| 01.06.2021 | [WPB VII: Datenvisualisierung](/BIO-BTE-12-V-4/lectures/data-visualization.html) | [Übung06](/BIO-BTE-12-V-4/tasks/german/wpb-task-06.html) | 07.06.2021 13:00 |
+| 08.06.2021 | [WPB VIII: Deskriptive Statistik](/BIO-BTE-12-V-4/lectures/descriptive-statistics-in-fsharp.html) | [Übung07](/BIO-BTE-12-V-4/tasks/german/wpb-task-07.html) | 14.06.2021 13:00 |
+| 15.06.2021 | [WPB IX: Bioinformatik mit F#](/BIO-BTE-12-V-4/lectures/bioinformatics.html) | [Übung08](/BIO-BTE-12-V-4/tasks/german/wpb-task-08.html) | 21.06.2021 13:00 |
+| 22.06.2021 | - | [Übung09](/BIO-BTE-12-V-4/tasks/german/wpb-task-09.html) | - |
+| 29.06.2021 | **Live-Vorlesung am Übungsbesprechungstermin** | **LIVE**: WPB X: Datenzugriff | 05.07.2021 13:00 |
+| 06.07.2021 | - | Übung10 | - |
+| 13.07.2021 | **Live-Vorlesung am Übungsbesprechungstermin** | **LIVE**: WPB XI: F# <> R | **keine Übungen für diese Vorlesung** |
 | 20.07.2021 | Puffer(evtl. Nachbesprechung) | - | - |
 
 ## Course description(english)
@@ -121,12 +121,13 @@ To access lecture material, either head to the sidebar to the left to the respec
 | 04.05.2021 | [WPB III: Control flow](/BIO-BTE-12-V-4/lectures/control-flow.html) | [Task02](/BIO-BTE-12-V-4/tasks/english/wpb-task-02.html) | 10.05.2021 13:00 |
 | 11.05.2021 | [WPB IV: Programming with functions](/BIO-BTE-12-V-4/lectures/programming-with-functions.html) | [Task03](/BIO-BTE-12-V-4/tasks/english/wpb-task-03.html) | 17.05.2021 13:00 |
 | 18.05.2021 | [WPB V: Programming with objects](/BIO-BTE-12-V-4/lectures/programming-with-objects.html) | [Task04](/BIO-BTE-12-V-4/tasks/english/wpb-task-04.html) | 24.05.2021 13:00 |
-| 25.05.2021 | WPB VI: Designing with types | [Task05](/BIO-BTE-12-V-4/tasks/english/wpb-task-05.html) | 31.05.2021 13:00 |
-| 01.06.2021 | WPB VII: Data visualization | Task06 | 07.06.2021 13:00 |
-| 08.06.2021 | WPB VIII: Descriptive statistics | Task07 | 14.06.2021 13:00 |
-| 15.06.2021 | WPB IX: Data access | Task08 | 21.06.2021 13:00 |
-| 22.06.2021 | WPB X: Embracing bioinformatics in F# | Task09 | 28.06.2021 13:00 |
-| 29.06.2021 | WPB XI: F# <> R| Task10 | - |
-| 06.07.2021 | Buffer(possibly debriefing) | - | - |
-
+| 25.05.2021 | [WPB VI: Designing with types](/BIO-BTE-12-V-4/lectures/designing-with-types.html) | [Task05](/BIO-BTE-12-V-4/tasks/english/wpb-task-05.html) | 31.05.2021 13:00 |
+| 01.06.2021 | [WPB VII: Data visualization](/BIO-BTE-12-V-4/lectures/data-visualization.html) | [Task06](/BIO-BTE-12-V-4/tasks/english/wpb-task-06.html) | 07.06.2021 13:00 |
+| 08.06.2021 | [WPB VIII: Descriptive statistics](/BIO-BTE-12-V-4/lectures/descriptive-statistics-in-fsharp.html) | [Task07](/BIO-BTE-12-V-4/tasks/english/wpb-task-07.html) | 14.06.2021 13:00 |
+| 15.06.2021 | [WPB IX: Embracing bioinformatics in F#](/BIO-BTE-12-V-4/lectures/bioinformatics.html) | [Task08](/BIO-BTE-12-V-4/tasks/english/wpb-task-08.html) | 21.06.2021 13:00 |
+| 22.06.2021 | - | [Task09](/BIO-BTE-12-V-4/tasks/english/wpb-task-09.html) | - |
+| 29.06.2021 | **LIVE Lecture in task session** | **LIVE**: WPB X: Data access | 05.07.2021 13:00 |
+| 06.07.2021 | - | Task10 | - |
+| 13.07.2021 | **LIVE Lecture in task session** | **LIVE**: WPB XI: F# <> R | **no tasks for this lecture** |
+| 20.07.2021 | Buffer(possibly debriefing) | - | - |
 *)
