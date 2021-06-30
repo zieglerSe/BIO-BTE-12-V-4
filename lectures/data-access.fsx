@@ -9,7 +9,10 @@ Using FSharp to load and manipulate data
 
 ## Lecture videos (click to expand and watch)
 
-Coming soon
+- <a href="#vimeo-1" data-action="collapse">WPB X</a></p>
+<div id="vimeo-1" class="is-collapsible">
+    <iframe title="vimeo-player" src="https://player.vimeo.com/video/569286757" width="640" height="360" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+</div>
 
 ## Slides
 
